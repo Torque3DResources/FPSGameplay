@@ -1,0 +1,8 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Outpost"
+    LevelName="Outpost"
+    LevelFile="Outpost.mis"
+    Description="Outpost level"
+    VersionId="1" />
