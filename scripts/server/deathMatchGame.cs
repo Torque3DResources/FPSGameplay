@@ -245,7 +245,10 @@ function DeathMatchGame::onClientLeaveGame(%this, %client)
    // Cleanup the camera
    if (isObject(%client.camera))
       %client.camera.delete();
-
+  
+   // Cleanup the player
+   if (isObject(%client.player))
+      %client.player.kill("left");
 }
 
 function DeathMatchGame::onInitialControlSet(%this)
