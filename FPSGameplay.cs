@@ -23,30 +23,30 @@ function FPSGameplay::onDestroy( %this )
 function FPSGameplay::initServer(%this)
 {
    //server scripts
-   exec("./scripts/server/aiPlayer.cs");
-   exec("./scripts/server/camera.cs");
-   exec("./scripts/server/chat.cs");
-   exec("./scripts/server/cheetah.cs");
-   exec("./scripts/server/commands.cs");
-   exec("./scripts/server/centerPrint.cs");
-   exec("./scripts/server/deathMatchGame.cs");
-   exec("./scripts/server/health.cs");
-   exec("./scripts/server/inventory.cs");
-   exec("./scripts/server/item.cs");
-   exec("./scripts/server/player.cs");
-   exec("./scripts/server/projectile.cs");
-   exec("./scripts/server/proximityMine.cs");
-   exec("./scripts/server/radiusDamage.cs");
-   exec("./scripts/server/shapeBase.cs");
-   exec("./scripts/server/spawn.cs");
-   exec("./scripts/server/teleporter.cs");
-   exec("./scripts/server/triggers.cs");
-   exec("./scripts/server/turret.cs");
-   exec("./scripts/server/vehicle.cs");
-   exec("./scripts/server/vehicleWheeled.cs");
-   exec("./scripts/server/VolumetricFog.cs");
-   exec("./scripts/server/weapon.cs");
-   exec("./scripts/server/physicsShape.cs");
+   %this.queueExec("./scripts/server/aiPlayer.cs");
+   %this.queueExec("./scripts/server/camera.cs");
+   %this.queueExec("./scripts/server/chat.cs");
+   %this.queueExec("./scripts/server/cheetah.cs");
+   %this.queueExec("./scripts/server/commands.cs");
+   %this.queueExec("./scripts/server/centerPrint.cs");
+   %this.queueExec("./scripts/server/deathMatchGame.cs");
+   %this.queueExec("./scripts/server/health.cs");
+   %this.queueExec("./scripts/server/inventory.cs");
+   %this.queueExec("./scripts/server/item.cs");
+   %this.queueExec("./scripts/server/player.cs");
+   %this.queueExec("./scripts/server/projectile.cs");
+   %this.queueExec("./scripts/server/proximityMine.cs");
+   %this.queueExec("./scripts/server/radiusDamage.cs");
+   %this.queueExec("./scripts/server/shapeBase.cs");
+   %this.queueExec("./scripts/server/spawn.cs");
+   %this.queueExec("./scripts/server/teleporter.cs");
+   %this.queueExec("./scripts/server/triggers.cs");
+   %this.queueExec("./scripts/server/turret.cs");
+   %this.queueExec("./scripts/server/vehicle.cs");
+   %this.queueExec("./scripts/server/vehicleWheeled.cs");
+   %this.queueExec("./scripts/server/VolumetricFog.cs");
+   %this.queueExec("./scripts/server/weapon.cs");
+   %this.queueExec("./scripts/server/physicsShape.cs");
 }
 
 function FPSGameplay::onCreateGameServer(%this)
@@ -92,28 +92,28 @@ function FPSGameplay::onDestroyGameServer(%this)
 
 function FPSGameplay::initClient(%this)
 {
-   exec("data/FPSGameplay/scripts/client/gameProfiles.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/gameProfiles.cs");
       
-   exec("data/FPSGameplay/scripts/client/inputCommands.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/inputCommands.cs");
    
    //guis
-   exec("./guis/chatHud.gui");
-   exec("./guis/playerList.gui");
-   exec("./guis/playGui.gui");
-   exec("./guis/hudlessGui.gui");
+   %this.queueExec("./guis/chatHud.gui");
+   %this.queueExec("./guis/playerList.gui");
+   %this.queueExec("./guis/playGui.gui");
+   %this.queueExec("./guis/hudlessGui.gui");
    
-   exec("data/FPSGameplay/scripts/client/playGui.cs");
-   exec("data/FPSGameplay/scripts/client/hudlessGui.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/playGui.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/hudlessGui.cs");
    
-   exec("data/FPSGameplay/scripts/client/message.cs");
-   exec("data/FPSGameplay/scripts/client/chatHud.cs");
-   exec("data/FPSGameplay/scripts/client/clientCommands.cs");
-   exec("data/FPSGameplay/scripts/client/messageHud.cs");
-   exec("data/FPSGameplay/scripts/client/playerList.cs");
-   exec("data/FPSGameplay/scripts/client/centerPrint.cs");
-   exec("data/FPSGameplay/scripts/client/recordings.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/message.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/chatHud.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/clientCommands.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/messageHud.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/playerList.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/centerPrint.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/recordings.cs");
    
-   exec("data/FPSGameplay/scripts/client/screenshot.cs");
+   %this.queueExec("data/FPSGameplay/scripts/client/screenshot.cs");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)
