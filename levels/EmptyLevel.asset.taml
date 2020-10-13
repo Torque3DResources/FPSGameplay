@@ -2,7 +2,10 @@
     canSave="true"
     canSaveDynamicFields="true"
     AssetName="EmptyLevel"
-    LevelName="EmptyLevel"
-    LevelFile="EmptyLevel.mis"
+    LevelName="Empty Level"
+    LevelFile="@assetFile=EmptyLevel.mis"
+    PreviewImage="@assetFile=EmptyLevel_preview.png"
+    PostFXPresetFile="@assetFile=EmptyLevel.postfxpreset.cs"
+    DecalsFile="@assetFile=EmptyLevel.mis.decals"
     Description="An empty room"
     VersionId="1" />
