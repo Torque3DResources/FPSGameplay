@@ -65,7 +65,7 @@ function FPSGameplay::onCreateGameServer(%this)
    %this.registerDatablock("./datablocks/managedForestItemData.cs");
    %this.registerDatablock("./datablocks/managedItemData.cs");
    %this.registerDatablock("./datablocks/managedParticleData.cs");
-   %this.registerDatablock("./datablocks/managedParticleEmiterData.cs");
+   %this.registerDatablock("./datablocks/managedParticleEmitterData.cs");
    
    %this.registerDatablock("./datablocks/markers.cs");
    %this.registerDatablock("./datablocks/particles.cs");
@@ -92,9 +92,9 @@ function FPSGameplay::onDestroyGameServer(%this)
 
 function FPSGameplay::initClient(%this)
 {
-   %this.queueExec("data/FPSGameplay/scripts/client/gameProfiles.cs");
+   %this.queueExec("./scripts/client/gameProfiles.cs");
       
-   %this.queueExec("data/FPSGameplay/scripts/client/inputCommands.cs");
+   %this.queueExec("./scripts/client/inputCommands.cs");
    
    //guis
    %this.queueExec("./guis/chatHud.gui");
@@ -102,24 +102,24 @@ function FPSGameplay::initClient(%this)
    %this.queueExec("./guis/playGui.gui");
    %this.queueExec("./guis/hudlessGui.gui");
    
-   %this.queueExec("data/FPSGameplay/scripts/client/playGui.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/hudlessGui.cs");
+   %this.queueExec("./scripts/client/playGui.cs");
+   %this.queueExec("./scripts/client/hudlessGui.cs");
    
-   %this.queueExec("data/FPSGameplay/scripts/client/message.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/chatHud.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/clientCommands.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/messageHud.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/playerList.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/centerPrint.cs");
-   %this.queueExec("data/FPSGameplay/scripts/client/recordings.cs");
+   %this.queueExec("./scripts/client/message.cs");
+   %this.queueExec("./scripts/client/chatHud.cs");
+   %this.queueExec("./scripts/client/clientCommands.cs");
+   %this.queueExec("./scripts/client/messageHud.cs");
+   %this.queueExec("./scripts/client/playerList.cs");
+   %this.queueExec("./scripts/client/centerPrint.cs");
+   %this.queueExec("./scripts/client/recordings.cs");
    
-   %this.queueExec("data/FPSGameplay/scripts/client/screenshot.cs");
+   %this.queueExec("./scripts/client/screenshot.cs");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)
 {
    //client scripts
-   $KeybindPath = "data/FPSGameplay/scripts/client/default.keybinds.cs";
+   $KeybindPath = "./scripts/client/default.keybinds.cs";
    exec($KeybindPath);
    
    %prefPath = getPrefpath();
