@@ -1,0 +1,18 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(rock3) {
+   mapTo="rock3";
+   DiffuseMapAsset = "FPSGameplay:rock2_ALBEDO";
+};
+//--- OBJECT WRITE END ---
+
+singleton TSShapeConstructor(rock3dts)
+{
+   baseShape = "./rock3.dts";
+   singleDetailSize = "0";
+   flipUVCoords = "0";
+   JoinIdenticalVerts = "0";
+   reverseWindingOrder = "0";
+   removeRedundantMats = "0";
+   animTiming = "Frames";
+   animFPS = "0";
+};

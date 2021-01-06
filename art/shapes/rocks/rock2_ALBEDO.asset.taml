@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="rock2_ALBEDO"
+    imageFile="@assetFile=rock2.jpg"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

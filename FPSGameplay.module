@@ -2,7 +2,7 @@
 	ModuleId="FPSGameplay"
 	VersionId="1"
 	Description="Starter module for FPS gameplay."
-	ScriptFile="FPSGameplay.cs"
+	ScriptFile="FPSGameplay.tscript"
 	CreateFunction="onCreate"
 	DestroyFunction="onDestroy"
 	Group="Game"

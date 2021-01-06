@@ -1,0 +1,7 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Cheetah_TailLights"
+    scriptFile="@assetFile=Cheetah_TailLights.cs"
+    materialDefinitionName="Cheetah_TailLights"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/" />

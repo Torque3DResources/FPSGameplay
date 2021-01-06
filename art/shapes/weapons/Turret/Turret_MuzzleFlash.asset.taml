@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Turret_MuzzleFlash"
+    imageFile="@assetFile=Turret_MuzzleFlash.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

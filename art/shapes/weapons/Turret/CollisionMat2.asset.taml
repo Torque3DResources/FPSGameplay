@@ -1,0 +1,7 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="CollisionMat2"
+    scriptFile="@assetFile=CollisionMat2.cs"
+    materialDefinitionName="CollisionMat2"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/" />

@@ -1,0 +1,9 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="healthkit"
+    scriptFile="@assetFile=healthkit.tscript"
+    materialDefinitionName="healthkit"
+    imageMap0="@Asset=FPSGameplay:healthkit_ALBEDO"
+    imageMap1="@Asset=FPSGameplay:healthkit_n"
+    originalFilePath="E:/work/Torque3D-nuScript/My Projects/nuScript/game/data/FPSGameplay/art/shapes/items/kit/healthkit" />

@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="redGlass_ALBEDO"
+    imageFile="@assetFile=redGlass.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

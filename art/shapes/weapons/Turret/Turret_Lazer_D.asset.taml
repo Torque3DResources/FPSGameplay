@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Turret_Lazer_D"
+    imageFile="@assetFile=Turret_Lazer_D.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

@@ -1,0 +1,14 @@
+<ShapeAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="station01"
+    fileName="@assetFile=station01.dts"
+    materialSlot0="@Asset=FPSGameplay:building01walls"
+    materialSlot1="@Asset=FPSGameplay:grid"
+    materialSlot2="@Asset=FPSGameplay:plate"
+    materialSlot3="@Asset=FPSGameplay:building01walls"
+    materialSlot4="@Asset=FPSGameplay:grid"
+    materialSlot5="@Asset=FPSGameplay:plate"
+    materialSlot6="@Asset=FPSGameplay:building01walls"
+    materialSlot7="@Asset=FPSGameplay:grid"
+    materialSlot8="@Asset=FPSGameplay:plate" />

@@ -1,0 +1,6 @@
+<ShapeAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="rock3"
+    fileName="@assetFile=rock2.dts"
+    materialSlot0="@Asset=FPSGameplay:rock2" />

@@ -1,0 +1,7 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="ShapeBounds"
+    scriptFile="@assetFile=ShapeBounds.cs"
+    materialDefinitionName="ShapeBounds"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/" />

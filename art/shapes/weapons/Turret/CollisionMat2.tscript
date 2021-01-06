@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(CollisionMat2) {
+   mapTo="CollisionMat2";
+};
+//--- OBJECT WRITE END ---
