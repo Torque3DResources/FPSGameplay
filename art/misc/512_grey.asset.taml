@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="512_grey"
+    scriptFile="@assetFile=512_grey.tscript"
+    materialDefinitionName="512_grey"
+    imageMap0="@Asset=FPSGameplay:512_grey_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/misc/512_grey.png" />

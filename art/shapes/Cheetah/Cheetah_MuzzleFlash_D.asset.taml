@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Cheetah_MuzzleFlash_D"
+    scriptFile="@assetFile=Cheetah_MuzzleFlash_D.tscript"
+    materialDefinitionName="Cheetah_MuzzleFlash_D"
+    imageMap0="@Asset=FPSGameplay:Cheetah_MuzzleFlash_D_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/Cheetah/Cheetah_MuzzleFlash_D.dds" />

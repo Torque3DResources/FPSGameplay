@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="grid"
+    scriptFile="@assetFile=grid.tscript"
+    materialDefinitionName="grid"
+    imageMap0="@Asset=FPSGameplay:grid_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/cube/grid.dds" />

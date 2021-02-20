@@ -6,4 +6,4 @@
     materialDefinitionName="healthkit"
     imageMap0="@Asset=FPSGameplay:healthkit_ALBEDO"
     imageMap1="@Asset=FPSGameplay:healthkit_n"
-    originalFilePath="E:/work/Torque3D-nuScript/My Projects/nuScript/game/data/FPSGameplay/art/shapes/items/kit/healthkit" />
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/items/kit/healthkit" />

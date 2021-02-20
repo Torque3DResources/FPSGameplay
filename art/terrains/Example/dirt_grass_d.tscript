@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(dirt_grass_d) {
+   mapTo="dirt_grass_d";
+   DiffuseMapAsset = "FPSGameplay:dirt_grass_d_image";
+};
+//--- OBJECT WRITE END ---

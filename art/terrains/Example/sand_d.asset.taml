@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="sand_d"
+    scriptFile="@assetFile=sand_d.tscript"
+    materialDefinitionName="sand_d"
+    imageMap0="@Asset=FPSGameplay:sand_d_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/terrains/Example/sand_d.png" />

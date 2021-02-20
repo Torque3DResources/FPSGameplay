@@ -1,24 +1,11 @@
-
-singleton TSShapeConstructor(healthkitdts)
-{
-   baseShape = "./healthkit.dts";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};
 //--- OBJECT WRITE BEGIN ---
-new Material(ucityHealthKit) {
-   mapTo = "healthkit";
+new Material(plant2) {
+   mapTo = "plant2.png";
    diffuseColor[0] = "1 1 1 1";
    diffuseColor[1] = "1 1 1 1";
    diffuseColor[2] = "1 1 1 1";
    diffuseColor[3] = "1 1 1 1";
-   DiffuseMapAsset[0] = "FPSGameplay:healthkit_d_image";
-   NormalMap[0] = "healthkit_n";
+   DiffuseMap[0] = "data/FPSGameplay/art/environment/plant2.png";
    diffuseMapSRGB[0] = "1";
    diffuseMapSRGB[1] = "1";
    diffuseMapSRGB[2] = "1";
@@ -186,11 +173,11 @@ new Material(ucityHealthKit) {
    bumpAtlas[3] = "0";
    castShadows = "1";
    planarReflection = "0";
-   translucent = "0";
+   translucent = "1";
    translucentBlendOp = "LerpAlpha";
    translucentZWrite = "0";
-   alphaTest = "0";
-   alphaRef = "1";
+   alphaTest = "1";
+   alphaRef = "80";
    dynamicCubemap = "0";
    showFootprints = "1";
    showDust = "0";
@@ -201,8 +188,6 @@ new Material(ucityHealthKit) {
    ImpactFXIndex = "-1";
    canSave = "1";
    canSaveDynamicFields = "1";
-      pixelSpecular0 = "1";
-      specular0 = "0.5 0.5 0.5 0.5";
-      specularPower0 = "32";
+      materialTag0 = "Foliage";
 };
 //--- OBJECT WRITE END ---

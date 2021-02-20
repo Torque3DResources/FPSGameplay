@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="plant2"
+    scriptFile="@assetFile=plant2.tscript"
+    materialDefinitionName="plant2"
+    imageMap0="@Asset=FPSGameplay:plant2_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/environment/plant2.png" />

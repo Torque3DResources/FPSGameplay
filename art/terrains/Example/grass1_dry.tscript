@@ -1,24 +1,10 @@
-
-singleton TSShapeConstructor(healthkitdts)
-{
-   baseShape = "./healthkit.dts";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};
 //--- OBJECT WRITE BEGIN ---
-new Material(ucityHealthKit) {
-   mapTo = "healthkit";
+new Material(TerrainFX_grass1dry) {
+   mapTo = "grass1_dry";
    diffuseColor[0] = "1 1 1 1";
    diffuseColor[1] = "1 1 1 1";
    diffuseColor[2] = "1 1 1 1";
    diffuseColor[3] = "1 1 1 1";
-   DiffuseMapAsset[0] = "FPSGameplay:healthkit_d_image";
-   NormalMap[0] = "healthkit_n";
    diffuseMapSRGB[0] = "1";
    diffuseMapSRGB[1] = "1";
    diffuseMapSRGB[2] = "1";
@@ -193,16 +179,15 @@ new Material(ucityHealthKit) {
    alphaRef = "1";
    dynamicCubemap = "0";
    showFootprints = "1";
-   showDust = "0";
-   effectColor[0] = "0 0 0 0";
+   showDust = "1";
+   effectColor[0] = "0.63 0.55 0 1";
    effectColor[1] = "0 0 0 0";
-   footstepSoundId = "-1";
+   footstepSoundId = "0";
    impactSoundId = "-1";
    ImpactFXIndex = "-1";
    canSave = "1";
    canSaveDynamicFields = "1";
-      pixelSpecular0 = "1";
-      specular0 = "0.5 0.5 0.5 0.5";
-      specularPower0 = "32";
+      materialTag0 = "Terrain";
+      terrainMaterials = "1";
 };
 //--- OBJECT WRITE END ---

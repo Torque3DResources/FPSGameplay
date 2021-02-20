@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(Soldier_FPSarms_Yellow) {
+   mapTo="Soldier_FPSarms_Yellow";
+   DiffuseMapAsset = "FPSGameplay:Soldier_FPSarms_Yellow_Dif";
+};
+//--- OBJECT WRITE END ---

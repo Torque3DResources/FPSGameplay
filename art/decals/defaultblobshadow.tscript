@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(defaultblobshadow) {
+   mapTo="defaultblobshadow";
+   DiffuseMapAsset = "FPSGameplay:defaultblobshadow_image";
+};
+//--- OBJECT WRITE END ---

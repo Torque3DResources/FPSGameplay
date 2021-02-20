@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(512_grey) {
+   mapTo="512_grey";
+   DiffuseMapAsset = "FPSGameplay:512_grey_image";
+};
+//--- OBJECT WRITE END ---

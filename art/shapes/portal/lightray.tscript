@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(lightray) {
+   mapTo="lightray";
+   DiffuseMapAsset = "FPSGameplay:lightray_image";
+};
+//--- OBJECT WRITE END ---

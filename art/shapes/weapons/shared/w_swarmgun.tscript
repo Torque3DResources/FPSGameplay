@@ -1,24 +1,11 @@
-
-singleton TSShapeConstructor(healthkitdts)
-{
-   baseShape = "./healthkit.dts";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};
 //--- OBJECT WRITE BEGIN ---
-new Material(ucityHealthKit) {
-   mapTo = "healthkit";
+new Material(w_swarmgun) {
+   mapTo = "w_swarmgun";
    diffuseColor[0] = "1 1 1 1";
    diffuseColor[1] = "1 1 1 1";
    diffuseColor[2] = "1 1 1 1";
    diffuseColor[3] = "1 1 1 1";
-   DiffuseMapAsset[0] = "FPSGameplay:healthkit_d_image";
-   NormalMap[0] = "healthkit_n";
+   DiffuseMap[0] = "data/FPSGameplay/art/shapes/weapons/shared/w_swarmgun";
    diffuseMapSRGB[0] = "1";
    diffuseMapSRGB[1] = "1";
    diffuseMapSRGB[2] = "1";
@@ -187,7 +174,7 @@ new Material(ucityHealthKit) {
    castShadows = "1";
    planarReflection = "0";
    translucent = "0";
-   translucentBlendOp = "LerpAlpha";
+   translucentBlendOp = "None";
    translucentZWrite = "0";
    alphaTest = "0";
    alphaRef = "1";
@@ -201,8 +188,9 @@ new Material(ucityHealthKit) {
    ImpactFXIndex = "-1";
    canSave = "1";
    canSaveDynamicFields = "1";
+      materialTag0 = "Weapon";
       pixelSpecular0 = "1";
-      specular0 = "0.5 0.5 0.5 0.5";
-      specularPower0 = "32";
+      specular0 = "0.996078 0.988235 0.921569 0.954";
+      specularPower0 = "19";
 };
 //--- OBJECT WRITE END ---

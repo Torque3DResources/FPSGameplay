@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(scorch_decal) {
+   mapTo="scorch_decal";
+   DiffuseMapAsset = "FPSGameplay:scorch_decal_image";
+};
+//--- OBJECT WRITE END ---

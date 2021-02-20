@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="base-normal"
+    imageFile="@assetFile=base-normal.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Normal" />

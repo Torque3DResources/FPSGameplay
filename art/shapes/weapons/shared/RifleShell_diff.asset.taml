@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="RifleShell_diff"
+    scriptFile="@assetFile=RifleShell_diff.tscript"
+    materialDefinitionName="RifleShell_diff"
+    imageMap0="@Asset=FPSGameplay:RifleShell_diff_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/weapons/shared/RifleShell_diff.dds" />

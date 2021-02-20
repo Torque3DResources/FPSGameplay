@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Soldier_Red"
+    scriptFile="@assetFile=Soldier_Red.tscript"
+    materialDefinitionName="Soldier_Red"
+    imageMap0="@Asset=FPSGameplay:Soldier_Red_Dif"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/actors/Soldier/Soldier_Red_Dif.dds" />

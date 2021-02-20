@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(defaulttree_bark) {
+   mapTo="defaulttree_bark";
+   DiffuseMapAsset = "FPSGameplay:defaulttree_bark_diffuse";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="grass1_dry_d_image"
+    imageFile="@assetFile=grass1_dry_d.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />
