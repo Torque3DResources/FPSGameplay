@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="corona"
+    scriptFile="@assetFile=corona.tscript"
+    materialDefinitionName="corona"
+    imageMap0="@Asset=FPSGameplay:corona_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/lights/corona.png" />

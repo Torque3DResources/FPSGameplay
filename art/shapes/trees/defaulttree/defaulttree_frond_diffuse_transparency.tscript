@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(defaulttree_frond_diffuse_transparency) {
+   mapTo="defaulttree_frond_diffuse_transparency";
+   DiffuseMapAsset = "FPSGameplay:defaulttree_frond_diffuse_transparency_image";
+};
+//--- OBJECT WRITE END ---

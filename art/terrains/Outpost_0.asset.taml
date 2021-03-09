@@ -1,0 +1,5 @@
+<TerrainAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Outpost_0"
+    terrainFile="@assetFile=Outpost_0.ter" />

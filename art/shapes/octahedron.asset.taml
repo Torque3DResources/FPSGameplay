@@ -1,0 +1,6 @@
+<ShapeAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="octahedron"
+    fileName="@assetFile=octahedron.dts"
+    materialSlot0="@Asset=FPSGameplay:green" />

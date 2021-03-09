@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="w_swarmgun_image"
+    imageFile="@assetFile=w_swarmgun.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

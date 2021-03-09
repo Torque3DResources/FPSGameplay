@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="RifleShell_diff_image"
+    imageFile="@assetFile=RifleShell_diff.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

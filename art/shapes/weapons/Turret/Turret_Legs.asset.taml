@@ -1,0 +1,8 @@
+<ShapeAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Turret_Legs"
+    fileName="@assetFile=Turret_Legs.DAE"
+    materialSlot0="@Asset=FPSGameplay:CollisionMat2"
+    materialSlot1="@Asset=FPSGameplay:ColorEffectR177G148B27-material"
+    materialSlot2="@Asset=FPSGameplay:Turret_Base" />

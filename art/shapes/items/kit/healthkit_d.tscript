@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(healthkit_d) {
+   mapTo="healthkit_d";
+   DiffuseMapAsset = "FPSGameplay:healthkit_d_image";
+};
+//--- OBJECT WRITE END ---

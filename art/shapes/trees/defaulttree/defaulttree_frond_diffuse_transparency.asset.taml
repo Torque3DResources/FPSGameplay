@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="defaulttree_frond_diffuse_transparency"
+    scriptFile="@assetFile=defaulttree_frond_diffuse_transparency.tscript"
+    materialDefinitionName="defaulttree_frond_diffuse_transparency"
+    imageMap0="@Asset=FPSGameplay:defaulttree_frond_diffuse_transparency_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/trees/defaulttree/defaulttree_frond_diffuse_transparency.dds" />

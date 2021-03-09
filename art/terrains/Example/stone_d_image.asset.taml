@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="stone_d_image"
+    imageFile="@assetFile=stone_d.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

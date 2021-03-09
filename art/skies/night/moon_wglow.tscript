@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(moon_wglow) {
+   mapTo="moon_wglow";
+   DiffuseMapAsset = "FPSGameplay:moon_wglow_image";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(healthBB) {
+   mapTo="healthBB";
+   DiffuseMapAsset = "FPSGameplay:healthBB_ALBEDO";
+};
+//--- OBJECT WRITE END ---

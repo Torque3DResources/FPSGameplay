@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="Soldier_Violet_Dif"
+    imageFile="@assetFile=Soldier_Violet_Dif.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

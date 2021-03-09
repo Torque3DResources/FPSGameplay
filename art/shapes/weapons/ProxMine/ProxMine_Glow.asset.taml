@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="ProxMine_Glow"
+    imageFile="@assetFile=ProxMine_Glow.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

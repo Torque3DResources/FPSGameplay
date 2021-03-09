@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="sand_image"
+    imageFile="@assetFile=sand.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

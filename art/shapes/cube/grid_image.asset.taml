@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="grid_image"
+    imageFile="@assetFile=grid.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(redGlass) {
+   mapTo="redGlass";
+   DiffuseMapAsset = "FPSGameplay:redGlass_ALBEDO";
+};
+//--- OBJECT WRITE END ---

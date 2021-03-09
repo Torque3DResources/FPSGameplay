@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="corona_image"
+    imageFile="@assetFile=corona.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

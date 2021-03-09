@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="moon_wglow"
+    scriptFile="@assetFile=moon_wglow.tscript"
+    materialDefinitionName="moon_wglow"
+    imageMap0="@Asset=FPSGameplay:moon_wglow_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/skies/night/moon_wglow.png" />

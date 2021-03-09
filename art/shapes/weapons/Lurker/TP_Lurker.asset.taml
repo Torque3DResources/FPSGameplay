@@ -1,0 +1,8 @@
+<ShapeAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="TP_Lurker"
+    fileName="@assetFile=TP_Lurker.DAE"
+    materialSlot0="@Asset=FPSGameplay:Lurker_Base"
+    materialSlot1="@Asset=FPSGameplay:Lurker_MuzzleFlash_Base"
+    materialSlot2="@Asset=FPSGameplay:Lurker_ScopeScreen_Base" />

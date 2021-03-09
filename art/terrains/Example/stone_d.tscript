@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(stone_d) {
+   mapTo="stone_d";
+   DiffuseMapAsset = "FPSGameplay:stone_d_image";
+};
+//--- OBJECT WRITE END ---

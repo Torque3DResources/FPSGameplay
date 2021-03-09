@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="TP_Ryder_D"
+    imageFile="@assetFile=TP_Ryder_D.dds"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

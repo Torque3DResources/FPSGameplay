@@ -1,0 +1,8 @@
+<ImageAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="scorch_decal_image"
+    imageFile="@assetFile=scorch_decal.png"
+    UseMips="true"
+    isHDRImage="false"
+    imageType="Albedo" />

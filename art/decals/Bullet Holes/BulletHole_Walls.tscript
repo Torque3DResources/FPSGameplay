@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(BulletHole_Walls) {
+   mapTo="BulletHole_Walls";
+   DiffuseMapAsset = "FPSGameplay:BulletHole_Walls_image";
+};
+//--- OBJECT WRITE END ---

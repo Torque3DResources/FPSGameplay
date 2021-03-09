@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(Turret_Base2) {
+   mapTo="Turret_Base2";
+   DiffuseMapAsset = "FPSGameplay:Turret_D";
+};
+//--- OBJECT WRITE END ---

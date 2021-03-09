@@ -1,0 +1,8 @@
+<MaterialAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="rocktest_d"
+    scriptFile="@assetFile=rocktest_d.tscript"
+    materialDefinitionName="rocktest_d"
+    imageMap0="@Asset=FPSGameplay:rocktest_d_image"
+    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/terrains/Example/rocktest_d.png" />
