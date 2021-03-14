@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(rock7) {
-   mapTo="rock7";
-   DiffuseMapAsset = "FPSGameplay:rock2_ALBEDO";
-};
-//--- OBJECT WRITE END ---

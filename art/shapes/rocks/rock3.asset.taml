@@ -2,5 +2,6 @@
     canSave="true"
     canSaveDynamicFields="true"
     AssetName="rock3"
-    fileName="@assetFile=rock2.dts"
-    materialSlot0="@Asset=FPSGameplay:rock2" />
+    fileName="@assetFile=rock3.dts"
+    constuctorFileName="@assetFile=rock3.tscript"
+    materialSlot0="@Asset=FPSGameplay:rock2_mat2" />

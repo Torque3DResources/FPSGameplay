@@ -1,9 +1,3 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(rock3) {
-   mapTo="rock3";
-   DiffuseMapAsset = "FPSGameplay:rock2_ALBEDO";
-};
-//--- OBJECT WRITE END ---
 
 singleton TSShapeConstructor(rock3dts)
 {
