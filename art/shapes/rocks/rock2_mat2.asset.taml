@@ -1,8 +1,8 @@
 <MaterialAsset
     canSave="true"
     canSaveDynamicFields="true"
-    AssetName="rock6"
-    scriptFile="@assetFile=rock6.tscript"
-    materialDefinitionName="rock6"
-    imageMap0="@Asset=FPSGameplay:rock2_ALBEDO"
+    AssetName="rock2_mat2"
+    scriptFile="@assetFile=rock2_mat2.tscript"
+    materialDefinitionName="rock2_mat2"
+    imageMap0="@Asset=FPSGameplay:rock2"
     originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/rocks/rock2" />

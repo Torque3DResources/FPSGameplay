@@ -1,6 +1,0 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="boulder"
-    fileName="@assetFile=boulder.dts"
-    materialSlot0="@Asset=FPSGameplay:MossyRock02" />

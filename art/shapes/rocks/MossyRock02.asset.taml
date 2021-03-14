@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="MossyRock02"
-    scriptFile="@assetFile=MossyRock02.cs"
-    materialDefinitionName="MossyRock02"
-    imageMap0="@Asset=FPSGameplay:MossyRock02_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/rocks/MossyRock02" />
