@@ -4,9 +4,9 @@
     AssetName="Outpost"
     LevelName="Outpost"
     LevelFile="@assetFile=Outpost.mis"
-    PreviewImage="@assetFile=Outpost_preview.png"
     PostFXPresetFile="@assetFile=Outpost.postfxpreset.cs"
     DecalsFile="@assetFile=Outpost.mis.decals"
     ForestFile="@assetFile=Outpost.forest"
     Description="Outpost level"
-    VersionId="1" />
+    VersionId="1" 
+    previewImageAsset0="@asset=FPSGameplay:OutpostPreviewImage"/>

@@ -4,8 +4,8 @@
     AssetName="EmptyLevel"
     LevelName="Empty Level"
     LevelFile="@assetFile=EmptyLevel.mis"
-    PreviewImage="@assetFile=EmptyLevel_preview.png"
     PostFXPresetFile="@assetFile=EmptyLevel.postfxpreset.cs"
     DecalsFile="@assetFile=EmptyLevel.mis.decals"
     Description="An empty room"
-    VersionId="1" />
+    VersionId="1" 
+    previewImageAsset0="@asset=FPSGameplay:EmptyLevelPreviewImage"/>

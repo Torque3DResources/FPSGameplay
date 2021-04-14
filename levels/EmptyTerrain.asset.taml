@@ -4,8 +4,8 @@
     AssetName="EmptyTerrain"
     LevelName="Empty Terrain"
     LevelFile="@assetFile=Empty Terrain.mis"
-    PreviewImage="@assetFile=Empty Terrain_preview.png"
     DecalsFile="@assetFile=Empty Terrain.mis.decals"
     ForestFile="@assetFile=Empty Terrain.forest"
     Description="A Empty level with terrain."
-    VersionId="1" />
+    VersionId="1"
+    previewImageAsset0="@asset=FPSGameplay:EmptyTerrainPreviewImage" />
