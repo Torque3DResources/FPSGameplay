@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(Soldier_DarkGreen) {
-   mapTo="Soldier_DarkGreen";
-   DiffuseMapAsset = "FPSGameplay:Soldier_DarkGreen_Dif";
-};
-//--- OBJECT WRITE END ---

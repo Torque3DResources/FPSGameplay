@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_ProxMine_Crouch_SideDAE)
 {
-   baseShape = "./PlayerAnim_ProxMine_Crouch_Side.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_ProxMine_Crouch_Side";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

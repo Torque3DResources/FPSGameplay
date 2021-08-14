@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="rock_d"
-    scriptFile="@assetFile=rock_d.tscript"
-    materialDefinitionName="rock_d"
-    imageMap0="@Asset=FPSGameplay:rock_d_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/weapons/Grenade/rock_d.dds" />

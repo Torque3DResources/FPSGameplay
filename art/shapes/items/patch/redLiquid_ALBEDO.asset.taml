@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="redLiquid_ALBEDO"
-    imageFile="@assetFile=redLiquid.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

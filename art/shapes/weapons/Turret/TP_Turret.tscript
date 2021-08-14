@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(TP_TurretDAE)
 {
-   baseShape = "./TP_Turret.DAE";
+   baseShapeAsset = "FPSGameplay:TP_Turret";
    lodType = "TrailingNumber";
    loadLights = "0";
 };

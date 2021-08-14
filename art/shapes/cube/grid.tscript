@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(grid) {
-   mapTo="grid";
-   DiffuseMapAsset = "FPSGameplay:grid_image";
-};
-//--- OBJECT WRITE END ---

@@ -29,7 +29,7 @@ datablock ParticleEmitterNodeData(DefaultEmitterNodeData)
 
 datablock ParticleData(Smoke)
 {
-   textureName          = "data/FPSGameplay/art/particles/smoke";
+   textureAsset          = "FPSGameplay:smoke_image";
    dragCoefficient      = 0.3;
    gravityCoefficient   = -0.2;   // rises slowly
    inheritedVelFactor   = 0.00;
@@ -71,7 +71,7 @@ datablock ParticleEmitterNodeData(SmokeEmitterNode)
 
 datablock ParticleData(EmberParticle)
 {
-   textureName          = "data/FPSGameplay/art/particles/ember";
+   textureAsset          = "FPSGameplay:ember_image";
    dragCoefficient      = 0.0;
    windCoefficient      = 0.0;
    gravityCoefficient   = -0.05;   // rises slowly
@@ -120,7 +120,7 @@ datablock ParticleEmitterNodeData(EmberNode)
 
 datablock ParticleData(FireParticle)
 {
-   textureName          = "data/FPSGameplay/art/particles/smoke";
+   textureAsset          = "FPSGameplay:smoke_image";
    dragCoefficient      = 0.0;
    windCoefficient      = 0.0;
    gravityCoefficient   = -0.05;   // rises slowly
@@ -173,7 +173,7 @@ datablock ParticleEmitterNodeData(FireNode)
 
 datablock ParticleData(TorchFire1)
 {
-   textureName          = "data/FPSGameplay/art/particles/smoke";
+   textureAsset          = "FPSGameplay:smoke_image";
    dragCoefficient      = 0.0;
    gravityCoefficient   = -0.3;   // rises slowly
    inheritedVelFactor   = 0.00;
@@ -199,7 +199,7 @@ datablock ParticleData(TorchFire1)
 
 datablock ParticleData(TorchFire2)
 {
-   textureName          = "data/FPSGameplay/art/particles/smoke";
+   textureAsset          = "FPSGameplay:smoke_image";
    dragCoefficient      = 0.0;
    gravityCoefficient   = -0.5;   // rises slowly
    inheritedVelFactor   = 0.00;

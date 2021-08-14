@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(vialbase) {
-   mapTo="vialbase";
-   DiffuseMapAsset = "FPSGameplay:vialBase_ALBEDO";
-};
-//--- OBJECT WRITE END ---

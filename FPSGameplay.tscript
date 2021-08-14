@@ -123,8 +123,8 @@ function FPSGameplay::onCreateClientConnection(%this)
    exec($KeybindPath);
    
    %prefPath = getPrefpath();
-   if(isFile(%prefPath @ "/keybinds." @ $TorqueScriptFileExtension))
-      exec(%prefPath @ "/keybinds." @ $TorqueScriptFileExtension);
+   if(isScriptFile(%prefPath @ "/keybinds"))
+      exec(%prefPath @ "/keybinds");
 }
 
 function FPSGameplay::onDestroyClientConnection(%this)

@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Lurker_MuzzleFlash"
-    imageFile="@assetFile=Lurker_MuzzleFlash.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

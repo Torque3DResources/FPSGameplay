@@ -1,8 +1,1 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Teleporter_d_image"
-    imageFile="@assetFile=Teleporter_d.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />
+<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="Teleporter_d_image" imageFile="@assetFile=Teleporter_d.dds" UseMips="true" isHDRImage="false" imageType="Albedo"/>

@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 // Inventory items.  These objects rely on the item & inventory support
-// system defined in item.tscript and inventory.tscript
+// system defined in item.cs and inventory.cs
 
 //-----------------------------------------------------------------------------
 // Health kits can be added to your inventory and used to heal up.
@@ -49,20 +49,18 @@ datablock ItemData(HealthKitSmall)
    // specified category under the "shapes" root category.
    category = "Health";
 
+   className = "HealthPatch";
 
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/items/kit/healthkit.dts";
+   shapeAsset = "FPSGameplay:healthkit";
    mass = 2;
    friction = 1;
    elasticity = 0.3;
-   emap = 1;
+   emap = true;
 
    // Dynamic properties defined by the scripts
    pickupName = "a small health kit";
    repairAmount = 50;
-   ShapeAsset = "FPSGameplay:healthkit";
-   cameraMaxDist = "0.0100109";
-   class = "HealthPatch";
 };
 
 // This is the "health patch" dropped by a dying player.
@@ -72,17 +70,16 @@ datablock ItemData(HealthKitPatch)
    // specified category under the "shapes" root category.
    category = "Health";
 
+   className = "HealthPatch";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:HealthPatch";
    mass = 2;
    friction = 1;
    elasticity = 0.3;
-   emap = 1;
+   emap = true;
 
    // Dynamic properties defined by the scripts
    pickupName = "a health patch";
    repairAmount = 50;
-   ShapeAsset = "FPSGameplay:HealthPatch";
-   cameraMaxDist = "0.45";
-   class = "HealthPatch";
 };

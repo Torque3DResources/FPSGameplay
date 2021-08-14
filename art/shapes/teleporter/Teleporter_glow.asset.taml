@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Teleporter_glow"
-    scriptFile="@assetFile=Teleporter_glow.tscript"
-    materialDefinitionName="Teleporter_glow"
-    imageMap0="@Asset=FPSGameplay:Teleporter_glow_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/Teleporter/Teleporter_glow.dds" />

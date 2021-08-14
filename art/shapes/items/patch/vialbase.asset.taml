@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="vialbase"
-    scriptFile="@assetFile=vialBase.cs"
-    materialDefinitionName="vialbase"
-    imageMap0="@Asset=FPSGameplay:vialBase_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/vialBase" />

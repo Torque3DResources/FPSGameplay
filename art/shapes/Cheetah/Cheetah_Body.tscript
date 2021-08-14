@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(CheetahDAE)
 {
-   baseShape = "./Cheetah_Body.DAE";
+   baseShapeAsset = "FPSGameplay:Cheetah_Body";
    loadLights = "0";
    lodType = "TrailingNumber";
    neverImport = "null  EnvironmentAmbientLight";
@@ -52,15 +52,3 @@ function CheetahDAE::onLoad(%this)
    %this.removeNode("TailLightsMesh2");
    %this.removeNode("nulldetail1");
 }
-
-singleton TSShapeConstructor(Cheetah_BodyDAE)
-{
-   baseShape = "./Cheetah_Body.DAE";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};

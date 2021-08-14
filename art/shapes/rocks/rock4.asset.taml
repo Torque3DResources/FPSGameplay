@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="rock4"
-    scriptFile="@assetFile=rock4.tscript"
-    materialDefinitionName="rock4"
-    imageMap0="@Asset=FPSGameplay:rock2_ALBEDO"
-    originalFilePath="E:/work/Torque3D-nuScript/My Projects/nuScript/game/data/FPSGameplay/art/shapes/rocks/rock2" />

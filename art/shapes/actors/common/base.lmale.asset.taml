@@ -1,7 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="base.lmale"
-    scriptFile="@assetFile=base.lmale.cs"
-    materialDefinitionName="base.lmale"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/common/base.lmale" />

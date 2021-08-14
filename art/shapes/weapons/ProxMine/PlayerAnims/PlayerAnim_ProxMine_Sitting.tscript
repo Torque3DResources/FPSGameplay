@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_ProxMine_SittingDAE)
 {
-   baseShape = "./PlayerAnim_ProxMine_Sitting.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_ProxMine_Sitting";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

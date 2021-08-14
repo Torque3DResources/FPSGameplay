@@ -1,12 +1,1 @@
-<LevelAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Outpost"
-    LevelName="Outpost"
-    LevelFile="@assetFile=Outpost.mis"
-    PostFXPresetFile="@assetFile=Outpost.postfxpreset.cs"
-    DecalsFile="@assetFile=Outpost.mis.decals"
-    ForestFile="@assetFile=Outpost.forest"
-    Description="Outpost level"
-    VersionId="1" 
-    previewImageAsset0="@asset=FPSGameplay:OutpostPreviewImage"/>
+<LevelAsset canSave="true" canSaveDynamicFields="true" AssetName="Outpost" LevelFile="@assetFile=Outpost.mis" LevelName="Outpost" ForestFile="@assetFile=Outpost.forest" isSubScene="false" previewImageAsset0="@asset=FPSGameplay:Outpost_preview_image" VersionId="1"/>

@@ -24,7 +24,8 @@ datablock RigidShapeData( BouncingBoulder )
 {	
    category = "RigidShape";
 	
-   emap = 1;
+   shapeAsset = "FPSGameplay:boulder";
+   emap = true;
 
    // Rigid Body
    mass = 200;
@@ -56,6 +57,4 @@ datablock RigidShapeData( BouncingBoulder )
    restorativeForce = 0.05;
    rollForce = 0.05;
    pitchForce = 0.05;
-   ShapeAsset = "FPSGameplay:boulder";
-   cameraMaxDist = "2.03979";
 };

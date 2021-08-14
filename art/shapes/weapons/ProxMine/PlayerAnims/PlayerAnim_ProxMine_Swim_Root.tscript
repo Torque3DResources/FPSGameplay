@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_ProxMine_Swim_RootDAE)
 {
-   baseShape = "./PlayerAnim_ProxMine_Swim_Root.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_ProxMine_Swim_Root";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

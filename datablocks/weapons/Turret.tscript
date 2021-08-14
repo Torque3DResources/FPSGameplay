@@ -82,7 +82,7 @@ datablock SFXProfile(TurretSwitchinSound)
 
 datablock ProjectileData( TurretBulletProjectile )
 {
-   projectileShapeName = "";
+   projectileShapeAsset = "";
 
    directDamage        = 5;
    radiusDamage        = 0;
@@ -127,17 +127,16 @@ datablock ItemData(AITurretAmmo)
 
    // Add the Ammo namespace as a parent.  The ammo namespace provides
    // common ammo related functions and hooks into the inventory system.
+   className = "Ammo";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:Turret_Legs";
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
 
    // Dynamic properties defined by the scripts
    pickUpName = "turret ammo";
-   ShapeAsset = "FPSGameplay:Turret_Legs";
-   cameraMaxDist = "0.54752";
-   class = "ammo";
 };
 
 //-----------------------------------------------------------------------------
@@ -152,26 +151,25 @@ datablock ItemData(AITurretHead)
    // Hook into Item Weapon class hierarchy. The weapon namespace
    // provides common weapon handling functions in addition to hooks
    // into the inventory system.
+   className = "Weapon";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:Turret_Head";
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
-   emap = 1;
+   emap = true;
 
    // Dynamic properties defined by the scripts
    pickUpName = "an AI turret head";
    description = "AI Turret Head";
    image = AITurretHeadImage;
    reticle = "crossHair";
-   ShapeAsset = "FPSGameplay:Turret_Head";
-   cameraMaxDist = "0.897194";
-   class = "Weapon";
 };
 datablock ShapeBaseImageData(AITurretHeadImage)
 {
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/Turret/Turret_Head.DAE";
+   shapeAsset[0] = "FPSGameplay:Turret_Head";
    emap = true;
 
    // Specify mount point
@@ -308,6 +306,7 @@ datablock ShapeBaseImageData(AITurretHeadImage)
 datablock AITurretShapeData(AITurret)
 {
    category = "Turrets";
+   shapeAsset = "FPSGameplay:Turret_Legs";
 
    maxDamage = 70;
    destroyedLevel = 70;
@@ -393,13 +392,6 @@ datablock AITurretShapeData(AITurret)
    // This state is set in the onDestroyed() callback.
    stateName[7]                     = "Destroyed";
    stateSequence[7]                 = "destroyed";
-   ShapeAsset = "FPSGameplay:Turret_Legs";
-   cameraMaxDist = "0.54752";
-   weaponAmmo0 = "AITurretAmmo";
-   maxInvAITurretAmmo = "10000";
-   weaponAmmoAmount0 = "10000";
-   Weapon0 = "AITurretHead";
-   maxInvAITurretHead = "1";
 };
 
 //-----------------------------------------------------------------------------
@@ -432,8 +424,8 @@ datablock AITurretShapeData(DeployableTurret : AITurret)
 datablock ShapeBaseImageData(DeployableTurretImage)
 {
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/Turret/TP_Turret.DAE";
-   shapeFileFP = "data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE";
+   shapeAsset[0] = "FPSGameplay:TP_Turret";
+   shapeAsset[1] = "FPSGameplay:FP_Turret";
    emap = true;
 
    imageAnimPrefix = "Turret";

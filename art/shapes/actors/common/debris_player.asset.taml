@@ -1,6 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="debris_player"
-    fileName="@assetFile=debris_player.dts"
-    materialSlot0="@Asset=FPSGameplay:base.lmale" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="debris_player" fileName="@assetFile=debris_player.dts" constuctorFileName="@assetFile=debris_player.tscript"/>

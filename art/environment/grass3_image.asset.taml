@@ -1,8 +1,1 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="grass3_image"
-    imageFile="@assetFile=grass3.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />
+<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="grass3_image" imageFile="@assetFile=grass3.png" UseMips="true" isHDRImage="false" imageType="Albedo"/>

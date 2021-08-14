@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="TP_Ryder_Base"
-    scriptFile="@assetFile=TP_Ryder_Base.cs"
-    materialDefinitionName="TP_Ryder_Base"
-    imageMap0="@Asset=FPSGameplay:TP_Ryder_D"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Ryder" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="TP_Ryder_Base" scriptFile="@assetFile=Materials" materialDefinitionName="TP_Ryder_Base" VersionId="1"/>

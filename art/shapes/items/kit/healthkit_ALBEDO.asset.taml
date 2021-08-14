@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="healthkit_ALBEDO"
-    imageFile="@assetFile=healthkit.jpg"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

@@ -22,19 +22,7 @@
 
 singleton TSShapeConstructor(TP_ProxMineDAE)
 {
-   baseShape = "./TP_ProxMine.DAE";
+   baseShapeAsset = "FPSGameplay:TP_ProxMine";
    lodType = "TrailingNumber";
    loadLights = "0";
-};
-
-singleton TSShapeConstructor(TP_ProxMineDAE)
-{
-   baseShape = "./TP_ProxMine.DAE";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
 };

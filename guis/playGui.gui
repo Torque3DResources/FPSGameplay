@@ -137,7 +137,7 @@
       damageFrameColor = "1 0.6 0 1";
       damageRect = "50 4";
       damageOffset = "0 10";
-      bitmap = "data/FPSGameplay/art/gui/weaponHud/blank.png";
+      bitmapAsset = "FPSGameplay:blank_image";
       wrap = "0";
       isContainer = "0";
       Profile = "GuiModelessDialogProfile";
@@ -157,7 +157,7 @@
       damageFrameColor = "1 0.6 0 1";
       damageRect = "50 4";
       damageOffset = "0 10";
-      bitmap = "data/FPSGameplay/art/gui/weaponHud/bino.png";
+      bitmapAsset = "FPSGameplay:bino_image";
       wrap = "0";
       isContainer = "0";
       Profile = "GuiModelessDialogProfile";
@@ -203,7 +203,7 @@
          canSaveDynamicFields = "0";
       };
       new GuiBitmapCtrl(PreviewImage) {
-         bitmap = "data/FPSGameplay/art/gui/weaponHud/blank.png";
+         bitmapAsset = "FPSGameplay:blank_image";
          wrap = "0";
          isContainer = "0";
          Profile = "GuiDefaultProfile";
@@ -282,7 +282,7 @@
       canSaveDynamicFields = "0";
 
       new GuiBitmapCtrl() {
-         bitmap = "data/FPSGameplay/art/gui/damageFront.png";
+         bitmapAsset = "FPSGameplay:damageFront_image";
          wrap = "0";
          position = "0 0";
          extent = "256 32";
@@ -301,7 +301,7 @@
          canSaveDynamicFields = "0";
       };
       new GuiBitmapCtrl() {
-         bitmap = "data/FPSGameplay/art/gui/damageTop.png";
+         bitmapAsset = "FPSGameplay:damageTop_image";
          wrap = "0";
          position = "0 0";
          extent = "256 32";
@@ -320,7 +320,7 @@
          canSaveDynamicFields = "0";
       };
       new GuiBitmapCtrl() {
-         bitmap = "data/FPSGameplay/art/gui/damageBottom.png";
+         bitmapAsset = "FPSGameplay:damageBottom_image";
          wrap = "0";
          position = "0 224";
          extent = "256 32";
@@ -339,7 +339,7 @@
          canSaveDynamicFields = "0";
       };
       new GuiBitmapCtrl() {
-         bitmap = "data/FPSGameplay/art/gui/damageLeft.png";
+         bitmapAsset = "FPSGameplay:damageLeft_image";
          wrap = "0";
          position = "0 0";
          extent = "32 256";
@@ -358,7 +358,7 @@
          canSaveDynamicFields = "0";
       };
       new GuiBitmapCtrl() {
-         bitmap = "data/FPSGameplay/art/gui/damageRight.png";
+         bitmapAsset = "FPSGameplay:damageRight_image";
          wrap = "0";
          position = "224 0";
          extent = "32 256";

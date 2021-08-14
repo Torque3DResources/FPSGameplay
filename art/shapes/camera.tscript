@@ -1,12 +1,11 @@
 
 singleton TSShapeConstructor(cameradts2)
 {
-   baseShape = "./camera.dts";
+   baseShapeAsset = "./camera.dts";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";
    reverseWindingOrder = "0";
    removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
+   animFPS = "2";
 };

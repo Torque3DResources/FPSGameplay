@@ -1,11 +1,1 @@
-<LevelAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="EmptyTerrain"
-    LevelName="Empty Terrain"
-    LevelFile="@assetFile=Empty Terrain.mis"
-    DecalsFile="@assetFile=Empty Terrain.mis.decals"
-    ForestFile="@assetFile=Empty Terrain.forest"
-    Description="A Empty level with terrain."
-    VersionId="1"
-    previewImageAsset0="@asset=FPSGameplay:EmptyTerrainPreviewImage" />
+<LevelAsset canSave="true" canSaveDynamicFields="true" AssetName="EmptyTerrain" LevelFile="@assetFile=Empty Terrain.mis" LevelName="EmptyTerrain" ForestFile="@assetFile=Empty Terrain.forest" isSubScene="false" previewImageAsset0="@asset=FPSGameplay:Empty_Terrain_preview_image" VersionId="1"/>

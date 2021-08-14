@@ -23,7 +23,7 @@
 new Material(Structure_wall)
 {
    mapTo = "building01walls";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/station/building01walls";
+   diffuseMapAsset[0] = "FPSGameplay:building01walls_image";
    //emissive[0] = true;
 };
 
@@ -31,7 +31,7 @@ new Material(Structure_wall)
 new Material(Structure_grid)
 {
    mapTo = "grid";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/station/grid";
+   diffuseMapAsset[0] = "FPSGameplay:station_grid_image";
    //emissive[0] = true;
 };
 
@@ -39,7 +39,7 @@ new Material(Structure_grid)
 new Material(Structure_plate)
 {
    mapTo = "plate";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/station/plate";
+   diffuseMapAsset[0] = "FPSGameplay:plate_image";
    //emissive[0] = true;
 };
 

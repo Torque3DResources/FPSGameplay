@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="healthBB"
-    scriptFile="@assetFile=healthBB.cs"
-    materialDefinitionName="healthBB"
-    imageMap0="@Asset=FPSGameplay:healthBB_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/healthBB" />

@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="top-normal"
-    imageFile="@assetFile=top-normal.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Normal" />

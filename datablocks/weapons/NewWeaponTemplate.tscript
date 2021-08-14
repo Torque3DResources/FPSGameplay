@@ -75,7 +75,7 @@ datablock LightDescription( BulletProjectileLightDesc )
 
 datablock ProjectileData( BulletProjectile )
 {
-   projectileShapeName = "";
+   projectileShapeAsset = "";
 
    directDamage        = 5;
    radiusDamage        = 0;
@@ -110,7 +110,7 @@ function BulletProjectile::onCollision(%this,%obj,%col,%fade,%pos,%normal)
 
 datablock ProjectileData( WeaponTemplateProjectile )
 {
-   projectileShapeName              = "";
+   projectileShapeAsset              = "";
 
    directDamage                     = 5;
    radiusDamage                     = 0;
@@ -152,7 +152,7 @@ datablock ItemData(WeaponTemplateAmmo)
    className                        = "Ammo";
 
    // Basic Item properties
-   shapeFile                        = "";
+   shapeAsset                        = "";
    mass                             = 1;
    elasticity                       = 0.2;
    friction                         = 0.6;
@@ -178,7 +178,7 @@ datablock ItemData(WeaponTemplateItem)
    className                        = "Weapon";
 
    // Basic Item properties
-   shapeFile                        = "";
+   shapeAsset                        = "";
    mass                             = 1;
    elasticity                       = 0.2;
    friction                         = 0.6;
@@ -196,8 +196,8 @@ datablock ShapeBaseImageData(WeaponTemplateImage)
    // FP refers to first person specific features
    
    // Defines what art file to use.
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/Lurker/TP_Lurker.DAE";
-   shapeFileFP = "data/FPSGameplay/art/shapes/weapons/Lurker/FP_Lurker.DAE";
+   shapeAsset[0] = "FPSGameplay:TP_Lurker";
+   shapeAsset[1] = "FPSGameplay:FP_Lurker";
    
    // Whether or not to enable environment mapping
    //emap                           = true;

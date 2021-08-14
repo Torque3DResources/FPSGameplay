@@ -65,7 +65,7 @@ datablock SFXProfile(CheetahTurretFireSound)
 
 datablock ParticleData(CheetahTireParticle)
 {
-   textureName          = "data/FPSGameplay/art/particles/dustParticle";
+   textureAsset          = "FPSGameplay:dustParticle_image";
    dragCoefficient      = "1.99902";
    gravityCoefficient   = "-0.100122";
    inheritedVelFactor   = "0.0998043";
@@ -102,7 +102,7 @@ datablock ParticleEmitterData(CheetahTireEmitter)
 
 datablock ProjectileData(TurretProjectile)
 {
-   projectileShapeName = "data/FPSGameplay/art/shapes/weapons/shared/rocket.dts";
+   projectileShapeAsset = "FPSGameplay:rocket";
    directDamage = 10;
    radiusDamage = 15;
    damageRadius = 3;
@@ -148,7 +148,7 @@ datablock ParticleEmitterData(TurretFireSmokeEmitter)
 datablock ShapeBaseImageData(TurretImage)
 {
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/Cheetah/Cheetah_Turret.DAE";
+   shapeAsset[0] = "FPSGameplay:Cheetah_Turret";
    emap = true;
 
    // Specify mount point & offset for 3rd person, and eye offset
@@ -275,7 +275,7 @@ datablock WheeledVehicleTire(CheetahCarTire)
    // forces to move the vehicle. These distortion/spring forces
    // are what convert wheel angular velocity into forces that
    // act on the rigid body.
-   shapeFile = "data/FPSGameplay/art/shapes/Cheetah/wheel.DAE";
+   shapeAsset = "FPSGameplay:wheel";
    staticFriction = 4.2;
    kineticFriction = "1";
 
@@ -297,7 +297,7 @@ datablock WheeledVehicleTire(CheetahCarTireRear)
    // forces to move the vehicle. These distortion/spring forces
    // are what convert wheel angular velocity into forces that
    // act on the rigid body.
-   shapeFile = "data/FPSGameplay/art/shapes/Cheetah/wheelBack.DAE";
+   shapeAsset = "FPSGameplay:wheelBack";
    staticFriction = "7.2";
    kineticFriction = "1";
 
@@ -325,6 +325,7 @@ datablock WheeledVehicleSpring(CheetahCarSpring)
 datablock WheeledVehicleData(CheetahCar)
 {
    category = "Vehicles";
+   shapeAsset = "FPSGameplay:Cheetah_Body";
    emap = 1;
 
    mountPose[0] = sitting;
@@ -387,6 +388,4 @@ datablock WheeledVehicleData(CheetahCar)
    turretSlot = 1;
    rightBrakeSlot = 2;
    leftBrakeSlot = 3;
-   dragForce = "0.01";
-   ShapeAsset = "FPSGameplay:Cheetah_Body";
 };

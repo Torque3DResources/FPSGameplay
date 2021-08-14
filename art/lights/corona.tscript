@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(corona) {
-   mapTo="corona";
-   DiffuseMapAsset = "FPSGameplay:corona_image";
-};
-//--- OBJECT WRITE END ---

@@ -27,7 +27,7 @@
 
 // This function is for chat messages only; it is invoked on the client when
 // the server does a commandToClient with the tag ChatMessage.  (Cf. the
-// functions chatMessage* in core/scripts/server/message.tscript.)
+// functions chatMessage* in core/scripts/server/message.cs.)
 
 // This just invokes onChatMessage, which the mod code must define.
 
@@ -38,7 +38,7 @@ function clientCmdChatMessage(%sender, %voice, %pitch, %msgString, %a1, %a2, %a3
 
 
 // Game event descriptions, which may or may not include text messages, can be
-// sent using the message* functions in core/scripts/server/message.tscript.  Those
+// sent using the message* functions in core/scripts/server/message.cs.  Those
 // functions do commandToClient with the tag ServerMessage, which invokes the
 // function below.
 

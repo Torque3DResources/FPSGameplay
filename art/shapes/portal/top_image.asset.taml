@@ -1,8 +1,1 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="top_image"
-    imageFile="@assetFile=top.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />
+<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="top_image" imageFile="@assetFile=top.png" UseMips="true" isHDRImage="false" imageType="Albedo"/>

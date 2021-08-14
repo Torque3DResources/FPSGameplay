@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(WheelBackDae)
 {
-   baseShape = "./wheelBack.DAE";
+   baseShapeAsset = "FPSGameplay:wheelBack";
    lodType = "TrailingNumber";
    neverImport = "null	EnvironmentAmbientLight";
    matNamePrefix = "";

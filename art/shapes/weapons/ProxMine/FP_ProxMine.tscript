@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(FP_ProxMineDAE)
 {
-   baseShape = "./FP_ProxMine.DAE";
+   baseShapeAsset = "FPSGameplay:FP_ProxMine";
    loadLights = "0";
 };
 

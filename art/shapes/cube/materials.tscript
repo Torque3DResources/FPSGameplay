@@ -25,8 +25,8 @@ singleton Material(cube_GridMaterial)
 {
 	mapTo = "GridMaterial";
 
-	diffuseMap[0] = "grid";
-	normalMap[0] = "";
+	diffuseMapAsset[0] = "FPSGameplay:grid_image";
+	normalMapAsset[0] = "";
 	specularMap[0] = "";
 
 	diffuseColor[0] = "1 1 1 1";

@@ -1,8 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="soldier_rigged"
-    fileName="@assetFile=soldier_rigged.DAE"
-    materialSlot0="@Asset=FPSGameplay:ShapeBounds"
-    materialSlot1="@Asset=FPSGameplay:base_Soldier_Dazzle"
-    materialSlot2="@Asset=FPSGameplay:base_Soldier_Main" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="soldier_rigged" fileName="@assetFile=soldier_rigged.DAE" constuctorFileName="@assetFile=soldier_rigged.tscript"/>

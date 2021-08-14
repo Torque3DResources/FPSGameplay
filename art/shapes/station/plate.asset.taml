@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="plate"
-    scriptFile="@assetFile=plate.cs"
-    materialDefinitionName="plate"
-    imageMap0="@Asset=FPSGameplay:plate_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/plate" />

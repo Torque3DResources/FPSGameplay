@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Cheetah_Main"
-    scriptFile="@assetFile=Cheetah_Main.cs"
-    materialDefinitionName="Cheetah_Main"
-    imageMap0="@Asset=FPSGameplay:Cheetah_D"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/Cheetah" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_Main" scriptFile="@assetFile=Materials" materialDefinitionName="Cheetah_Main" VersionId="1"/>

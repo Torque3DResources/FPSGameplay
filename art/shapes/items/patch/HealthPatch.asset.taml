@@ -1,10 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="HealthPatch"
-    fileName="@assetFile=healthpatch.dts"
-    materialSlot0="@Asset=FPSGameplay:redLiquid"
-    materialSlot1="@Asset=FPSGameplay:redGlass"
-    materialSlot2="@Asset=FPSGameplay:healthBB"
-    materialSlot3="@Asset=FPSGameplay:fakeSpec"
-    materialSlot4="@Asset=FPSGameplay:vialBase" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="HealthPatch" fileName="@assetFile=healthpatch.dts" constuctorFileName="@assetFile=healthpatch.tscript"/>

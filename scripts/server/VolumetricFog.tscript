@@ -83,7 +83,7 @@ function GenerateFog(%pos,%scale,%color,%density)
       ignoreWater = "0";
       MinSize = "250";
       FadeSize = "750";
-      texture = "data/FPSGameplay/art/environment/FogMod_heavy.dds";
+      textureAsset = "FPSGameplay:FogMod_heavy_image";
       tiles = "1";
       modStrength = "0.2";
       PrimSpeed = "-0.01 0.04";

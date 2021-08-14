@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Turret_Lazer_Base"
-    scriptFile="@assetFile=Turret_Lazer_Base.cs"
-    materialDefinitionName="Turret_Lazer_Base"
-    imageMap0="@Asset=FPSGameplay:Turret_Lazer_D"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Turret" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Turret_Lazer_Base" scriptFile="@assetFile=Materials" materialDefinitionName="Turret_Lazer_Base" VersionId="1"/>
