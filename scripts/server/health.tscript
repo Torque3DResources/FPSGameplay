@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 // Inventory items.  These objects rely on the item & inventory support
-// system defined in item.tscript and inventory.tscript
+// system defined in item.cs and inventory.cs
 
 //-----------------------------------------------------------------------------
 // Health Patches cannot be picked up and are not meant to be added to inventory.

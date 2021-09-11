@@ -21,12 +21,12 @@
 //-----------------------------------------------------------------------------
 
    // BEGIN: Turret Sequences
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE run", "Turret_run");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE sprint", "Turret_sprint");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE idle", "Turret_idle");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE fire", "Turret_fire");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE switch_out", "Turret_switch_out");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/Turret/FP_Turret.DAE switch_in", "Turret_switch_in");
+   %this.addSequence("FPSGameplay:FP_Turret run", "Turret_run");
+   %this.addSequence("FPSGameplay:FP_Turret sprint", "Turret_sprint");
+   %this.addSequence("FPSGameplay:FP_Turret idle", "Turret_idle");
+   %this.addSequence("FPSGameplay:FP_Turret fire", "Turret_fire");
+   %this.addSequence("FPSGameplay:FP_Turret switch_out", "Turret_switch_out");
+   %this.addSequence("FPSGameplay:FP_Turret switch_in", "Turret_switch_in");
    
    %this.setSequenceCyclic("Turret_fire", "0");
    %this.setSequenceCyclic("Turret_switch_out", "0");

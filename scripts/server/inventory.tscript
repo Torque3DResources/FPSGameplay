@@ -38,7 +38,7 @@
 //    onThrow
 //    onPickup
 //
-// Example methods are given further down.  The item.tscript file also contains
+// Example methods are given further down.  The item.cs file also contains
 // example inventory items.
 
 //-----------------------------------------------------------------------------

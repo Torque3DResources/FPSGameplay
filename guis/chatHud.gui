@@ -31,7 +31,7 @@ new GuiControl(MessageHud)
          minExtent = "8 8";
          visible = "1";
          helpTag = "0";
-         bitmap = "data/UI/images/hudfill.png";
+         bitmapAsset = "UI:hudfill_image";
          wrap = "0";
       };
 
@@ -105,7 +105,7 @@ new GuiControl(MainChatHud) {
             minExtent = "8 8";
             visible = "1";
             helpTag = "0";
-            bitmap = "data/UI/images/hudfill.png";
+            bitmapAsset = "UI:hudfill_image";
             wrap = "0";
          };
 

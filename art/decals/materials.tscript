@@ -22,7 +22,7 @@
 
 singleton Material(DECAL_scorch)
 {
-   baseTex[0] = "./scorch_decal.png";
+   diffuseMapAsset[0] = "FPSGameplay:scorch_decal_image";
 
    translucent = true;
    translucentBlendOp = None;
@@ -33,7 +33,7 @@ singleton Material(DECAL_scorch)
 
 singleton Material(DECAL_RocketEXP)
 {
-   baseTex[0] = "data/FPSGameplay/art/decals/rBlast";
+   diffuseMapAsset[0] = "FPSGameplay:rBlast_image";
 
    vertColor[0] = true;
    translucent = true;
@@ -43,7 +43,7 @@ singleton Material(DECAL_RocketEXP)
 
 singleton Material(DECAL_bulletHole)
 {
-   baseTex[0] = "data/FPSGameplay/art/decals/Bullet Holes/BulletHole_Walls.dds";
+   diffuseMapAsset[0] = "FPSGameplay:BulletHole_Walls_image";
 
    vertColor[0] = true;
    translucent = true;
@@ -53,7 +53,7 @@ singleton Material(DECAL_bulletHole)
 
 singleton Material(DECAL_defaultblobshadow)
 {
-   baseTex[0] = "data/FPSGameplay/art/decals/defaultblobshadow";
+   diffuseMapAsset[0] = "FPSGameplay:defaultblobshadow_image";
 
    translucent = true;
    translucentBlendOp = LerpAlpha;

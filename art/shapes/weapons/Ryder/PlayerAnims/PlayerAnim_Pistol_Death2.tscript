@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Pistol_Death2DAE)
 {
-   baseShape = "./PlayerAnim_Pistol_Death2.DAE";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Pistol_Death2";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

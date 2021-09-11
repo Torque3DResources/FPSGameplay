@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Ryder_MuzzleFlash"
-    imageFile="@assetFile=Ryder_MuzzleFlash.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Lurker_Base"
-    scriptFile="@assetFile=Lurker_Base.cs"
-    materialDefinitionName="Lurker_Base"
-    imageMap0="@Asset=FPSGameplay:Lurker_D"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Lurker" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Lurker_Base" scriptFile="@assetFile=materials" materialDefinitionName="Lurker_Base" VersionId="1"/>

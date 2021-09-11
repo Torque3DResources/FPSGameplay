@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(Turret_HeadDAE)
 {
-   baseShape = "./Turret_Head.DAE";
+   baseShapeAsset = "FPSGameplay:Turret_Head";
    loadLights = "0";
 };
 
@@ -42,15 +42,3 @@ function Turret_HeadDAE::onLoad(%this)
    %this.setSequenceCyclic("fire_alt", "0");
    %this.addNode("ejectPoint", "bn_head", "0 0 0 0 0 1 1.57", "0");
 }
-
-singleton TSShapeConstructor(Turret_HeadDAE)
-{
-   baseShape = "./Turret_Head.DAE";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};

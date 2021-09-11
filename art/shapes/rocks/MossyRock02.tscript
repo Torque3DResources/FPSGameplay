@@ -1,6 +1,5 @@
 //--- OBJECT WRITE BEGIN ---
 singleton Material(MossyRock02) {
    mapTo="MossyRock02";
-   DiffuseMapAsset = "FPSGameplay:MossyRock02_ALBEDO";
 };
 //--- OBJECT WRITE END ---

@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(FP_RyderDAE)
 {
-   baseShape = "./FP_Ryder.DAE";
+   baseShapeAsset = "FPSGameplay:FP_Ryder";
    loadLights = "0";
    lodType = "TrailingNumber";
 };

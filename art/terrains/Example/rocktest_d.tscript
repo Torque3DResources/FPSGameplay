@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(rocktest_d) {
-   mapTo="rocktest_d";
-   DiffuseMapAsset = "FPSGameplay:rocktest_d_image";
-};
-//--- OBJECT WRITE END ---

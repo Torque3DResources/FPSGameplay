@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(clip) {
+   mapTo="clip";
+};
+//--- OBJECT WRITE END ---

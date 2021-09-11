@@ -24,7 +24,7 @@ singleton Material(OctahedronMat)
 {
    mapTo = "green";
 
-   diffuseMap[0] = "camera";
+   diffuseMapAsset[0] = "FPSGameplay:camera_image";
 
    translucent = "1";
    translucentBlendOp = "LerpAlpha";
@@ -38,7 +38,7 @@ singleton Material(SimpleConeMat)
 {
    mapTo = "blue";
 
-   diffuseMap[0] = "blue";
+   diffuseMapAsset[0] = "FPSGameplay:blue_image";
    translucent = "0";
    emissive = "1";
    castShadows = "0";
@@ -49,7 +49,7 @@ singleton Material(CameraMat)
 {
    mapTo = "pasted__phongE1";
 
-	diffuseMap[0] = "camera";
+	diffuseMapAsset[0] = "FPSGameplay:camera_image";
 
 	diffuseColor[0] = "0 0.627451 1 1";
 	specular[0] = "1 1 1 1";

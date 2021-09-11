@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="512_orange_lines"
-    scriptFile="@assetFile=512_orange_lines.tscript"
-    materialDefinitionName="512_orange_lines"
-    imageMap0="@Asset=FPSGameplay:512_orange_lines_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/misc/512_orange_lines.png" />

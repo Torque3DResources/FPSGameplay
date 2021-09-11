@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="fakeSpec_ALBEDO"
-    imageFile="@assetFile=fakeSpec.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

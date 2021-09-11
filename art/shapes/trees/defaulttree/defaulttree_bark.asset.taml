@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="defaulttree_bark"
-    scriptFile="@assetFile=defaulttree_bark.tscript"
-    materialDefinitionName="defaulttree_bark"
-    imageMap0="@Asset=FPSGameplay:defaulttree_bark_diffuse"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/trees/defaulttree/defaulttree_bark_diffuse.dds" />

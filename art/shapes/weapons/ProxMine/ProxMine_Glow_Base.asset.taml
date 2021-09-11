@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="ProxMine_Glow_Base"
-    scriptFile="@assetFile=ProxMine_Glow_Base.cs"
-    materialDefinitionName="ProxMine_Glow_Base"
-    imageMap0="@Asset=FPSGameplay:ProxMine_Glow"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/ProxMine" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="ProxMine_Glow_Base" scriptFile="@assetFile=materials" materialDefinitionName="ProxMine_Glow_Base" VersionId="1"/>

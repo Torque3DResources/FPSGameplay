@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Pistol_JumpDAE)
 {
-   baseShape = "./PlayerAnim_Pistol_Jump.DAE";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Pistol_Jump";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Ryder_MuzzleFlash_Base"
-    scriptFile="@assetFile=Ryder_MuzzleFlash_Base.cs"
-    materialDefinitionName="Ryder_MuzzleFlash_Base"
-    imageMap0="@Asset=FPSGameplay:Ryder_MuzzleFlash"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Ryder" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Ryder_MuzzleFlash_Base" scriptFile="@assetFile=materials" materialDefinitionName="Ryder_MuzzleFlash_Base" VersionId="1"/>

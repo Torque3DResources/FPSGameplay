@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(defaulttree_diffuse_transparency) {
-   mapTo="defaulttree_diffuse_transparency";
-   DiffuseMapAsset = "FPSGameplay:defaulttree_diffuse_transparency_image";
-};
-//--- OBJECT WRITE END ---

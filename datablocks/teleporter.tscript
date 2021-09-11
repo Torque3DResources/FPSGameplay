@@ -49,7 +49,7 @@ datablock ParticleData(TeleporterFlash : DefaultParticle)
    lifetimeMS = "500";
    spinRandomMin = "-90";
    spinRandomMax = "90";
-   textureName = "data/FPSGameplay/art/particles/flare.png";
+   textureAsset = "FPSGameplay:flare_image";
    animTexName = "data/FPSGameplay/art/particles/flare.png";
    colors[0] = "0.678431 0.686275 0.913726 0.207";
    colors[1] = "0 0.543307 1 0.759";
@@ -79,7 +79,7 @@ datablock ParticleData(TeleporterParticles)
 {
    lifetimeMS = "750";
    lifetimeVarianceMS = "100";
-   textureName = "data/FPSGameplay/art/particles/Streak.png";
+   textureAsset = "FPSGameplay:Streak_image";
    useInvAlpha = "0";
    gravityCoefficient = "-1";
    spinSpeed = "0";

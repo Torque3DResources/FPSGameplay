@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="fakeSpec"
-    scriptFile="@assetFile=fakeSpec.cs"
-    materialDefinitionName="fakeSpec"
-    imageMap0="@Asset=FPSGameplay:fakeSpec_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/fakeSpec" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="fakeSpec" scriptFile="@assetFile=fakeSpec.tscript" materialDefinitionName="fakeSpec" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/fakeSpec"/>

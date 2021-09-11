@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Soldier_FPSarms_Teal"
-    scriptFile="@assetFile=Soldier_FPSarms_Teal.tscript"
-    materialDefinitionName="Soldier_FPSarms_Teal"
-    imageMap0="@Asset=FPSGameplay:Soldier_FPSarms_Teal_Dif"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/actors/Soldier/FP/Soldier_FPSarms_Teal_Dif.dds" />

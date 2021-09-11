@@ -22,7 +22,7 @@
 
 datablock ParticleData(DefaultParticle)
 {
-   textureName = "data/FPSGameplay/art/particles/defaultParticle";
+   textureAsset = "FPSGameplay:defaultParticle_image";
    dragCoefficient = 0.498534;
    gravityCoefficient = 0;
    inheritedVelFactor = 0.499022;

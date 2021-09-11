@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="building01walls_ALBEDO"
-    imageFile="@assetFile=building01walls.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

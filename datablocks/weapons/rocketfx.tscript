@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------------
 // Placeholder explosion with required sounds, debris, and particle datablocks.
 // These datablocks existed in now removed scripts, but were used within some
-// that remain: see cheetahCar.tscript
+// that remain: see cheetahCar.cs
 //
 // These should be made more generic or new fx created for the cheetah turret's
 // projectile explosion effects.
@@ -27,7 +27,7 @@ datablock SFXProfile(RocketLauncherExplosionSound)
 
 datablock ParticleData(RocketDebrisTrailParticle)
 {
-   textureName = "data/FPSGameplay/art/particles/impact";
+   textureAsset = "FPSGameplay:impact_image";
    dragCoeffiecient = 0;
    inheritedVelFactor = 0.0;
    constantAcceleration = 0.0;
@@ -66,7 +66,7 @@ datablock ParticleEmitterData(RocketDebrisTrailEmitter)
 
 datablock DebrisData(RocketDebris)
 {
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/shared/rocket.dts";
+   shapeAsset = "FPSGameplay:rocket";
    emitters[0] = RocketDebrisTrailEmitter;
    elasticity = 0.5;
    friction = 0.5;
@@ -107,7 +107,7 @@ datablock ParticleData(RocketSplashMist)
    spinRandomMin = -90.0;
    spinRandomMax = 500.0;
    spinSpeed = 1;
-   textureName = "data/FPSGameplay/art/particles/smoke";
+   textureAsset = "FPSGameplay:smoke_image";
    colors[0] = "0.7 0.8 1.0 1.0";
    colors[1] = "0.7 0.8 1.0 0.5";
    colors[2] = "0.7 0.8 1.0 0.0";
@@ -144,7 +144,7 @@ datablock ParticleData(RocketSplashParticle)
    constantAcceleration = -1.4;
    lifetimeMS = 600;
    lifetimeVarianceMS = 200;
-   textureName = "data/FPSGameplay/art/particles/droplet";
+   textureAsset = "FPSGameplay:droplet_image";
    colors[0] = "0.7 0.8 1.0 1.0";
    colors[1] = "0.7 0.8 1.0 0.5";
    colors[2] = "0.7 0.8 1.0 0.0";
@@ -176,7 +176,7 @@ datablock ParticleEmitterData(RocketSplashEmitter)
 
 datablock ParticleData(RocketSplashRingParticle)
 {
-   textureName = "data/FPSGameplay/art/particles/wake";
+   textureAsset = "FPSGameplay:wake_image";
    dragCoeffiecient = 0.0;
    gravityCoefficient = 0.0;
    inheritedVelFactor = 0.0;
@@ -259,7 +259,7 @@ datablock ParticleData(RocketExpFire)
    spinSpeed = "1";
    spinRandomMin = "-200";
    spinRandomMax = "0";
-   textureName = "data/FPSGameplay/art/particles/smoke";
+   textureAsset = "FPSGameplay:smoke_image";
    animTexName = "data/FPSGameplay/art/particles/smoke";
    colors[0] = "1 0.897638 0.795276 1";
    colors[1] = "0.795276 0.393701 0 0.6";
@@ -284,7 +284,7 @@ datablock ParticleEmitterData(RocketExpFireEmitter)
 
 datablock ParticleData(RocketExpFireball)
 {
-   textureName = "data/FPSGameplay/art/particles/fireball.png";
+   textureAsset = "FPSGameplay:fireball_image";
    lifetimeMS = "300";
    lifetimeVarianceMS = "299";
    spinSpeed = "1";
@@ -319,7 +319,7 @@ datablock ParticleData(RocketExpSmoke)
 {
    lifetimeMS = 1200;//"1250";
    lifetimeVarianceMS = 299;//200;//"250";
-   textureName = "data/FPSGameplay/art/particles/smoke";
+   textureAsset = "FPSGameplay:smoke_image";
    animTexName = "data/FPSGameplay/art/particles/smoke";
    useInvAlpha = "1";
    gravityCoefficient = "-0.100122";
@@ -349,7 +349,7 @@ datablock ParticleEmitterData(RocketExpSmokeEmitter)
 
 datablock ParticleData(RocketExpSparks)
 {
-   textureName = "data/FPSGameplay/art/particles/droplet.png";
+   textureAsset = "FPSGameplay:droplet_image";
    lifetimeMS = "100";
    lifetimeVarianceMS = "50";
    animTexName = "data/FPSGameplay/art/particles/droplet.png";
@@ -384,7 +384,7 @@ datablock ParticleEmitterData(RocketExpSparksEmitter)
 
 datablock ParticleData(RocketExpSubFireParticles)
 {
-   textureName = "data/FPSGameplay/art/particles/fireball.png";
+   textureAsset = "FPSGameplay:fireball_image";
    gravityCoefficient = "-0.202686";
    lifetimeMS = "400";
    lifetimeVarianceMS = "299";
@@ -416,7 +416,7 @@ datablock ParticleEmitterData(RocketExpSubFireEmitter)
 
 datablock ParticleData(RocketExpSubSmoke)
 {
-   textureName = "data/FPSGameplay/art/particles/smoke";
+   textureAsset = "FPSGameplay:smoke_image";
    gravityCoefficient = "-0.40293";
    lifetimeMS = "800";
    lifetimeVarianceMS = "299";

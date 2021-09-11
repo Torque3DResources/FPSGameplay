@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Pistol_Crouch_SideDAE)
 {
-   baseShape = "./PlayerAnim_Pistol_Crouch_Side.DAE";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Pistol_Crouch_Side";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

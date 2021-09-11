@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Teleporter_n"
-    imageFile="@assetFile=Teleporter_n.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Normal" />

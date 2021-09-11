@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Soldier_DarkBlue"
-    scriptFile="@assetFile=Soldier_DarkBlue.tscript"
-    materialDefinitionName="Soldier_DarkBlue"
-    imageMap0="@Asset=FPSGameplay:Soldier_DarkBlue_Dif"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/actors/Soldier/Soldier_DarkBlue_Dif.dds" />

@@ -23,7 +23,7 @@
 // ----------------------------------------------------------------------------
 // DeathmatchGame
 // ----------------------------------------------------------------------------
-// Depends on methods found in gameCore.tscript.  Those added here are specific to
+// Depends on methods found in gameCore.cs.  Those added here are specific to
 // this game type and/or over-ride the "default" game functionaliy.
 //
 // The desired Game Type must be added to each mission's LevelInfo object.
@@ -117,7 +117,7 @@ function DeathMatchGame::initGameVars(%this)
    // SpawnSphere or it defaults back to the values set here. This also controls
    // which SimGroups to attempt to select the spawn sphere's from by walking down
    // the list of SpawnGroups till it finds a valid spawn object.
-   // These override the values set in core/scripts/server/spawn.tscript
+   // These override the values set in core/scripts/server/spawn.cs
    //-----------------------------------------------------------------------------
    
    // Leave %this.defaultPlayerClass and %this.defaultPlayerDataBlock as empty strings ("")
@@ -131,7 +131,7 @@ function DeathMatchGame::initGameVars(%this)
    // SpawnSphere or it defaults back to the values set here. This also controls
    // which SimGroups to attempt to select the spawn sphere's from by walking down
    // the list of SpawnGroups till it finds a valid spawn object.
-   // These override the values set in core/scripts/server/spawn.tscript
+   // These override the values set in core/scripts/server/spawn.cs
    //-----------------------------------------------------------------------------
    %this.defaultCameraClass = "Camera";
    %this.defaultCameraDataBlock = "Observer";
@@ -157,7 +157,7 @@ function DeathMatchGame::onGameDurationEnd(%this)
 function DeathMatchGame::onClientEnterGame(%this, %client)
 {
    // This function currently relies on some helper functions defined in
-   // core/scripts/spawn.tscript. For custom spawn behaviors one can either
+   // core/scripts/spawn.cs. For custom spawn behaviors one can either
    // override the properties on the SpawnSphere's or directly override the
    // functions themselves.
 
@@ -171,7 +171,7 @@ function DeathMatchGame::onClientEnterGame(%this, %client)
 
    // Find a spawn point for the camera
    // This function currently relies on some helper functions defined in
-   // core/scripts/server/spawn.tscript. For custom spawn behaviors one can either
+   // core/scripts/server/spawn.cs. For custom spawn behaviors one can either
    // override the properties on the SpawnSphere's or directly override the
    // functions themselves.
    %cameraSpawnPoint = pickCameraSpawnPoint(%this.DefaultCameraSpawnGroups);
@@ -269,7 +269,7 @@ function DeathMatchGame::preparePlayer(%this, %client)
 
    // Find a spawn point for the player
    // This function currently relies on some helper functions defined in
-   // core/scripts/spawn.tscript. For custom spawn behaviors one can either
+   // core/scripts/spawn.cs. For custom spawn behaviors one can either
    // override the properties on the SpawnSphere's or directly override the
    // functions themselves.
    %playerSpawnPoint = pickPlayerSpawnPoint(%this.DefaultPlayerSpawnGroups);

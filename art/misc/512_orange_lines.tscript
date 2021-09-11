@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(512_orange_lines) {
-   mapTo="512_orange_lines";
-   DiffuseMapAsset = "FPSGameplay:512_orange_lines_image";
-};
-//--- OBJECT WRITE END ---

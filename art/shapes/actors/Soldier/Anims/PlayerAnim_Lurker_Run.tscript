@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Lurker_RunDAE)
 {
-   baseShape = "./PlayerAnim_Lurker_Run.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Lurker_Run";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

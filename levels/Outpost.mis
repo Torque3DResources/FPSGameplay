@@ -46,7 +46,7 @@ new Scene(OutpostLevel) {
       nightColor = "0.0196078 0.0117647 0.109804 1";
       nightFogColor = "0.0196078 0.0117647 0.109804 1";
       moonEnabled = "1";
-      moonMat = "Moon_Glow_Mat";
+      moonMatAsset = "FPSGameplay:Moon_Glow_Mat";
       moonScale = "0.2";
       moonLightColor = "0.223529 0.25098 0.333333 1";
       useNightCubemap = "1";
@@ -87,7 +87,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new CloudLayer() {
-      texture = "data/FPSGameplay/art/skies/clouds/clouds_normal_displacement";
+      textureAsset = "FPSGameplay:clouds_normal_displacement_image";
       texScale[0] = "1";
       texScale[1] = "1";
       texScale[2] = "1";
@@ -109,7 +109,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TerrainBlock(theTerrain) {
-      terrainFile = "data/FPSGameplay/art/terrains/Outpost_0.ter";
+      terrainAsset = "FPSGameplay:Outpost_0";
       castShadows = "1";
       squareSize = "2";
       baseTexSize = "1024";
@@ -168,7 +168,7 @@ new Scene(OutpostLevel) {
       waveMagnitude[1] = "0.2";
       waveMagnitude[2] = "0.2";
       overallWaveMagnitude = "1";
-      rippleTex = "data/FPSGameplay/art/water/ripple";
+      rippleTexAsset = "FPSGameplay:ripple_image";
       rippleDir[0] = "0 1";
       rippleDir[1] = "0.707 0.707";
       rippleDir[2] = "0.5 0.86";
@@ -182,7 +182,7 @@ new Scene(OutpostLevel) {
       rippleMagnitude[1] = "1";
       rippleMagnitude[2] = "0.3";
       overallRippleMagnitude = "1";
-      foamTex = "data/FPSGameplay/art/water/foam";
+      foamTexAsset = "FPSGameplay:foam_image";
       foamDir[0] = "1 0";
       foamDir[1] = "0 1";
       foamSpeed[0] = "0";
@@ -207,7 +207,7 @@ new Scene(OutpostLevel) {
       waterFogDensityOffset = "1";
       wetDepth = "1.5";
       wetDarkening = "0.2";
-      depthGradientTex = "data/FPSGameplay/art/water/depthcolor_ramp";
+      depthGradientTexAsset = "FPSGameplay:depthcolor_ramp_image";
       depthGradientMax = "50";
       distortStartDist = "0.1";
       distortEndDist = "20";
@@ -966,9 +966,9 @@ new Scene(OutpostLevel) {
       Node = "-37.365936 -131.465881 240.782227 10.000000";
    };
    new MeshRoad() {
-      topMaterial = "DefaultRoadMaterialTop";
-      bottomMaterial = "DefaultRoadMaterialOther";
-      sideMaterial = "DefaultRoadMaterialOther";
+      topMaterialAsset = "Core_GameObjects:DefaultRoadMaterialTop";
+      bottomMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
+      sideMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
       textureLength = "5";
       breakAngle = "3";
       widthSubdivisions = "0";
@@ -1014,9 +1014,9 @@ new Scene(OutpostLevel) {
       Node = "-41.049664 46.311405 253.332031 10.000000";
    };
    new MeshRoad() {
-      topMaterial = "DefaultRoadMaterialTop";
-      bottomMaterial = "DefaultRoadMaterialOther";
-      sideMaterial = "DefaultRoadMaterialOther";
+      topMaterialAsset = "Core_GameObjects:DefaultRoadMaterialTop";
+      bottomMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
+      sideMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
       textureLength = "5";
       breakAngle = "3";
       widthSubdivisions = "0";
@@ -1060,7 +1060,7 @@ new Scene(OutpostLevel) {
          rightBrakeLight = "4284";
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/rocks/rock1.dts";
+      shapeAsset = "FPSGameplay:rock1";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
@@ -1076,7 +1076,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/rocks/rock2.dts";
+      shapeAsset = "FPSGameplay:rocks_rock2";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
@@ -1092,7 +1092,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/rocks/rock3.dts";
+      shapeAsset = "FPSGameplay:rock3";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
@@ -1108,7 +1108,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/rocks/rock3.dts";
+      shapeAsset = "FPSGameplay:rock3";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
@@ -1211,7 +1211,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/station/station01.dts";
+      shapeAsset = "FPSGameplay:station01";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";
@@ -1279,7 +1279,7 @@ new Scene(OutpostLevel) {
       };
    };
    new TSStatic() {
-      shapeName = "data/FPSGameplay/art/shapes/trees/defaulttree/defaulttree.DAE";
+      shapeAsset = "FPSGameplay:defaulttree";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";

@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 //--- OBJECT WRITE BEGIN ---
-%guiContent = new GuiControl(PlayerListGui) {
+$guiContent = new GuiControl(PlayerListGui) {
    canSaveDynamicFields = "0";
    Enabled = "1";
    isContainer = "1";
@@ -50,7 +50,7 @@
          Visible = "1";
          tooltipprofile = "GuiToolTipProfile";
          hovertime = "1000";
-         bitmap = "data/UI/images/hudfill.png";
+         bitmapAsset = "UI:hudfill_image";
          wrap = "0";
 
          new GuiScrollCtrl() {

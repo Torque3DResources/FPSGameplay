@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(grass1_d) {
-   mapTo="grass1_d";
-   DiffuseMapAsset = "FPSGameplay:grass1_d_image";
-};
-//--- OBJECT WRITE END ---

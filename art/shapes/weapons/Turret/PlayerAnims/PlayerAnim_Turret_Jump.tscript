@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Turret_JumpDAE)
 {
-   baseShape = "./PlayerAnim_Turret_Jump.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Turret_Jump";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

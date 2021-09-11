@@ -1,11 +1,1 @@
-<LevelAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="EmptyLevel"
-    LevelName="Empty Level"
-    LevelFile="@assetFile=EmptyLevel.mis"
-    PostFXPresetFile="@assetFile=EmptyLevel.postfxpreset.cs"
-    DecalsFile="@assetFile=EmptyLevel.mis.decals"
-    Description="An empty room"
-    VersionId="1" 
-    previewImageAsset0="@asset=FPSGameplay:EmptyLevelPreviewImage"/>
+<LevelAsset canSave="true" canSaveDynamicFields="true" AssetName="EmptyLevel" LevelFile="@assetFile=EmptyLevel.mis" LevelName="EmptyLevel" isSubScene="false" previewImageAsset0="@asset=FPSGameplay:EmptyLevel_preview_image" previewImageAsset1="@asset=FPSGameplay:EmptyLevel_preview_image" VersionId="1"/>

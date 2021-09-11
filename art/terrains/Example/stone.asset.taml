@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="stone"
-    scriptFile="@assetFile=stone.tscript"
-    materialDefinitionName="stone"
-    imageMap0="@Asset=FPSGameplay:stone_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/terrains/Example/stone.png" />
