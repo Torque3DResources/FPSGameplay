@@ -46,7 +46,7 @@ new Scene(OutpostLevel) {
       nightColor = "0.0196078 0.0117647 0.109804 1";
       nightFogColor = "0.0196078 0.0117647 0.109804 1";
       moonEnabled = "1";
-      moonMat = "Moon_Glow_Mat";
+      moonMatAsset = "FPSGameplay:Moon_Glow_Mat";
       moonScale = "0.2";
       moonLightColor = "0.223529 0.25098 0.333333 1";
       useNightCubemap = "1";
