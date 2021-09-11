@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(boulderdts)
 {
-   baseShapeAsset = "./boulder.dts";
+   baseShapeAsset = "FPSGameplay:boulder";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

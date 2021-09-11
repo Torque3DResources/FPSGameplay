@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(defaulttreeDAE)
 {
-   baseShapeAsset = "./defaulttree.DAE";
+   baseShapeAsset = "FPSGameplay:defaulttree";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="BasicRibbonMat" scriptFile="@assetFile=Materials" materialDefinitionName="BasicRibbonMat" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="BasicRibbonMat" scriptFile="@assetFile=materials" materialDefinitionName="BasicRibbonMat" VersionId="1"/>

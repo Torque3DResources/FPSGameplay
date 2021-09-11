@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(MossyRock02) {
+   mapTo="MossyRock02";
+};
+//--- OBJECT WRITE END ---

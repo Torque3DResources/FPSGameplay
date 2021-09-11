@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_ProxMine" fileName="@assetFile=FP_ProxMine.DAE" constuctorFileName="@assetFile=FP_ProxMine.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_ProxMine" fileName="@assetFile=FP_ProxMine.DAE" constuctorFileName="@assetFile=FP_ProxMine.tscript" materialSlot0="@asset=FPSGameplay:ProxMine_ProxMine_Base" materialSlot1="@asset=FPSGameplay:ProxMine_ProxMine_Glow_Base"/>

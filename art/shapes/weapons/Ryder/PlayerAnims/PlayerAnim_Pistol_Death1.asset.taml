@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Pistol_Death1" fileName="@assetFile=PlayerAnim_Pistol_Death1.dae" constuctorFileName="@assetFile=PlayerAnim_Pistol_Death1.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Pistol_Death1" fileName="@assetFile=PlayerAnim_Pistol_Death1.dae" constuctorFileName="@assetFile=PlayerAnim_Pistol_Death1.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

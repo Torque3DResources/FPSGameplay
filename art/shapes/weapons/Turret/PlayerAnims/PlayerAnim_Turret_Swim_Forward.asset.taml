@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Swim_Forward" fileName="@assetFile=PlayerAnim_Turret_Swim_Forward.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Swim_Forward.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Swim_Forward" fileName="@assetFile=PlayerAnim_Turret_Swim_Forward.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Swim_Forward.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

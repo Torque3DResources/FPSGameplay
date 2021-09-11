@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(rock3dts)
 {
-   baseShapeAsset = "./rock3.dts";
+   baseShapeAsset = "FPSGameplay:rock3";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

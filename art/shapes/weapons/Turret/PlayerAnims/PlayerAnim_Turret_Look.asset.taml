@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Look" fileName="@assetFile=PlayerAnim_Turret_Look.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Look.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Look" fileName="@assetFile=PlayerAnim_Turret_Look.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Look.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

@@ -92,9 +92,9 @@ function FPSGameplay::onDestroyGameServer(%this)
 
 function FPSGameplay::initClient(%this)
 {
-   %this.queueExec("./scripts/client/gameProfiles");
+    %this.queueExec("./scripts/client/gameProfiles");
       
-   %this.queueExec("./scripts/client/inputCommands");
+    %this.queueExec("./scripts/client/inputCommands");
    
    //guis
    %this.queueExec("./guis/chatHud.gui");
@@ -102,18 +102,18 @@ function FPSGameplay::initClient(%this)
    %this.queueExec("./guis/playGui.gui");
    %this.queueExec("./guis/hudlessGui.gui");
    
-   %this.queueExec("./scripts/client/playGui");
-   %this.queueExec("./scripts/client/hudlessGui");
+    %this.queueExec("./scripts/client/playGui");
+    %this.queueExec("./scripts/client/hudlessGui");
    
-   %this.queueExec("./scripts/client/message");
-   %this.queueExec("./scripts/client/chatHud");
-   %this.queueExec("./scripts/client/clientCommands");
-   %this.queueExec("./scripts/client/messageHud");
-   %this.queueExec("./scripts/client/playerList");
-   %this.queueExec("./scripts/client/centerPrint");
-   %this.queueExec("./scripts/client/recordings");
+    %this.queueExec("./scripts/client/message");
+    %this.queueExec("./scripts/client/chatHud");
+    %this.queueExec("./scripts/client/clientCommands");
+    %this.queueExec("./scripts/client/messageHud");
+    %this.queueExec("./scripts/client/playerList");
+    %this.queueExec("./scripts/client/centerPrint");
+    %this.queueExec("./scripts/client/recordings");
    
-   %this.queueExec("./scripts/client/screenshot");
+    %this.queueExec("./scripts/client/screenshot");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)

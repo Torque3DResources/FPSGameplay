@@ -109,7 +109,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TerrainBlock(theTerrain) {
-      terrainFile = "data/FPSGameplay/art/terrains/Outpost_0.ter";
+      terrainAsset = "FPSGameplay:Outpost_0";
       castShadows = "1";
       squareSize = "2";
       baseTexSize = "1024";
@@ -966,9 +966,9 @@ new Scene(OutpostLevel) {
       Node = "-37.365936 -131.465881 240.782227 10.000000";
    };
    new MeshRoad() {
-      topMaterial = "DefaultRoadMaterialTop";
-      bottomMaterial = "DefaultRoadMaterialOther";
-      sideMaterial = "DefaultRoadMaterialOther";
+      topMaterialAsset = "Core_GameObjects:DefaultRoadMaterialTop";
+      bottomMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
+      sideMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
       textureLength = "5";
       breakAngle = "3";
       widthSubdivisions = "0";
@@ -1014,9 +1014,9 @@ new Scene(OutpostLevel) {
       Node = "-41.049664 46.311405 253.332031 10.000000";
    };
    new MeshRoad() {
-      topMaterial = "DefaultRoadMaterialTop";
-      bottomMaterial = "DefaultRoadMaterialOther";
-      sideMaterial = "DefaultRoadMaterialOther";
+      topMaterialAsset = "Core_GameObjects:DefaultRoadMaterialTop";
+      bottomMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
+      sideMaterialAsset = "Core_GameObjects:DefaultRoadMaterialOther";
       textureLength = "5";
       breakAngle = "3";
       widthSubdivisions = "0";
@@ -1076,7 +1076,7 @@ new Scene(OutpostLevel) {
       canSaveDynamicFields = "1";
    };
    new TSStatic() {
-      shapeAsset = "FPSGameplay:rock2";
+      shapeAsset = "FPSGameplay:rocks_rock2";
       playAmbient = "1";
       meshCulling = "0";
       originSort = "0";

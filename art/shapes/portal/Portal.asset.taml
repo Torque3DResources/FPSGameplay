@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Portal" fileName="@assetFile=portal.dts" constuctorFileName="@assetFile=portal.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Portal" fileName="@assetFile=portal.dts" constuctorFileName="@assetFile=portal.tscript" materialSlot0="@asset=FPSGameplay:portal_top" materialSlot1="@asset=FPSGameplay:portal_base" materialSlot2="@asset=FPSGameplay:portal_lightray"/>

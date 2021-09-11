@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(grenadeDebrisdae)
 {
-   baseShapeAsset = "./grenadeDebris.dae";
+   baseShapeAsset = "FPSGameplay:grenadeDebris";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_Turret" fileName="@assetFile=Cheetah_Turret.DAE" constuctorFileName="@assetFile=Cheetah_Turret.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_Turret" fileName="@assetFile=Cheetah_Turret.DAE" constuctorFileName="@assetFile=Cheetah_Turret.tscript" materialSlot0="@asset=FPSGameplay:Cheetah_Cheetah_Main" materialSlot1="@asset=FPSGameplay:Cheetah_Cheetah_MuzzleFlash" materialSlot2="@asset=FPSGameplay:Collider"/>

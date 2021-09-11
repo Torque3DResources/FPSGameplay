@@ -1,11 +1,6 @@
-
-singleton TSShapeConstructor(RifleShellDAE)
-{
-   baseShapeAsset = "./RifleShell.DAE";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animFPS = "2";
+//--- OBJECT WRITE BEGIN ---
+singleton Material(RifleShell) {
+   mapTo="RifleShell";
+   DiffuseMapAsset = "FPSGameplay:RifleShell_diff_image";
 };
+//--- OBJECT WRITE END ---

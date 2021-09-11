@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_Turret" fileName="@assetFile=FP_Turret.DAE" constuctorFileName="@assetFile=FP_Turret.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_Turret" fileName="@assetFile=FP_Turret.DAE" constuctorFileName="@assetFile=FP_Turret.tscript" materialSlot0="@asset=FPSGameplay:Turret_Turret_Base" materialSlot1="@asset=FPSGameplay:Turret_Turret_Lazer_Base"/>

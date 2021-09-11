@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(station01dts)
 {
-   baseShapeAsset = "./station01.dts";
+   baseShapeAsset = "FPSGameplay:station01";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

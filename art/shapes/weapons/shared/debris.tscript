@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(debrisdts)
 {
-   baseShapeAsset = "./debris.dts";
+   baseShapeAsset = "FPSGameplay:shared_debris";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

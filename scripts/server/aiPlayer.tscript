@@ -151,7 +151,7 @@ function AIPlayer::moveToNextNode(%this)
       if (%targetNode >= %pathNodeCount-1) {
          %targetNode=%pathNodeCount-1;
 
-         if (%currentNode < %targetNode)
+         if (%this.currentNode < %targetNode)
             %slowdown=1;
       }
    }

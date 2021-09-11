@@ -109,13 +109,13 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
 
 function clientCmdSetDamageDirection(%direction)
 {
-   eval("%ctrl = DamageHUD-->damage_" @ %direction @ ";");
-   if (isObject(%ctrl))
+   eval("$dmgCtrl = DamageHUD-->damage_" @ %direction @ ";");
+   if (isObject($dmgCtrl))
    {
       // Show the indicator, and schedule an event to hide it again
-      cancelAll(%ctrl);
-      %ctrl.setVisible(true);
-      %ctrl.schedule(500, setVisible, false);
+      cancelAll($dmgCtrl);
+      $dmgCtrl.setVisible(true);
+      $dmgCtrl.schedule(500, setVisible, false);
    }
 }
 

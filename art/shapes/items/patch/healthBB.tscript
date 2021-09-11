@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(healthBB) {
+   mapTo="healthBB";
+};
+//--- OBJECT WRITE END ---

@@ -3,14 +3,14 @@ singleton Material(portal_base_mat)
 {
    mapTo = "portal_base";
    diffuseMapAsset[0] = "FPSGameplay:base_image";
-   normalMapAsset[0] = "FPSGameplay:base_normal_image";
+   normalMapAsset[0] = "FPSGameplay:basenormal_image";
 };
 
 singleton Material(portal_top_mat)
 {
    mapTo = "portal_top";
    diffuseMapAsset[0] = "FPSGameplay:top_image";
-   normalMapAsset[0] = "FPSGameplay:top_normal_image";
+   normalMapAsset[0] = "FPSGameplay:topnormal_image";
    emissive[0] = "1";
 };
 

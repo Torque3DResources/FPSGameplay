@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Grenade" fileName="@assetFile=grenade.dae" constuctorFileName="@assetFile=grenade.tscript"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Grenade" scriptFile="@assetFile=grenade.tscript" materialDefinitionName="Grenade" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Grenade/grenade"/>

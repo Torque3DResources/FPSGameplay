@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(vialbase) {
+   mapTo="vialbase";
+};
+//--- OBJECT WRITE END ---

@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(portaldts)
 {
-   baseShapeAsset = "./portal.dts";
+   baseShapeAsset = "FPSGameplay:portal";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

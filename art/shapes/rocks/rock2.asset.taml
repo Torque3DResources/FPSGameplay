@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="rock2" fileName="@assetFile=rock2.dts" constuctorFileName="@assetFile=rock2.tscript"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="rock2" scriptFile="@assetFile=rock2.tscript" materialDefinitionName="rock2" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/rocks/rock2"/>

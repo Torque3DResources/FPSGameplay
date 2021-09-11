@@ -1,11 +1,5 @@
-
-singleton TSShapeConstructor(healthkitdts)
-{
-   baseShapeAsset = "./healthkit.dts";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animFPS = "2";
+//--- OBJECT WRITE BEGIN ---
+singleton Material(healthkit) {
+   mapTo="healthkit";
 };
+//--- OBJECT WRITE END ---

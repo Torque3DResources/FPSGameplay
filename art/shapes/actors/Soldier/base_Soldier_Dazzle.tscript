@@ -1,0 +1,6 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(base_Soldier_Dazzle) {
+   mapTo="base_Soldier_Dazzle";
+   DiffuseMapAsset = "FPSGameplay:Soldier_Soldier_Dazzle_image";
+};
+//--- OBJECT WRITE END ---

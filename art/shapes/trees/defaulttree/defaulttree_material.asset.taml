@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="defaulttree_material" scriptFile="@assetFile=Materials" materialDefinitionName="defaulttree_material" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="defaulttree_material" scriptFile="@assetFile=materials" materialDefinitionName="defaulttree_material" VersionId="1"/>

@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(base_FP_Soldier_Arms_Main) {
+   mapTo="base_FP_Soldier_Arms_Main";
+};
+//--- OBJECT WRITE END ---

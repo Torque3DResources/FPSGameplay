@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="octahedron" fileName="@assetFile=octahedron.dts" constuctorFileName="@assetFile=octahedron.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="octahedron" fileName="@assetFile=octahedron.dts" constuctorFileName="@assetFile=octahedron.tscript" materialSlot0="@asset=FPSGameplay:green"/>

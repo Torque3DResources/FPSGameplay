@@ -35,5 +35,5 @@ datablock MissionMarkerData(SpawnSphereMarker)
 datablock MissionMarkerData(CameraBookmarkMarker)
 {
    category = "Misc";
-   shapeAsset = "FPSGameplay:Camera";
+   shapeAsset = "FPSGameplay:camera";
 };

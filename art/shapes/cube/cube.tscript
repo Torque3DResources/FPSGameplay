@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(cubedae)
 {
-   baseShapeAsset = "./cube.dae";
+   baseShapeAsset = "FPSGameplay:cube";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

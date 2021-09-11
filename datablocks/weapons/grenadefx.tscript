@@ -97,7 +97,7 @@ datablock ParticleEmitterData(GrenadeDebrisFireEmitter)
 
 datablock DebrisData(GrenadeDebris)
 {
-   shapeAsset = "FPSGameplay:GrenadeDebris";
+   shapeAsset = "FPSGameplay:grenadeDebris";
    emitters[0] = GrenadeDebrisFireEmitter;
    elasticity = 0.4;
    friction = 0.25;

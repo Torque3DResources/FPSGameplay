@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="cube_GridMaterial" scriptFile="@assetFile=Materials" materialDefinitionName="cube_GridMaterial" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="cube_GridMaterial" scriptFile="@assetFile=materials" materialDefinitionName="cube_GridMaterial" VersionId="1"/>

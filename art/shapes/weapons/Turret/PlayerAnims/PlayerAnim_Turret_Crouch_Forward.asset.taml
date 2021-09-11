@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Crouch_Forward" fileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Turret_Crouch_Forward" fileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.dae" constuctorFileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

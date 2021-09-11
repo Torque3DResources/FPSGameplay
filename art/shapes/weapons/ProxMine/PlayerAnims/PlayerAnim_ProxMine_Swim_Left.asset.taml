@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_ProxMine_Swim_Left" fileName="@assetFile=PlayerAnim_ProxMine_Swim_Left.dae" constuctorFileName="@assetFile=PlayerAnim_ProxMine_Swim_Left.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_ProxMine_Swim_Left" fileName="@assetFile=PlayerAnim_ProxMine_Swim_Left.dae" constuctorFileName="@assetFile=PlayerAnim_ProxMine_Swim_Left.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

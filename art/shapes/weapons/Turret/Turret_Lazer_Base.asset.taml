@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Turret_Lazer_Base" scriptFile="@assetFile=Materials" materialDefinitionName="Turret_Lazer_Base" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Turret_Lazer_Base" scriptFile="@assetFile=materials" materialDefinitionName="Turret_Lazer_Base" VersionId="1"/>

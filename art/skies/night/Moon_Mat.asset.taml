@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Moon_Mat" scriptFile="@assetFile=Materials" materialDefinitionName="Moon_Mat" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Moon_Mat" scriptFile="@assetFile=materials" materialDefinitionName="Moon_Mat" VersionId="1"/>

@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="grenade_grenade" scriptFile="@assetFile=Materials" materialDefinitionName="grenade_grenade" VersionId="1"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="grenade_grenade" fileName="@assetFile=grenade.dae" constuctorFileName="@assetFile=grenade.tscript" materialSlot0="@asset=FPSGameplay:grenade"/>

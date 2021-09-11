@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_Lurker" fileName="@assetFile=FP_Lurker.DAE" constuctorFileName="@assetFile=FP_Lurker.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="FP_Lurker" fileName="@assetFile=FP_Lurker.DAE" constuctorFileName="@assetFile=FP_Lurker.tscript" materialSlot0="@asset=FPSGameplay:Lurker_Lurker_Base" materialSlot1="@asset=FPSGameplay:Lurker_Lurker_MuzzleFlash_Base" materialSlot2="@asset=FPSGameplay:Lurker_Lurker_ScopeScreen_Base"/>

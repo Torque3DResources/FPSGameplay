@@ -1,1 +1,1 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="teleporter" scriptFile="@assetFile=Materials" materialDefinitionName="teleporter" VersionId="1"/>
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Teleporter" scriptFile="@assetFile=materials" materialDefinitionName="Teleporter" VersionId="1"/>

@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_ProxMine_Fall" fileName="@assetFile=PlayerAnim_ProxMine_Fall.dae" constuctorFileName="@assetFile=PlayerAnim_ProxMine_Fall.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_ProxMine_Fall" fileName="@assetFile=PlayerAnim_ProxMine_Fall.dae" constuctorFileName="@assetFile=PlayerAnim_ProxMine_Fall.tscript" materialSlot0="@asset=FPSGameplay:PlayerAnims_ShapeBounds"/>

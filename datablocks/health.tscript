@@ -52,7 +52,7 @@ datablock ItemData(HealthKitSmall)
    className = "HealthPatch";
 
    // Basic Item properties
-   shapeAsset = "FPSGameplay:healthkit";
+   shapeAsset = "FPSGameplay:kit_healthkit";
    mass = 2;
    friction = 1;
    elasticity = 0.3;
@@ -73,7 +73,7 @@ datablock ItemData(HealthKitPatch)
    className = "HealthPatch";
 
    // Basic Item properties
-   shapeAsset = "FPSGameplay:HealthPatch";
+   shapeAsset = "FPSGameplay:healthpatch";
    mass = 2;
    friction = 1;
    elasticity = 0.3;

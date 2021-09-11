@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(cameradts2)
 {
-   baseShapeAsset = "./camera.dts";
+   baseShapeAsset = "FPSGameplay:camera";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(octahedrondts2)
 {
-   baseShapeAsset = "./octahedron.dts";
+   baseShapeAsset = "FPSGameplay:octahedron";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

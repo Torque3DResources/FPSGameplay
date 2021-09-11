@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(rocketdts)
 {
-   baseShapeAsset = "./rocket.dts";
+   baseShapeAsset = "FPSGameplay:rocket";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";

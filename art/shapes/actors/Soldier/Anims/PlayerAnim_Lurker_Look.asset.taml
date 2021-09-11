@@ -1,1 +1,1 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Lurker_Look" fileName="@assetFile=PlayerAnim_Lurker_Look.dae" constuctorFileName="@assetFile=PlayerAnim_Lurker_Look.tscript"/>
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="PlayerAnim_Lurker_Look" fileName="@assetFile=PlayerAnim_Lurker_Look.dae" constuctorFileName="@assetFile=PlayerAnim_Lurker_Look.tscript" materialSlot0="@asset=FPSGameplay:Anims_ShapeBounds"/>

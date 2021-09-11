@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(fakeSpec) {
+   mapTo="fakeSpec";
+};
+//--- OBJECT WRITE END ---
