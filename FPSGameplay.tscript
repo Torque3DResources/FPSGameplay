@@ -69,7 +69,6 @@ function FPSGameplay::onCreateGameServer(%this)
    
    %this.registerDatablock("./datablocks/markers");
    %this.registerDatablock("./datablocks/particles");
-   %this.registerDatablock("./datablocks/physics");
    %this.registerDatablock("./datablocks/player");
    %this.registerDatablock("./datablocks/ribbons");
    %this.registerDatablock("./datablocks/rigidShape");
@@ -84,6 +83,9 @@ function FPSGameplay::onCreateGameServer(%this)
    %this.registerDatablock("./datablocks/weapons/ProxMine");
    %this.registerDatablock("./datablocks/weapons/Ryder");
    %this.registerDatablock("./datablocks/weapons/Turret");
+   
+   if(physicsPluginPresent())
+      %this.registerDatablock("./datablocks/physics");        
 }
 
 function FPSGameplay::onDestroyGameServer(%this)
