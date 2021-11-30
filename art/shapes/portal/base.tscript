@@ -1,7 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(base) {
-   mapTo="base";
-   DiffuseMapAsset = "FPSGameplay:base_image";
-   NormalMapAsset = "FPSGameplay:base-normal";
-};
-//--- OBJECT WRITE END ---

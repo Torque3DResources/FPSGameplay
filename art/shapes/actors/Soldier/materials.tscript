@@ -24,8 +24,8 @@ singleton Material(Mat_Soldier_Main)
 {
    mapTo = "base_Soldier_Main";
 
-   diffuseMap[0] = "Soldier_Dif.dds";
-   normalMap[0] = "Soldier_N.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Dif_image";
+   normalMapAsset[0] = "FPSGameplay:Soldier_N_image";
    specularMap[0] = "Soldier_Spec.dds";
 
    diffuseColor[0] = "1 1 1 1";
@@ -43,7 +43,7 @@ singleton Material(Mat_Soldier_Dazzle)
 {
    mapTo = "base_Soldier_Dazzle";
 
-   diffuseMap[0] = "Soldier_Dazzle.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Dazzle_image";
 
    diffuseColor[0] = "1 1 1 1";
    specular[0] = "0.9 0.9 0.9 1";
@@ -81,52 +81,52 @@ singleton Material(soldier_rigged_ShapeBounds)
 
 //-----------------------------------------------------------------------------
 // Soldier Skins
-// Add names to PlayerData.availableSkins list in art/datablock/player.tscript
+// Add names to PlayerData.availableSkins list in art/datablock/player.cs
 
 singleton Material(Mat_DarkBlue_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "DarkBlue_Soldier_Main";
-   diffuseMap[0] = "Soldier_DarkBlue_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_DarkBlue_Dif_image";
 };
 
 singleton Material(Mat_DarkGreen_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "DarkGreen_Soldier_Main";
-   diffuseMap[0] = "Soldier_DarkGreen_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_DarkGreen_Dif_image";
 };
 
 singleton Material(Mat_LightGreen_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "LightGreen_Soldier_Main";
-   diffuseMap[0] = "Soldier_LightGreen_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_LightGreen_Dif_image";
 };
 
 singleton Material(Mat_Orange_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "Orange_Soldier_Main";
-   diffuseMap[0] = "Soldier_Orange_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Orange_Dif_image";
 };
 
 singleton Material(Mat_Red_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "Red_Soldier_Main";
-   diffuseMap[0] = "Soldier_Red_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Red_Dif_image";
 };
 
 singleton Material(Mat_Teal_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "Teal_Soldier_Main";
-   diffuseMap[0] = "Soldier_Teal_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Teal_Dif_image";
 };
 
 singleton Material(Mat_Violet_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "Violet_Soldier_Main";
-   diffuseMap[0] = "Soldier_Violet_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Violet_Dif_image";
 };
 
 singleton Material(Mat_Yellow_Soldier_Main : Mat_Soldier_Main)
 {
    mapTo = "Yellow_Soldier_Main";
-   diffuseMap[0] = "Soldier_Yellow_Dif.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Soldier_Yellow_Dif_image";
 };

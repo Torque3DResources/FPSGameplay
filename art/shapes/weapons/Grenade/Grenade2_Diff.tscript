@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(Grenade2_Diff) {
-   mapTo="Grenade2_Diff";
-   DiffuseMapAsset = "FPSGameplay:Grenade2_Diff_image";
-};
-//--- OBJECT WRITE END ---

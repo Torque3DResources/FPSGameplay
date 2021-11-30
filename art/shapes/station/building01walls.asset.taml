@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="building01walls"
-    scriptFile="@assetFile=building01walls.cs"
-    materialDefinitionName="building01walls"
-    imageMap0="@Asset=FPSGameplay:building01walls_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/building01walls" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="building01walls" scriptFile="@assetFile=building01walls.tscript" materialDefinitionName="building01walls" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/building01walls"/>

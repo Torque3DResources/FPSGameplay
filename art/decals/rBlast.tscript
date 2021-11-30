@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(rBlast) {
-   mapTo="rBlast";
-   DiffuseMapAsset = "FPSGameplay:rBlast_image";
-};
-//--- OBJECT WRITE END ---

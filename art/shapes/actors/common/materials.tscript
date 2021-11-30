@@ -22,7 +22,7 @@
 
 new Material(CommonPlayerFootprint)
 {
-   diffuseMap[0] = "footprint";
+   diffuseMapAsset[0] = "FPSGameplay:footprint_image";
    vertColor[0] = true;
    translucent = true;
    castShadows = "0";

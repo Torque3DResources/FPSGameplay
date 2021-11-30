@@ -1,8 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Cheetah_Body"
-    fileName="@assetFile=Cheetah_Body.DAE"
-    materialSlot0="@Asset=FPSGameplay:Cheetah_Main"
-    materialSlot1="@Asset=FPSGameplay:Cheetah_TailLights"
-    materialSlot2="@Asset=FPSGameplay:Collider" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_Body" fileName="@assetFile=Cheetah_Body.DAE" constuctorFileName="@assetFile=Cheetah_Body.tscript" materialSlot0="@asset=FPSGameplay:Cheetah_Cheetah_Main" materialSlot1="@asset=FPSGameplay:Cheetah_TailLights" materialSlot2="@asset=FPSGameplay:Collider"/>

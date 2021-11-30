@@ -1,0 +1,1 @@
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="shared_debris" fileName="@assetFile=debris.dts" constuctorFileName="@assetFile=debris.tscript" materialSlot0="@asset=FPSGameplay:clip"/>

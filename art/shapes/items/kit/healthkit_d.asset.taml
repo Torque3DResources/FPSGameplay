@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="healthkit_d"
-    scriptFile="@assetFile=healthkit_d.tscript"
-    materialDefinitionName="healthkit_d"
-    imageMap0="@Asset=FPSGameplay:healthkit_d_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/items/kit/healthkit_d.png" />

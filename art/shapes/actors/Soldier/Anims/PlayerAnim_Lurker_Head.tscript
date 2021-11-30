@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Lurker_HeadDAE)
 {
-   baseShape = "./PlayerAnim_Lurker_Head.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Lurker_Head";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

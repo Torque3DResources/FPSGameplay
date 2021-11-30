@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(footprint) {
-   mapTo="footprint";
-   DiffuseMapAsset = "FPSGameplay:footprint_image";
-};
-//--- OBJECT WRITE END ---

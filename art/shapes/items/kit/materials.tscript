@@ -27,8 +27,8 @@
 singleton Material(ucityHealthKit)
 {
    mapTo = "healthkit";
-   diffuseMap[0] = "healthkit_d";
-   normalMap[0] = "healthkit_n";
+   diffuseMapAsset[0] = "FPSGameplay:healthkit_d_image";
+   normalMapAsset[0] = "FPSGameplay:healthkit_n_image";
    translucent=false;
    pixelSpecular[0] = true;
    specular[0] = "0.5 0.5 0.5 0.5";

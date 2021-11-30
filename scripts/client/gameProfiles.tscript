@@ -65,7 +65,7 @@ singleton GuiControlProfile (ChatHudTextProfile)
    canKeyFocus = true;
 };
 
-singleton GuiControlProfile ("ChatHudMessageProfile")
+singleton GuiControlProfile (ChatHudMessageProfile)
 {
    fontType = "Arial";
    fontSize = 16;
@@ -80,7 +80,7 @@ singleton GuiControlProfile ("ChatHudMessageProfile")
    autoSizeHeight = true;
 };
 
-singleton GuiControlProfile ("ChatHudScrollProfile")
+singleton GuiControlProfile (ChatHudScrollProfile)
 {
    opaque = false;
    borderThickness = 0;
@@ -93,7 +93,7 @@ singleton GuiControlProfile ("ChatHudScrollProfile")
 //-----------------------------------------------------------------------------
 // Core Hud profiles
 
-singleton GuiControlProfile ("HudScrollProfile")
+singleton GuiControlProfile (HudScrollProfile)
 {
    opaque = false;
    border = true;
@@ -102,7 +102,7 @@ singleton GuiControlProfile ("HudScrollProfile")
    hasBitmapArray = true;
 };
 
-singleton GuiControlProfile ("HudTextProfile")
+singleton GuiControlProfile (HudTextProfile)
 {
    opaque = false;
    fillColor = "128 128 128";
@@ -111,7 +111,7 @@ singleton GuiControlProfile ("HudTextProfile")
    borderColor = "0 255 0";
 };
 
-singleton GuiControlProfile ("ChatHudBorderProfile")
+singleton GuiControlProfile (ChatHudBorderProfile)
 {
    bitmap = "data/UI/art/chatHudBorderArray";
    hasBitmapArray = true;
@@ -122,7 +122,7 @@ singleton GuiControlProfile ("ChatHudBorderProfile")
 //-----------------------------------------------------------------------------
 // Center and bottom print
 
-singleton GuiControlProfile ("CenterPrintProfile")
+singleton GuiControlProfile (CenterPrintProfile)
 {
    opaque = false;
    fillColor = "128 128 128";
@@ -131,7 +131,7 @@ singleton GuiControlProfile ("CenterPrintProfile")
    borderColor = "0 255 0";
 };
 
-singleton GuiControlProfile ("CenterPrintTextProfile")
+singleton GuiControlProfile (CenterPrintTextProfile)
 {
    opaque = false;
    fontType = "Arial";

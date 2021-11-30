@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Blue"
-    scriptFile="@assetFile=blue.tscript"
-    materialDefinitionName="Blue"
-    imageMap0="@Asset=FPSGameplay:blue_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/blue.jpg" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Blue" scriptFile="@assetFile=blue.tscript" materialDefinitionName="Blue" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/blue"/>

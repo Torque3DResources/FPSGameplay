@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_ProxMine_JumpDAE)
 {
-   baseShape = "./PlayerAnim_ProxMine_Jump.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_ProxMine_Jump";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

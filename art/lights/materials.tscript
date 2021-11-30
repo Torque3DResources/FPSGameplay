@@ -25,6 +25,6 @@ singleton Material( Corona_Mat )
    emissive = true;
    translucent = true;
    mapTo = "corona.png";
-   diffuseMap[0] = "./corona.png";
+   diffuseMapAsset[0] = "FPSGameplay:corona_image";
    materialTag0 = "FX";
 };

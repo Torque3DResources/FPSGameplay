@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(TP_RyderDae)
 {
-   baseShape = "./TP_Ryder.DAE";
+   baseShapeAsset = "FPSGameplay:TP_Ryder";
    forceUpdateMaterials = "0";
    loadLights = "0";
    lodType = "TrailingNumber";
@@ -37,15 +37,3 @@ function TP_RyderDae::onLoad(%this)
    %this.addSequence("timeline", "fire_vis", "9", "19", "1", "0");
    %this.setSequenceCyclic("fire_vis", "0");
 }
-
-singleton TSShapeConstructor(TP_RyderDAE)
-{
-   baseShape = "./TP_Ryder.DAE";
-   singleDetailSize = "0";
-   flipUVCoords = "0";
-   JoinIdenticalVerts = "0";
-   reverseWindingOrder = "0";
-   removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
-};

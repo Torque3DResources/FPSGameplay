@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="plate_ALBEDO"
-    imageFile="@assetFile=plate.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />

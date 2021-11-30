@@ -1,7 +1,7 @@
 singleton Material(White)
 {
    mapTo = "unmapped_mat";
-   diffuseMap[0] = "./white.png";
+   diffuseMapAsset[0] = "FPSGameplay:white_image";
 };
 
 singleton Material(Grid_512_Gray)

@@ -1,6 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="rock1"
-    fileName="@assetFile=rock1.dts"
-    materialSlot0="@Asset=FPSGameplay:rock2" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="rock1" fileName="@assetFile=rock1.dts" constuctorFileName="@assetFile=rock1.tscript" materialSlot0="@asset=FPSGameplay:rock2"/>

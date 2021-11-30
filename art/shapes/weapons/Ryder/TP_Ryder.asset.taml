@@ -1,8 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="TP_Ryder"
-    fileName="@assetFile=TP_Ryder.DAE"
-    materialSlot0="@Asset=FPSGameplay:FP_Ryder_Base"
-    materialSlot1="@Asset=FPSGameplay:Ryder_MuzzleFlash_Base"
-    materialSlot2="@Asset=FPSGameplay:TP_Ryder_Base" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="TP_Ryder" fileName="@assetFile=TP_Ryder.DAE" constuctorFileName="@assetFile=TP_Ryder.tscript" materialSlot0="@asset=FPSGameplay:Ryder_FP_Ryder_Base" materialSlot1="@asset=FPSGameplay:Ryder_Ryder_MuzzleFlash_Base" materialSlot2="@asset=FPSGameplay:Ryder_TP_Ryder_Base"/>

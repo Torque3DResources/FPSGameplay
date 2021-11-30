@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(Cheetah_TurretDAE)
 {
-   baseShape = "./Cheetah_Turret.DAE";
+   baseShapeAsset = "FPSGameplay:Cheetah_Turret";
    lodType = "TrailingNumber";
    neverImport = "null	EnvironmentAmbientLight";
    matNamePrefix = "";

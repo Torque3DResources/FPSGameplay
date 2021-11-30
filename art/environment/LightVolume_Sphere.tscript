@@ -1,7 +1,7 @@
 
 singleton TSShapeConstructor(LightVolume_SphereDAE)
 {
-   baseShape = "./LightVolume_Sphere.DAE";
+   baseShapeAsset = "FPSGameplay:LightVolume_Sphere";
    lodType = "TrailingNumber";
    neverImport = "env*";
    loadLights = "0";

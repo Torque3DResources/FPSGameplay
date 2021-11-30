@@ -1,6 +1,5 @@
 //--- OBJECT WRITE BEGIN ---
 singleton Material(redLiquid) {
    mapTo="redLiquid";
-   DiffuseMapAsset = "FPSGameplay:redLiquid_ALBEDO";
 };
 //--- OBJECT WRITE END ---

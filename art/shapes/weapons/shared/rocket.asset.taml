@@ -1,0 +1,1 @@
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="rocket" fileName="@assetFile=rocket.dts" constuctorFileName="@assetFile=rocket.tscript" materialSlot0="@asset=FPSGameplay:shared_w_swarmgun"/>

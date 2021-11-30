@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Soldier_N"
-    imageFile="@assetFile=Soldier_N.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Normal" />

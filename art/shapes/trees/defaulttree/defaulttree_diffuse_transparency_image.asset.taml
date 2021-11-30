@@ -1,8 +1,1 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="defaulttree_diffuse_transparency_image"
-    imageFile="@assetFile=defaulttree_diffuse_transparency.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />
+<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="defaulttree_diffuse_transparency_image" imageFile="@assetFile=defaulttree_diffuse_transparency.dds" UseMips="true" isHDRImage="false" imageType="Albedo"/>

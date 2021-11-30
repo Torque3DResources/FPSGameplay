@@ -1,6 +1,5 @@
 //--- OBJECT WRITE BEGIN ---
 singleton Material(fakeSpec) {
    mapTo="fakeSpec";
-   DiffuseMapAsset = "FPSGameplay:fakeSpec_ALBEDO";
 };
 //--- OBJECT WRITE END ---

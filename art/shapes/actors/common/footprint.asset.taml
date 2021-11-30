@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="footprint"
-    scriptFile="@assetFile=footprint.tscript"
-    materialDefinitionName="footprint"
-    imageMap0="@Asset=FPSGameplay:footprint_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/actors/common/footprint.png" />

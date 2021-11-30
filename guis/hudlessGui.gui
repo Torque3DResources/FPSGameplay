@@ -1,5 +1,5 @@
 //--- OBJECT WRITE BEGIN ---
-%guiContent = new GameTSCtrl(HudlessPlayGui) {
+$guiContent = new GameTSCtrl(HudlessPlayGui) {
    canSaveDynamicFields = "1";
    isContainer = "1";
    Profile = "GuiContentProfile";

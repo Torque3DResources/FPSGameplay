@@ -1,8 +1,0 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="healthkit_n"
-    imageFile="@assetFile=healthkit_n.png"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Normal" />

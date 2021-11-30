@@ -22,7 +22,7 @@
 
 singleton Material(DefaultDecalRoadMaterial)
 {
-   diffuseMap[0] = "./defaultRoadTextureTop.png";
+   diffuseMapAsset[0] = "FPSGameplay:defaultRoadTextureTop_image";
    mapTo = "unmapped_mat";
    materialTag0 = "RoadAndPath";
 };
@@ -30,13 +30,13 @@ singleton Material(DefaultDecalRoadMaterial)
 singleton Material(DefaultRoadMaterialTop)
 {
    mapTo = "unmapped_mat";
-   diffuseMap[0] = "./defaultRoadTextureTop.png";
+   diffuseMapAsset[0] = "FPSGameplay:defaultRoadTextureTop_image";
    materialTag0 = "RoadAndPath";
 };
 
 singleton Material(DefaultRoadMaterialOther)
 {
    mapTo = "unmapped_mat";
-   diffuseMap[0] = "./defaultRoadTextureOther.png";
+   diffuseMapAsset[0] = "FPSGameplay:defaultRoadTextureOther_image";
    materialTag0 = "RoadAndPath";
 };

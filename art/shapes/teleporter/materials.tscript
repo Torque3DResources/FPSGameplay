@@ -23,7 +23,7 @@
 singleton Material(Teleporter)
 {
    mapTo = "teleporter";
-   diffuseMap[0] = "Teleporter";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "10";
    translucentBlendOp = "None";
@@ -41,18 +41,18 @@ singleton Material(teleporter_collision)
 singleton Material(Teleporter_Main)
 {
    mapTo = "Teleporter_Main";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_d.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_d_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "23";
    translucentBlendOp = "None";
-   normalMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_n.dds";
+   normalMapAsset[0] = "FPSGameplay:Teleporter_n_image";
    specularMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_s.dds";
 };
 
 singleton Material(Teleporter_Glow_Main)
 {
    mapTo = "Teleporter_Glow_Main";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_glow.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_glow_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "1";
    translucent = "1";
@@ -71,7 +71,7 @@ singleton Material(Teleporter_Glow_Main)
 singleton Material(Teleporter_Animated_GlowU_Main)
 {
    mapTo = "Teleporter_Animated_GlowU_Main";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_glow.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_glow_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "1";
    translucent = "1";
@@ -85,7 +85,7 @@ singleton Material(Teleporter_Animated_GlowU_Main)
 singleton Material(Teleporter_Animated_GlowV_Main)
 {
    mapTo = "Teleporter_Animated_GlowV_Main";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_glow.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_glow_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "1";
    translucent = "1";
@@ -100,7 +100,7 @@ singleton Material(Teleporter_Animated_GlowV_Main)
 singleton Material(Teleporter_GlowWave_Main)
 {
    mapTo = "Teleporter_GlowWave_Main";
-   diffuseMap[0] = "data/FPSGameplay/art/shapes/Teleporter/Teleporter_glow.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Teleporter_glow_image";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "1";
    translucent = "1";

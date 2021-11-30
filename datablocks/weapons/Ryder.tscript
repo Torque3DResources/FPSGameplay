@@ -72,8 +72,10 @@ datablock ItemData(RyderClip)
 
    // Add the Ammo namespace as a parent.  The ammo namespace provides
    // common ammo related functions and hooks into the inventory system.
+   className = "AmmoClip";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:TP_Ryder";
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
@@ -82,9 +84,6 @@ datablock ItemData(RyderClip)
    pickUpName = "Ryder clip";
    count = 1;
    maxInventory = 10;
-   ShapeAsset = "FPSGameplay:TP_Ryder";
-   cameraMaxDist = "0.305344";
-   class = "AmmoClip";
 };
 
 datablock ItemData(RyderAmmo)
@@ -94,8 +93,10 @@ datablock ItemData(RyderAmmo)
 
    // Add the Ammo namespace as a parent.  The ammo namespace provides
    // common ammo related functions and hooks into the inventory system.
+   className = "Ammo";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:TP_Ryder";
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
@@ -104,9 +105,6 @@ datablock ItemData(RyderAmmo)
    pickUpName = "Ryder bullet";
    maxInventory = 8;
    clip = RyderClip;
-   ShapeAsset = "FPSGameplay:TP_Ryder";
-   cameraMaxDist = "0.305344";
-   class = "ammo";
 };
 
 //--------------------------------------------------------------------------
@@ -122,8 +120,10 @@ datablock ItemData(Ryder)
    // Hook into Item Weapon class hierarchy. The weapon namespace
    // provides common weapon handling functions in addition to hooks
    // into the inventory system.
+   className = "Weapon";
 
    // Basic Item properties
+   shapeAsset = "FPSGameplay:TP_Ryder";
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
@@ -135,17 +135,14 @@ datablock ItemData(Ryder)
    description = "Ryder";
    image = RyderWeaponImage;
    reticle = "crossHair";
-   ShapeAsset = "FPSGameplay:TP_Ryder";
-   cameraMaxDist = "0.305344";
-   class = "Weapon";
 };
 
 
 datablock ShapeBaseImageData(RyderWeaponImage)
 {
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/Ryder/TP_Ryder.DAE";
-   shapeFileFP = "data/FPSGameplay/art/shapes/weapons/Ryder/FP_Ryder.DAE";
+   shapeAsset[0] = "FPSGameplay:TP_Ryder";
+   shapeAsset[1] = "FPSGameplay:FP_Ryder";
    emap = true;
 
    imageAnimPrefix = "Pistol";

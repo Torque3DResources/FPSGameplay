@@ -104,7 +104,7 @@ datablock ParticleData(PlayerSplashMist)
    useInvAlpha          = false;
    spinRandomMin        = -90.0;
    spinRandomMax        = 500.0;
-   textureName          = "data/FPSGameplay/art/shapes/actors/common/splash";
+   textureAsset          = "FPSGameplay:common_splash_image";
    colors[0]     = "0.7 0.8 1.0 1.0";
    colors[1]     = "0.7 0.8 1.0 0.5";
    colors[2]     = "0.7 0.8 1.0 0.0";
@@ -142,7 +142,7 @@ datablock ParticleData(PlayerBubbleParticle)
    lifetimeMS           = 400;
    lifetimeVarianceMS   = 100;
    useInvAlpha          = false;
-   textureName          = "data/FPSGameplay/art/shapes/actors/common/splash";
+   textureAsset          = "FPSGameplay:common_splash_image";
    colors[0]     = "0.7 0.8 1.0 0.4";
    colors[1]     = "0.7 0.8 1.0 0.4";
    colors[2]     = "0.7 0.8 1.0 0.0";
@@ -180,7 +180,7 @@ datablock ParticleData(PlayerFoamParticle)
    useInvAlpha          = false;
    spinRandomMin        = -90.0;
    spinRandomMax        = 500.0;
-   textureName          = "data/FPSGameplay/art/particles/millsplash01";
+   textureAsset          = "FPSGameplay:millsplash01_image";
    colors[0]     = "0.7 0.8 1.0 0.20";
    colors[1]     = "0.7 0.8 1.0 0.20";
    colors[2]     = "0.7 0.8 1.0 0.00";
@@ -216,7 +216,7 @@ datablock ParticleData( PlayerFoamDropletsParticle )
    constantAcceleration = -0.0;
    lifetimeMS           = 600;
    lifetimeVarianceMS   = 0;
-   textureName          = "data/FPSGameplay/art/shapes/actors/common/splash";
+   textureAsset          = "FPSGameplay:common_splash_image";
    colors[0]     = "0.7 0.8 1.0 1.0";
    colors[1]     = "0.7 0.8 1.0 0.5";
    colors[2]     = "0.7 0.8 1.0 0.0";
@@ -246,7 +246,7 @@ datablock ParticleEmitterData( PlayerFoamDropletsEmitter )
 
 datablock ParticleData( PlayerWakeParticle )
 {
-   textureName          = "data/FPSGameplay/art/particles/wake";
+   textureAsset          = "FPSGameplay:wake_image";
    dragCoefficient     = "0.0";
    gravityCoefficient   = "0.0";
    inheritedVelFactor   = "0.0";
@@ -348,7 +348,7 @@ datablock SplashData(PlayerSplash)
    acceleration = -3.0;
    texWrap = 5.0;
 
-   texture = "data/FPSGameplay/art/particles/millsplash01";
+   textureAsset = "FPSGameplay:millsplash01_image";
 
    emitter[0] = PlayerSplashEmitter;
    emitter[1] = PlayerSplashMistEmitter;
@@ -385,7 +385,7 @@ datablock ParticleData(LightPuff)
    times[0]      = 0.3;
    times[1]      = 1.0;
    times[2] = 1.0;
-   textureName = "data/FPSGameplay/art/particles/dustParticle.png";
+   textureAsset = "FPSGameplay:dustParticle_image";
 };
 
 datablock ParticleEmitterData(LightPuffEmitter)
@@ -422,7 +422,7 @@ datablock ParticleData(LiftoffDust)
    colors[0]     = "1.0 1.0 1.0 1.0";
    sizes[0]      = 1.0;
    times[0]      = 1.0;
-   textureName = "data/FPSGameplay/art/particles/dustParticle";
+   textureAsset = "FPSGameplay:dustParticle_image";
 };
 
 datablock ParticleEmitterData(LiftoffDustEmitter)
@@ -486,12 +486,13 @@ datablock PlayerData(DefaultPlayerData)
    computeCRC = false;
 
    // Third person shape
+   shapeAsset = "FPSGameplay:soldier_rigged";
    cameraMaxDist = 3;
    allowImageStateAnimation = true;
 
    // First person arms
    imageAnimPrefixFP = "soldier";
-   shapeNameFP[0] = "data/FPSGameplay/art/shapes/actors/Soldier/FP/FP_SoldierArms.DAE";
+   shapeFPAsset[0] = "FPSGameplay:FP_SoldierArms";
 
    cmdCategory = "Clients";
 
@@ -499,7 +500,7 @@ datablock PlayerData(DefaultPlayerData)
    cameraMinFov = 5.0;
    cameraMaxFov = 65.0;
 
-   debrisShapeName = "data/FPSGameplay/art/shapes/actors/common/debris_player.dts";
+   debrisShapeAsset = "FPSGameplay:debris_player";
    debris = playerDebris;
    
    throwForce = 30;
@@ -668,16 +669,6 @@ datablock PlayerData(DefaultPlayerData)
 
    maxInv[DeployableTurret] = 5;
 
-   // available skins (see materials.tscript in model folder)
+   // available skins (see materials.cs in model folder)
    availableSkins =  "base	DarkBlue	DarkGreen	LightGreen	Orange	Red	Teal	Violet	Yellow";
-   ShapeAsset = "FPSGameplay:soldier_rigged";
-   debrisAsset = "FPSGameplay:debris_player";
-   maxInvProxMine = "5";
-   maxInvLurkerGrenadeLauncher = "1";
-   maxInvRyder = "1";
-   maxInvLurker = "1";
-   maxInvDeployableTurret = "5";
-   maxInvRyderClip = "10";
-   maxInvLurkerClip = "20";
-   maxInvLurkerGrenadeAmmo = "20";
 };

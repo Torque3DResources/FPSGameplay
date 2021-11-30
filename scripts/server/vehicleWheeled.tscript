@@ -21,7 +21,7 @@
 //-----------------------------------------------------------------------------
 
 // This file contains script methods unique to the WheeledVehicle class.  All
-// other necessary methods are contained in "../server/scripts/vehicle.tscript" in
+// other necessary methods are contained in "../server/scripts/vehicle.cs" in
 // which the "generic" Vehicle class methods that are shared by all vehicles,
 // (flying, hover, and wheeled) can be found.
 

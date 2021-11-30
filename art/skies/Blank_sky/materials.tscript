@@ -5,12 +5,12 @@
 
 singleton CubemapData( BlankSkyCubemap )
 {
-   cubeFace[0] = "./skybox_1";
-   cubeFace[1] = "./skybox_2";
-   cubeFace[2] = "./skybox_3";
-   cubeFace[3] = "./skybox_4";
-   cubeFace[4] = "./skybox_5";
-   cubeFace[5] = "./skybox_6";
+   cubeMapFaceAsset[0] = "FPSGameplay:skybox_1_image";
+   cubeMapFaceAsset[1] = "FPSGameplay:skybox_2_image";
+   cubeMapFaceAsset[2] = "FPSGameplay:skybox_3_image";
+   cubeMapFaceAsset[3] = "FPSGameplay:skybox_4_image";
+   cubeMapFaceAsset[4] = "FPSGameplay:skybox_5_image";
+   cubeMapFaceAsset[5] = "FPSGameplay:skybox_6_image";
 };
 
 singleton Material( BlankSkyMat )

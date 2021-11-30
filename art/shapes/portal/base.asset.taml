@@ -1,9 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="base"
-    scriptFile="@assetFile=base.tscript"
-    materialDefinitionName="base"
-    imageMap0="@Asset=FPSGameplay:base_image"
-    imageMap1="@Asset=FPSGameplay:base-normal"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/portal/base.png" />

@@ -1,0 +1,5 @@
+//--- OBJECT WRITE BEGIN ---
+singleton Material(GridMaterial) {
+   mapTo="GridMaterial";
+};
+//--- OBJECT WRITE END ---

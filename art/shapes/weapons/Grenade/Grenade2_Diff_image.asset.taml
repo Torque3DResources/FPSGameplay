@@ -1,8 +1,1 @@
-<ImageAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Grenade2_Diff_image"
-    imageFile="@assetFile=Grenade2_Diff.dds"
-    UseMips="true"
-    isHDRImage="false"
-    imageType="Albedo" />
+<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="Grenade2_Diff_image" imageFile="@assetFile=Grenade2_Diff.dds" UseMips="true" isHDRImage="false" imageType="Albedo"/>

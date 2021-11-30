@@ -1,9 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Teleporter"
-    scriptFile="@assetFile=teleporter.tscript"
-    materialDefinitionName="Teleporter"
-    imageMap0="@Asset=FPSGameplay:Teleporter_image"
-    imageMap1="@Asset=FPSGameplay:Teleporter_n"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/teleporter/Teleporter.dds" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Teleporter" scriptFile="@assetFile=materials" materialDefinitionName="Teleporter" VersionId="1"/>

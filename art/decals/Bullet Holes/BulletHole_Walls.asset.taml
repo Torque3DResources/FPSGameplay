@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="BulletHole_Walls"
-    scriptFile="@assetFile=BulletHole_Walls.tscript"
-    materialDefinitionName="BulletHole_Walls"
-    imageMap0="@Asset=FPSGameplay:BulletHole_Walls_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/decals/Bullet Holes/BulletHole_Walls.dds" />

@@ -23,8 +23,8 @@
 singleton Material(FP_Ryder_Base)
 {
    mapTo = "FP_Ryder_Base";
-   diffuseMap[0] = "./FP_Ryder_D.dds";
-   normalMap[0] = "./FP_Ryder_N.dds";
+   diffuseMapAsset[0] = "FPSGameplay:FP_Ryder_D_image";
+   normalMapAsset[0] = "FPSGameplay:FP_Ryder_N_image";
    specularMap[0] = "./FP_Ryder_S.dds";
    specular[0] = "0.9 0.9 0.9 1";
    specularPower[0] = "10";
@@ -37,8 +37,8 @@ singleton Material(FP_Ryder_Base)
 singleton Material(TP_Ryder_Base)
 {
    mapTo = "TP_Ryder_Base";
-   diffuseMap[0] = "./TP_Ryder_D.dds";
-   normalMap[0] = "./TP_Ryder_N.dds";
+   diffuseMapAsset[0] = "FPSGameplay:TP_Ryder_D_image";
+   normalMapAsset[0] = "FPSGameplay:TP_Ryder_N_image";
    specularMap[0] = "./TP_Ryder_S.dds";
    specular[0] = "1.0 1.0 1.0 1";
    specularPower[0] = "10";
@@ -50,7 +50,7 @@ singleton Material(TP_Ryder_Base)
 singleton Material(Ryder_MuzzleFlash_Base)
 {
    mapTo = "Ryder_MuzzleFlash_Base";
-   diffuseMap[0] = "./Ryder_MuzzleFlash.dds";
+   diffuseMapAsset[0] = "FPSGameplay:Ryder_MuzzleFlash_image";
    diffuseColor[0] = "0.05 0.05 0.05 1";
    specular[0] = "0 0 0 1";
    specularPower[0] = "10";

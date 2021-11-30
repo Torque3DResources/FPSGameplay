@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="grass4"
-    scriptFile="@assetFile=grass4.tscript"
-    materialDefinitionName="grass4"
-    imageMap0="@Asset=FPSGameplay:grass2_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/terrains/Example/grass2.jpg" />

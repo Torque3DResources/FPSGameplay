@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Turret_LookDAE)
 {
-   baseShape = "./PlayerAnim_Turret_Look.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Turret_Look";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

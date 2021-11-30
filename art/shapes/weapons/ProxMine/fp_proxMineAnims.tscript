@@ -21,15 +21,15 @@
 //-----------------------------------------------------------------------------
 
    // BEGIN: ProxMine Sequences
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE run", "ProxMine_run");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE run2sprint", "ProxMine_run2sprint");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE sprint", "ProxMine_sprint");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE sprint2run", "ProxMine_sprint2run");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE idle", "ProxMine_idle");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE fire", "ProxMine_fire");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE fire_release", "ProxMine_fire_release");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE switch_out", "ProxMine_switch_out");
-   %this.addSequence("data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE switch_in", "ProxMine_switch_in");
+   %this.addSequence("FPSGameplay:FP_ProxMine run", "ProxMine_run");
+   %this.addSequence("FPSGameplay:FP_ProxMine run2sprint", "ProxMine_run2sprint");
+   %this.addSequence("FPSGameplay:FP_ProxMine sprint", "ProxMine_sprint");
+   %this.addSequence("FPSGameplay:FP_ProxMine sprint2run", "ProxMine_sprint2run");
+   %this.addSequence("FPSGameplay:FP_ProxMine idle", "ProxMine_idle");
+   %this.addSequence("FPSGameplay:FP_ProxMine fire", "ProxMine_fire");
+   %this.addSequence("FPSGameplay:FP_ProxMine fire_release", "ProxMine_fire_release");
+   %this.addSequence("FPSGameplay:FP_ProxMine switch_out", "ProxMine_switch_out");
+   %this.addSequence("FPSGameplay:FP_ProxMine switch_in", "ProxMine_switch_in");
    
    %this.setSequenceCyclic("ProxMine_fire", "0");
    %this.setSequenceCyclic("ProxMine_fire_release", "0");

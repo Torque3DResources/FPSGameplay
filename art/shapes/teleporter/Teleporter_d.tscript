@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(Teleporter_d) {
-   mapTo="Teleporter_d";
-   DiffuseMapAsset = "FPSGameplay:Teleporter_d_image";
-};
-//--- OBJECT WRITE END ---

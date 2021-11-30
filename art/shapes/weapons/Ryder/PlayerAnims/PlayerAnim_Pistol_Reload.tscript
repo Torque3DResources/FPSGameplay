@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Pistol_ReloadDAE)
 {
-   baseShape = "./PlayerAnim_Pistol_Reload.dae";
+   baseShapeAsset = "./PlayerAnim_Pistol_Reload.dae";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

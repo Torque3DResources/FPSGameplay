@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Turret_Swim_LeftDAE)
 {
-   baseShape = "./PlayerAnim_Turret_Swim_Left.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Turret_Swim_Left";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

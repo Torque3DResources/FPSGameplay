@@ -36,8 +36,8 @@ datablock PrecipitationData(HeavyRain)
 {
    soundProfile = "HeavyRainSound";
 
-   dropTexture = "data/FPSGameplay/art/environment/precipitation/rain";
-   splashTexture = "data/FPSGameplay/art/environment/precipitation/water_splash";
+   dropAsset = "FPSGameplay:rain_image";
+   splashAsset = "FPSGameplay:water_splash_image";
    dropSize = 0.35;
    splashSize = 0.1;
    useTrueBillboards = false;

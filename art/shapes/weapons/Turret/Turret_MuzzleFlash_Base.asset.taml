@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Turret_MuzzleFlash_Base"
-    scriptFile="@assetFile=Turret_MuzzleFlash_Base.cs"
-    materialDefinitionName="Turret_MuzzleFlash_Base"
-    imageMap0="@Asset=FPSGameplay:Turret_MuzzleFlash"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/weapons/Turret" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Turret_MuzzleFlash_Base" scriptFile="@assetFile=materials" materialDefinitionName="Turret_MuzzleFlash_Base" VersionId="1"/>

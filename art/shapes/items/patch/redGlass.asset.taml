@@ -1,8 +1,1 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="redGlass"
-    scriptFile="@assetFile=redGlass.cs"
-    materialDefinitionName="redGlass"
-    imageMap0="@Asset=FPSGameplay:redGlass_ALBEDO"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/redGlass" />
+<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="redGlass" scriptFile="@assetFile=redGlass.tscript" materialDefinitionName="redGlass" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/redGlass"/>

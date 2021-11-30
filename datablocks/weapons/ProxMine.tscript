@@ -45,6 +45,7 @@ datablock ProximityMineData( ProxMine )
 {
    // ShapeBaseData fields
    category = "Weapon";
+   shapeAsset = "FPSGameplay:TP_ProxMine";
    explosion = GrenadeLauncherExplosion;
 
    // ItemData fields
@@ -80,15 +81,13 @@ datablock ProximityMineData( ProxMine )
    radiusDamage = 300;           // amount of damage to apply to objects in radius
    damageRadius = 8;            // search radius to damage objects when exploding
    areaImpulse = 2000;          // magnitude of impulse to apply to objects in radius
-   ShapeAsset = "FPSGameplay:TP_ProxMine";
-   cameraMaxDist = "0.291099";
 };
 
 datablock ShapeBaseImageData( ProxMineImage )
 {
    // Basic Item properties
-   shapeFile = "data/FPSGameplay/art/shapes/weapons/ProxMine/TP_ProxMine.DAE";
-   shapeFileFP = "data/FPSGameplay/art/shapes/weapons/ProxMine/FP_ProxMine.DAE";
+   shapeAsset[0] = "FPSGameplay:TP_ProxMine";
+   shapeAsset[1] = "FPSGameplay:FP_ProxMine";
 
    imageAnimPrefix = "ProxMine";
    imageAnimPrefixFP = "ProxMine";

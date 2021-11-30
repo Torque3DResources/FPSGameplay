@@ -1,9 +1,1 @@
-<ShapeAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Turret_Head"
-    fileName="@assetFile=Turret_Head.DAE"
-    materialSlot0="@Asset=FPSGameplay:ColorEffectR177G148B27-material"
-    materialSlot1="@Asset=FPSGameplay:Turret_Base2"
-    materialSlot2="@Asset=FPSGameplay:Turret_Lazer_Base"
-    materialSlot3="@Asset=FPSGameplay:Turret_MuzzleFlash_Base" />
+<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="Turret_Head" fileName="@assetFile=Turret_Head.DAE" constuctorFileName="@assetFile=Turret_Head.tscript" materialSlot0="@asset=FPSGameplay:ColorEffectR177G148B27_material" materialSlot1="@asset=FPSGameplay:Turret_Turret_Base" materialSlot2="@asset=FPSGameplay:Turret_Turret_Lazer_Base" materialSlot3="@asset=FPSGameplay:Turret_Turret_MuzzleFlash_Base"/>

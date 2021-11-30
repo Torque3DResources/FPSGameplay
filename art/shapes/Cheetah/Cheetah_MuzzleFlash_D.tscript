@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(Cheetah_MuzzleFlash_D) {
-   mapTo="Cheetah_MuzzleFlash_D";
-   DiffuseMapAsset = "FPSGameplay:Cheetah_MuzzleFlash_D_image";
-};
-//--- OBJECT WRITE END ---

@@ -1,12 +1,11 @@
 
 singleton TSShapeConstructor(debris_playerdts)
 {
-   baseShape = "./debris_player.dts";
+   baseShapeAsset = "FPSGameplay:debris_player";
    singleDetailSize = "0";
    flipUVCoords = "0";
    JoinIdenticalVerts = "0";
    reverseWindingOrder = "0";
    removeRedundantMats = "0";
-   animTiming = "Frames";
-   animFPS = "0";
+   animFPS = "2";
 };

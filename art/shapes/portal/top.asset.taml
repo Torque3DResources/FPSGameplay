@@ -1,9 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="top"
-    scriptFile="@assetFile=top.tscript"
-    materialDefinitionName="top"
-    imageMap0="@Asset=FPSGameplay:top_image"
-    imageMap1="@Asset=FPSGameplay:top-normal"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/portal/top.png" />

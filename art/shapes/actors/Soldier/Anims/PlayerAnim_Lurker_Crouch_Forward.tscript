@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Lurker_Crouch_ForwardDAE)
 {
-   baseShape = "./PlayerAnim_Lurker_Crouch_Forward.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Lurker_Crouch_Forward";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

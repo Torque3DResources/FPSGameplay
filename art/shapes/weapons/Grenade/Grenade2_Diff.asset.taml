@@ -1,8 +1,0 @@
-<MaterialAsset
-    canSave="true"
-    canSaveDynamicFields="true"
-    AssetName="Grenade2_Diff"
-    scriptFile="@assetFile=Grenade2_Diff.tscript"
-    materialDefinitionName="Grenade2_Diff"
-    imageMap0="@Asset=FPSGameplay:Grenade2_Diff_image"
-    originalFilePath="E:/work/Torque3D-imageAssetMacroMagicWIP/My Projects/imageAssetMacroMagicWIP/game/data/FPSGameplay/art/shapes/weapons/Grenade/Grenade2_Diff.dds" />

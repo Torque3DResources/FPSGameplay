@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_ProxMine_Swim_BackwardDAE)
 {
-   baseShape = "./PlayerAnim_ProxMine_Swim_Backward.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_ProxMine_Swim_Backward";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };

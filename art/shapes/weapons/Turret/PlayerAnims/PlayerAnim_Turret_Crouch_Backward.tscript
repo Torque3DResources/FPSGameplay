@@ -22,7 +22,7 @@
 
 singleton TSShapeConstructor(PlayerAnim_Turret_Crouch_BackwardDAE)
 {
-   baseShape = "./PlayerAnim_Turret_Crouch_Backward.dae";
+   baseShapeAsset = "FPSGameplay:PlayerAnim_Turret_Crouch_Backward";
    neverImport = "EnvironmentAmbientLight";
    loadLights = "0";
 };
