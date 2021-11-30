@@ -1,32 +1,61 @@
 
+
 singleton Material(defaultTree_bark_material)
 {
-   mapTo = "defaulttree_bark-material";
-   DiffuseMap[0] = "canopytree_bark_diffuse";
-   roughness[0] = "10";
-   translucent = "1";
+	mapTo = "defaulttree_bark-material";
+
+	diffuseMapAsset[0] = "FPSGameplay:defaulttree_bark_diffuse_image";
+	normalMapAsset[0] = "FPSGameplay:defaulttree_bark_normal_specular_image";
+	specularMap[0] = "";
+
+	diffuseColor[0] = "1 1 1 1";
+	specular[0] = "0.9 0.9 0.9 1";
+	specularPower[0] = 10;
+
+	doubleSided = false;
+	translucent = false;
+	translucentBlendOp = "None";
+   pixelSpecular[0] = "1";
 };
 
 singleton Material(defaulttree_material)
 {
-   mapTo = "defaulttree-material";
-   DiffuseMap[0] = "canopytree_diffuse_transparency";
-   roughness[0] = "10";
+	mapTo = "defaulttree-material";
+
+	diffuseMapAsset[0] = "FPSGameplay:defaulttree_diffuse_transparency_image";
+	normalMapAsset[0] = "FPSGameplay:defaulttree_normal_specular_image";
+	specularMap[0] = "";
+
+	diffuseColor[0] = "1 1 1 1";
+	specular[0] = "0.9 0.9 0.9 1";
+	specularPower[0] = 10;
+
+	doubleSided = false;
+	translucent = false;
+	translucentBlendOp = "None";
+   pixelSpecular[0] = "1";
+   alphaTest = "1";
+   alphaRef = "127";
+};
+
+singleton Material(defaultTree_fronds_material)
+{
+   mapTo = "defaulttree_fronds-material";
+   diffuseMapAsset[0] = "FPSGameplay:defaulttree_frond_diffuse_transparency_image";
+   normalMapAsset[0] = "FPSGameplay:defaulttree_frond_normal_specular_image";
+   specular[0] = "0.9 0.9 0.9 1";
+   specularPower[0] = "10";
+   pixelSpecular[0] = "1";
    translucentBlendOp = "None";
+   alphaTest = "1";
+   alphaRef = "114";
+   translucent = "1";
 };
 
 singleton Material(defaulttree_ColorEffectR27G177B88_material)
 {
    mapTo = "ColorEffectR27G177B88-material";
    diffuseColor[0] = "0.105882 0.694118 0.345098 1";
-   roughness[0] = "10";
-   translucentBlendOp = "None";
-};
-
-singleton Material(defaultTree_fronds_material)
-{
-   mapTo = "defaulttree_fronds-material";
-   DiffuseMap[0] = "canopytree_frond_diffuse_transparency";
-   roughness[0] = "10";
+   specularPower[0] = "10";
    translucentBlendOp = "None";
 };
