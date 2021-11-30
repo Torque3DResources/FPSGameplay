@@ -413,7 +413,7 @@ datablock AITurretShapeData(DeployableTurret : AITurret)
    simpleServerCollision = false;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'turret.png';
+   PreviewImage = 'turret';
    pickUpName = "a deployable turret";
    description = "Deployable Turret";
    image = DeployableTurretImage;

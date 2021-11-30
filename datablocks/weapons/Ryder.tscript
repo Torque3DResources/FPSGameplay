@@ -127,8 +127,8 @@ datablock ItemData(Ryder)
    mass = 1;
    elasticity = 0.2;
    friction = 0.6;
-   emap = true;
-   PreviewImage = 'ryder.png';
+   emap = 1;
+   PreviewImage = 'ryder';
 
    // Dynamic properties defined by the scripts
    pickUpName = "Ryder pistol";

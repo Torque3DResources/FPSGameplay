@@ -73,7 +73,7 @@ datablock ProximityMineData( ProxMine )
    maxInventory = 20;
    image = ProxMineImage;
 
-   previewImage = 'mine.png';
+   previewImage = 'mine';
    reticle = 'blank';
    zoomReticle = 'blank';
 

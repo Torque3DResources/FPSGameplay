@@ -311,7 +311,7 @@ datablock ItemData(Lurker)
    emap = true;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'lurker.png';
+   PreviewImage = 'lurker';
    pickUpName = "Lurker rifle";
    description = "Lurker";
    image = LurkerWeaponImage;
@@ -593,7 +593,7 @@ datablock ItemData(LurkerGrenadeLauncher)
    emap = true;
 
    // Dynamic properties defined by the scripts
-   PreviewImage = 'lurker.png';
+   PreviewImage = 'lurker';
    pickUpName = "a Lurker grenade launcher";
    description = "Lurker Grenade Launcher";
    image = LurkerGrenadeLauncherImage;

@@ -79,7 +79,7 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
    else
    {
       WeaponHUD.setVisible(true);//PreviewImage.setVisible(true);
-      PreviewImage.setbitmap("data/FPSGameplay/art/gui/weaponHud/"@ detag(%preview));
+      PreviewImage.setbitmap("FPSGameplay:"@ detag(%preview) @"_image");
    }
 
    if (%ret $= "")
@@ -87,7 +87,7 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
    else
    {
       Reticle.setVisible(true);
-      Reticle.setbitmap("data/FPSGameplay/art/gui/weaponHud/"@ detag(%ret));
+      Reticle.setbitmap("FPSGameplay:"@ detag(%ret) @"_image");
    }
 
    if (isObject(ZoomReticle))
@@ -98,7 +98,7 @@ function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInC
       }
       else
       {
-         ZoomReticle.setBitmap("data/FPSGameplay/art/gui/weaponHud/"@ detag(%zoomRet));
+         ZoomReticle.setBitmap("FPSGameplay:"@ detag(%zoomRet) @"_image");
       }
    }
 }
