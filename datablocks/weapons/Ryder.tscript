@@ -217,7 +217,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 1.5;
    stateSequence[1]                 = "switch_in";
-   stateSound[1]                    = RyderSwitchinSound;
+   stateSoundAsset[1]                    = "FPSGameplay:RyderSwitchinSound";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";
@@ -260,7 +260,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateEmitter[4]                  = GunFireSmokeEmitter;
    stateEmitterTime[4]              = 0.025;
    stateEjectShell[4]               = true;
-   stateSound[4]                    = RyderFireSound;
+   stateSoundAsset[4]                    = "FPSGameplay:RyderFireSound";
 
    // Wait for the player to release the trigger
    stateName[5]                     = "WaitForRelease";
@@ -324,7 +324,7 @@ datablock ShapeBaseImageData(RyderWeaponImage)
    stateSequence[10]                 = "reload";
    stateShapeSequence[10]            = "Reload";
    stateScaleShapeSequence[10]       = true;
-   stateSound[10]                    = RyderReloadSound;
+   stateSoundAsset[10]                    = "FPSGameplay:RyderReloadSound";
 
    // Start Sprinting
    stateName[11]                    = "SprintEnter";

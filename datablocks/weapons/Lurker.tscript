@@ -63,7 +63,7 @@ datablock SFXPlayList(LurkerFireSoundList)
    // Use a looped description so the list playback will loop.
    description = AudioClose3D;
 
-   track[ 0 ] = LurkerFireSound;
+   trackAsset[ 0 ] = "FPSGameplay:LurkerFireSound";
 };
 
 /*datablock SFXProfile(BulletImpactSound)
@@ -398,7 +398,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 0.5;
    stateSequence[1]                 = "switch_in";
-   stateSound[1]                    = LurkerSwitchinSound;
+   stateSoundAsset[1]                    = "FPSGameplay:LurkerSwitchinSound";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";
@@ -423,7 +423,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    stateTransitionOnNoAmmo[3]       = "NoAmmo";
    stateTransitionOnTriggerDown[3]  = "Fire";
    stateSequence[3]                 = "idle_fidget1";
-   stateSound[3]                    = LurkerIdleSound;
+   stateSoundAsset[3]                    = "FPSGameplay:LurkerIdleSound";
 
    // Ready to fire with player moving
    stateName[4]                     = "ReadyMotion";
@@ -452,7 +452,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    stateSequenceNeverTransition[5]  = true;
    stateSequenceRandomFlash[5]      = true;        // use muzzle flash sequence
    stateScript[5]                   = "onFire";
-   stateSound[5]                    = LurkerFireSoundList;
+   stateSoundAsset[5]                    = "Core_Rendering:NoMaterial";
    stateEmitter[5]                  = GunFireSmokeEmitter;
    stateEmitterTime[5]              = 0.025;
 
@@ -512,7 +512,7 @@ datablock ShapeBaseImageData(LurkerWeaponImage)
    stateSequence[10]                 = "reload";
    stateShapeSequence[10]            = "Reload";
    stateScaleShapeSequence[10]       = true;
-   stateSound[10]                    = LurkerReloadSound;
+   stateSoundAsset[10]                    = "FPSGameplay:LurkerReloadSound";
 
    // Start Sprinting
    stateName[11]                    = "SprintEnter";
@@ -669,7 +669,7 @@ datablock ShapeBaseImageData(LurkerGrenadeLauncherImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 0.5;
    stateSequence[1]                 = "switch_in";
-   stateSound[1]                    = LurkerSwitchinSound;
+   stateSoundAsset[1]                    = "FPSGameplay:LurkerSwitchinSound";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";
@@ -694,7 +694,7 @@ datablock ShapeBaseImageData(LurkerGrenadeLauncherImage)
    stateTransitionOnNoAmmo[3]       = "NoAmmo";
    stateTransitionOnTriggerDown[3]  = "Fire";
    stateSequence[3]                 = "idle_fidget1";
-   stateSound[3]                    = LurkerIdleSound;
+   stateSoundAsset[3]                    = "FPSGameplay:LurkerIdleSound";
 
    // Ready to fire with player moving
    stateName[4]                     = "ReadyMotion";
@@ -723,7 +723,7 @@ datablock ShapeBaseImageData(LurkerGrenadeLauncherImage)
    stateSequenceNeverTransition[5]  = true;
    stateSequenceRandomFlash[5]      = true;        // use muzzle flash sequence
    stateScript[5]                   = "onFire";
-   stateSound[5]                    = LurkerGrenadeFireSound;
+   stateSoundAsset[5]                    = "FPSGameplay:LurkerGrenadeFireSound";
    stateEmitter[5]                  = GunFireSmokeEmitter;
    stateEmitterTime[5]              = 0.025;
    stateEjectShell[5]               = true;

@@ -249,7 +249,7 @@ datablock ShapeBaseImageData(AITurretHeadImage)
    stateSequence[3]                 = "fire";
    stateSequenceRandomFlash[3]      = true;        // use muzzle flash sequence
    stateScript[3]                   = "onFire";
-   stateSound[3]                    = TurretFireSound;
+   stateSoundAsset[3]                    = "FPSGameplay:TurretFireSound";
    stateEmitter[3]                  = GunFireSmokeEmitter;
    stateEmitterTime[3]              = 0.025;
    stateEjectShell[3]               = true;
@@ -470,7 +470,7 @@ datablock ShapeBaseImageData(DeployableTurretImage)
    stateTransitionOnTimeout[1]      = "Ready";
    stateTimeoutValue[1]             = 0.66;
    stateSequence[1]                 = "switch_in";
-   stateSound[1]                    = TurretSwitchinSound;
+   stateSoundAsset[1]                    = "FPSGameplay:TurretSwitchinSound";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";

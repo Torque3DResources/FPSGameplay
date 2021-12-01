@@ -57,7 +57,7 @@ datablock ProximityMineData( ProxMine )
 
    // ProximityMineData fields
    armingDelay = 3.5;
-   armingSound = MineArmedSound;
+   ArmSoundAsset = "FPSGameplay:MineArmedSound";
 
    autoTriggerDelay = 0;
    triggerOnOwner = true;
@@ -137,7 +137,7 @@ datablock ShapeBaseImageData( ProxMineImage )
    stateTimeoutValue[1]             = 3.0;
    stateSequence[1]                 = "switch_in";
    stateShapeSequence[1]            = "Reload";
-   stateSound[1]                    = MineSwitchinSound;
+   stateSoundAsset[1]                    = "FPSGameplay:MineSwitchinSound";
 
    // Ready to fire, just waiting for the trigger
    stateName[2]                     = "Ready";
@@ -190,7 +190,7 @@ datablock ShapeBaseImageData( ProxMineImage )
    stateTimeoutValue[6]             = 3.0;
    stateSequence[6]                 = "switch_in";
    stateShapeSequence[6]            = "Reload";
-   stateSound[6]                    = MineSwitchinSound;
+   stateSoundAsset[6]                    = "FPSGameplay:MineSwitchinSound";
 
    // Start Sprinting
    stateName[7]                     = "SprintEnter";

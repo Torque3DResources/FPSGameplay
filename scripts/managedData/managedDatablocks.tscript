@@ -1,0 +1,8 @@
+
+datablock RigidShapeData(aRock)
+{
+   dragForce = "0.01";
+   ShapeAsset = "FPSGameplay:boulder";
+   DebrisShapeAsset = "FPSGameplay:boulder";
+   cameraMaxDist = "0.01";
+};
