@@ -90,7 +90,7 @@ function ShapeBase::throw(%this, %data, %amount)
       if (%obj)
       {
          %this.throwObject(%obj);
-         serverPlay3D(ThrowSnd, %this.getTransform());
+         ServerPlaySound("FPSGameplay:ThrowSnd", %this.getPosition());
          return true;
       }
    }

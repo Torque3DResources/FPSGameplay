@@ -34,7 +34,7 @@ datablock SFXProfile(HeavyRainSound)
 
 datablock PrecipitationData(HeavyRain)
 {
-   soundProfile = "HeavyRainSound";
+   soundAsset = "FPSGameplay:HeavyRainSound";
 
    dropAsset = "FPSGameplay:rain_image";
    splashAsset = "FPSGameplay:water_splash_image";
@@ -79,10 +79,10 @@ datablock SFXProfile(ThunderCrash4Sound)
 
 datablock LightningData(DefaultStorm)
 {
-   thunderSounds[0] = ThunderCrash1Sound;
-   thunderSounds[1] = ThunderCrash2Sound;
-   thunderSounds[2] = ThunderCrash3Sound;
-   thunderSounds[3] = ThunderCrash4Sound;
+   ThunderSoundAsset[0] = "FPSGameplay:ThunderCrash1Sound";
+   ThunderSoundAsset[1] = "FPSGameplay:ThunderCrash2Sound";
+   ThunderSoundAsset[2] = "FPSGameplay:ThunderCrash3Sound";
+   ThunderSoundAsset[3] = "FPSGameplay:ThunderCrash4Sound";
    
    strikeTextures[0] = "data/FPSGameplay/art/environment/lightning";
 };

@@ -221,7 +221,7 @@ datablock ShapeBaseImageData(TurretImage)
    stateSequence[3]                 = "Fire";
    stateSequenceRandomFlash[3]      = true;        // use muzzle flash sequence
    stateScript[3]                   = "onFire";
-   stateSound[3]                    = CheetahTurretFireSound;
+   stateSoundAsset[3]                    = "FPSGameplay:CheetahTurretFireSound";
    stateEmitter[3]                  = TurretFireSmokeEmitter;
    stateEmitterTime[3]              = 0.025;
 
@@ -370,10 +370,10 @@ datablock WheeledVehicleData(CheetahCar)
    jetEnergyDrain = 2;
 
    // Sounds
-   engineSound = cheetahEngine;
-   //squealSound = cheetahSqueal;
-   softImpactSound = softImpact;
-   hardImpactSound = hardImpact;
+   engineSoundAsset = "FPSGameplay:cheetahEngine";
+   //squealSoundAsset = "FPSGameplay:cheetahSqueal";
+   softImpactSoundAsset = "FPSGameplay:softImpact";
+   hardImpactSoundAsset = "FPSGameplay:hardImpact";
 
    // Dynamic fields accessed via script
    nameTag = 'Cheetah';
