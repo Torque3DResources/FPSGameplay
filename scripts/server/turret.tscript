@@ -219,7 +219,7 @@ function TurretShapeData::setMountTurret(%this, %turret, %player)
       {
          //echo("\c4Mount Node: "@ %node);
          %turret.mountObject(%player, %node);
-         //%player.playAudio(0, MountVehicleSound);
+         //%player.playAudio(0, "FPSGameplay:MountVehicleSound");
          %player.mVehicle = %turret;
       }
    }
@@ -368,7 +368,7 @@ function AITurretShapeData::onDestroyed(%this, %turret, %lastState)
    // This method is invoked by the ShapeBase code whenever the
    // object's damage state changes.
 
-   %turret.playAudio(0, TurretDestroyed);
+   %turret.playAudio(0, "FPSGameplay:TurretDestroyed");
    %turret.setAllGunsFiring(false);
    %turret.resetTarget();
    %turret.setTurretState( "Destroyed", true );
@@ -387,7 +387,7 @@ function AITurretShapeData::OnScanning(%this, %turret)
    //echo("AITurretShapeData::OnScanning: " SPC %this SPC %turret);
 
    %turret.startScanForTargets();
-   %turret.playAudio(0, TurretScanningSound);
+   %turret.playAudio(0, "FPSGameplay:TurretScanningSound");
 }
 
 function AITurretShapeData::OnTarget(%this, %turret)
@@ -395,7 +395,7 @@ function AITurretShapeData::OnTarget(%this, %turret)
    //echo("AITurretShapeData::OnTarget: " SPC %this SPC %turret);
 
    %turret.startTrackingTarget();
-   %turret.playAudio(0, TargetAquiredSound);
+   %turret.playAudio(0, "FPSGameplay:TargetAquiredSound");
 }
 
 function AITurretShapeData::OnNoTarget(%this, %turret)
@@ -404,7 +404,7 @@ function AITurretShapeData::OnNoTarget(%this, %turret)
 
    %turret.setAllGunsFiring(false);
    %turret.recenterTurret();
-   %turret.playAudio(0, TargetLostSound);
+   %turret.playAudio(0, "FPSGameplay:TargetLostSound");
 }
 
 function AITurretShapeData::OnFiring(%this, %turret)
@@ -418,7 +418,7 @@ function AITurretShapeData::OnThrown(%this, %turret)
 {
    //echo("AITurretShapeData::OnThrown: " SPC %this SPC %turret);
 
-   %turret.playAudio(0, TurretThrown);
+   %turret.playAudio(0, "FPSGameplay:TurretThrown");
 }
 
 function AITurretShapeData::OnDeploy(%this, %turret)
@@ -431,7 +431,7 @@ function AITurretShapeData::OnDeploy(%this, %turret)
       %turret.setImageLoaded(%i, true);
    }
    
-   %turret.playAudio(0, TurretActivatedSound);
+   %turret.playAudio(0, "FPSGameplay:TurretActivatedSound");
 }
 
 
