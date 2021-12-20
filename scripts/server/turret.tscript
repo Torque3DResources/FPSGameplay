@@ -368,7 +368,7 @@ function AITurretShapeData::onDestroyed(%this, %turret, %lastState)
    // This method is invoked by the ShapeBase code whenever the
    // object's damage state changes.
 
-   %turret.playAudio(0, "FPSGameplay:TurretDestroyed");
+   %turret.playAudio(0, "FPSGameplay:GrenadeExplosionSound");
    %turret.setAllGunsFiring(false);
    %turret.resetTarget();
    %turret.setTurretState( "Destroyed", true );
@@ -395,7 +395,7 @@ function AITurretShapeData::OnTarget(%this, %turret)
    //echo("AITurretShapeData::OnTarget: " SPC %this SPC %turret);
 
    %turret.startTrackingTarget();
-   %turret.playAudio(0, "FPSGameplay:TargetAquiredSound");
+   %turret.playAudio(0, "FPSGameplay:MineTriggeredSound");
 }
 
 function AITurretShapeData::OnNoTarget(%this, %turret)
@@ -404,7 +404,7 @@ function AITurretShapeData::OnNoTarget(%this, %turret)
 
    %turret.setAllGunsFiring(false);
    %turret.recenterTurret();
-   %turret.playAudio(0, "FPSGameplay:TargetLostSound");
+   %turret.playAudio(0, "FPSGameplay:MineArmedSound");
 }
 
 function AITurretShapeData::OnFiring(%this, %turret)
@@ -418,7 +418,7 @@ function AITurretShapeData::OnThrown(%this, %turret)
 {
    //echo("AITurretShapeData::OnThrown: " SPC %this SPC %turret);
 
-   %turret.playAudio(0, "FPSGameplay:TurretThrown");
+   %turret.playAudio(0, "FPSGameplay:ThrowSnd");
 }
 
 function AITurretShapeData::OnDeploy(%this, %turret)
