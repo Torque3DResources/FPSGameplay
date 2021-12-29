@@ -446,7 +446,7 @@ datablock ParticleEmitterData(LiftoffDustEmitter)
 datablock DecalData(PlayerFootprint)
 {
    size = 0.4;
-   material = CommonPlayerFootprint;
+   materialAsset = "FPSGameplay:CommonPlayerFootprint";
 };
 
 datablock DebrisData( PlayerDebris )
@@ -619,13 +619,13 @@ datablock PlayerData(DefaultPlayerData)
    //NOTE:  some sounds commented out until wav's are available
 
    // Footstep Sounds
-   FootSoftSound        = FootLightSoftSound;
-   FootHardSound        = FootLightHardSound;
-   FootMetalSound       = FootLightMetalSound;
-   FootSnowSound        = FootLightSnowSound;
-   FootShallowSound     = FootLightShallowSplashSound;
-   FootWadingSound      = FootLightWadingSound;
-   FootUnderwaterSound  = FootLightUnderwaterSound;
+   FootSoftAsset        = "FPSGameplay:FootLightSoftSound";
+   FootHardAsset        = "FPSGameplay:FootLightHardSound";
+   FootMetalAsset       = "FPSGameplay:FootLightMetalSound";
+   FootSnowAsset        = "FPSGameplay:FootLightSnowSound";
+   FootShallowSplashAsset     = "FPSGameplay:FootLightShallowSplashSound";
+   FootWadingAsset      = "FPSGameplay:FootLightWadingSound";
+   FootUnderWaterAsset  = "FPSGameplay:FootLightUnderwaterSound";
 
    //FootBubblesSound     = FootLightBubblesSound;
    //movingBubblesSound   = ArmorMoveBubblesSound;
