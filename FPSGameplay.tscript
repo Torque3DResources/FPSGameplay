@@ -116,17 +116,16 @@ function FPSGameplay::initClient(%this)
     %this.queueExec("./scripts/client/recordings");
    
     %this.queueExec("./scripts/client/screenshot");
+    
+   //keybind scripts   
+   %this.queueExec("./scripts/client/defaultkeybinds");   
+   %prefPath = getPrefpath();
+   if(isScriptFile(%prefPath @ "/keybinds"))
+      exec(%prefPath @ "/keybinds");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)
 {
-   //client scripts
-   $KeybindPath = "./scripts/client/defaultkeybinds";
-   exec($KeybindPath);
-   
-   %prefPath = getPrefpath();
-   if(isScriptFile(%prefPath @ "/keybinds"))
-      exec(%prefPath @ "/keybinds");
 }
 
 function FPSGameplay::onDestroyClientConnection(%this)

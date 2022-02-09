@@ -20,9 +20,8 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-if ( isObject( moveMap ) )
-   moveMap.delete();
-new ActionMap(moveMap);
+if ( !isObject( moveMap ) )
+    new ActionMap(moveMap);
 
 //------------------------------------------------------------------------------
 // Non-remapable binds
@@ -131,26 +130,6 @@ moveMap.bind( gamepad, btn_x, toggleFirstPerson );
 moveMap.bindCmd(keyboard, "ctrl k", "commandToServer('suicide');", "");
 
 //------------------------------------------------------------------------------
-// Item manipulation
-//------------------------------------------------------------------------------
-moveMap.bindCmd(keyboard, "1", "commandToServer('use',\"Ryder\");", "");
-moveMap.bindCmd(keyboard, "2", "commandToServer('use',\"Lurker\");", "");
-moveMap.bindCmd(keyboard, "3", "commandToServer('use',\"LurkerGrenadeLauncher\");", "");
-moveMap.bindCmd(keyboard, "4", "commandToServer('use',\"ProxMine\");", "");
-moveMap.bindCmd(keyboard, "5", "commandToServer('use',\"DeployableTurret\");", "");
-
-moveMap.bindCmd(keyboard, "r", "commandToServer('reloadWeapon');", "");
-
-moveMap.bind(keyboard, 0, unmountWeapon);
-
-moveMap.bind(keyboard, "alt w", throwWeapon);
-moveMap.bind(keyboard, "alt a", tossAmmo);
-
-moveMap.bind(keyboard, q, nextWeapon);
-moveMap.bind(keyboard, "ctrl q", prevWeapon);
-moveMap.bind(mouse, "zaxis", mouseWheelWeaponCycle);
-
-//------------------------------------------------------------------------------
 // Message HUD functions
 //------------------------------------------------------------------------------
 moveMap.bind(keyboard, u, toggleMessageHud );
@@ -222,3 +201,6 @@ vehicleMap.bind( gamepad, btn_b, brake );
 vehicleMap.bind( gamepad, btn_x, movebackward );
 // bind exiting the vehicle to a button
 vehicleMap.bindCmd(gamepad, btn_y,"getout();","");
+
+
+moveMap.push();
