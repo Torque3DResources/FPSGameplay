@@ -655,7 +655,8 @@ datablock PlayerData(DefaultPlayerData)
 
    // Allowable Inventory Items
    mainWeapon = Ryder;
-
+   hasInventory = true;
+   
    maxInv[Lurker] = 1;
    maxInv[LurkerClip] = 20;
 

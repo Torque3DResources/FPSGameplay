@@ -116,3 +116,8 @@ function ProxMineImage::onFire( %this, %obj, %slot )
    // To fire a deployable mine is to throw it
    %obj.throw( %this.item );
 }
+
+function ProxMine::onCollision(%this, %obj, %col)
+{ 
+    %obj.explode();
+}
