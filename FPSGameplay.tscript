@@ -30,8 +30,6 @@ function FPSGameplay::initServer(%this)
    %this.queueExec("./scripts/server/centerPrint");
    %this.queueExec("./scripts/server/deathMatchGame");
    %this.queueExec("./scripts/server/health");
-   %this.queueExec("./scripts/server/inventory");
-   %this.queueExec("./scripts/server/item");
    %this.queueExec("./scripts/server/player");
    %this.queueExec("./scripts/server/aiPlayer");
    %this.queueExec("./scripts/server/projectile");
