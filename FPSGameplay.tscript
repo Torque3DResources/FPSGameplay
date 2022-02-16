@@ -45,7 +45,6 @@ function FPSGameplay::initServer(%this)
    %this.queueExec("./scripts/server/vehicle");
    %this.queueExec("./scripts/server/vehicleWheeled");
    %this.queueExec("./scripts/server/VolumetricFog");
-   %this.queueExec("./scripts/server/weapon");
    %this.queueExec("./scripts/server/physicsShape");
 }
 
@@ -74,15 +73,9 @@ function FPSGameplay::onCreateGameServer(%this)
    %this.registerDatablock("./datablocks/rigidShape");
    %this.registerDatablock("./datablocks/teleporter");
    %this.registerDatablock("./datablocks/triggers");
-   %this.registerDatablock("./datablocks/weapon");
    
    %this.registerDatablock("./datablocks/vehicles/cheetahCar");
    
-   %this.registerDatablock("./datablocks/weapons/grenadefx");
-   %this.registerDatablock("./datablocks/weapons/Lurker");
-   %this.registerDatablock("./datablocks/weapons/ProxMine");
-   %this.registerDatablock("./datablocks/weapons/Ryder");
-   %this.registerDatablock("./datablocks/weapons/Turret");
    
    if(physicsPluginPresent())
       %this.registerDatablock("./datablocks/physics");        

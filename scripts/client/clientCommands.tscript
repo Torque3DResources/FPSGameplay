@@ -44,64 +44,6 @@ function clientCmdSyncClock(%time)
    // or when a client joins a game in progress.
 }
 
-// ----------------------------------------------------------------------------
-// WeaponHUD
-// ----------------------------------------------------------------------------
-
-// Update the Ammo Counter with current ammo, if not any then hide the counter.
-function clientCmdSetAmmoAmountHud(%amount, %amountInClips)
-{
-   if (!%amount)
-      AmmoAmount.setVisible(false);
-   else
-   {
-      AmmoAmount.setVisible(true);
-      AmmoAmount.setText("Ammo: " @ %amount @ "/" @ %amountInClips);
-   }
-}
-
-// Here we update the Weapon Preview image & reticle for each weapon.  We also
-// update the Ammo Counter (just so we don't have to call it separately).
-// Passing an empty parameter ("") hides the HUD component.
-
-function clientCmdRefreshWeaponHUD(%amount, %preview, %ret, %zoomRet, %amountInClips)
-{
-   if (!%amount)
-      AmmoAmount.setVisible(false);
-   else
-   {
-      AmmoAmount.setVisible(true);
-      AmmoAmount.setText("Ammo: " @ %amount @ "/" @ %amountInClips);
-   }
-
-   if (%preview $= "")
-      WeaponHUD.setVisible(false);//PreviewImage.setVisible(false);
-   else
-   {
-      WeaponHUD.setVisible(true);//PreviewImage.setVisible(true);
-      PreviewImage.setbitmap("FPSGameplay:"@ detag(%preview) @"_image");
-   }
-
-   if (%ret $= "")
-      Reticle.setVisible(false);
-   else
-   {
-      Reticle.setVisible(true);
-      Reticle.setbitmap("FPSGameplay:"@ detag(%ret) @"_image");
-   }
-
-   if (isObject(ZoomReticle))
-   {
-      if (%zoomRet $= "")
-      {
-         ZoomReticle.setBitmap("");
-      }
-      else
-      {
-         ZoomReticle.setBitmap("FPSGameplay:"@ detag(%zoomRet) @"_image");
-      }
-   }
-}
 
 //-----------------------------------------------------------------------------
 // Damage Direction Indicator
@@ -152,29 +94,5 @@ function clientCmdtoggleVehicleMap(%toggle)
    {
       vehicleMap.pop();
       moveMap.push();
-   }
-}
-
-// ----------------------------------------------------------------------------
-// Turret Support
-// ----------------------------------------------------------------------------
-
-// Call by the Turret class when a player mounts or unmounts it.
-// %turret = The turret that was mounted
-// %player = The player doing the mounting
-// %mounted = True if the turret was mounted, false if it was unmounted
-function turretMountCallback(%turret, %player, %mounted)
-{
-   //echo ( "\c4turretMountCallback -> " @ %mounted );
-
-   if (%mounted)
-   {
-      // Push the action map
-      turretMap.push();
-   }
-   else
-   {
-      // Pop the action map
-      turretMap.pop();
    }
 }
