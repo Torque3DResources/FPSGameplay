@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(ColorEffectR177G148B27_material) {
-   mapTo="ColorEffectR177G148B27_material";
-};
-//--- OBJECT WRITE END ---
