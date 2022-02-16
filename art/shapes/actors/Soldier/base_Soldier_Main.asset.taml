@@ -1,1 +1,8 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="base_Soldier_Main" scriptFile="@assetFile=base_Soldier_Main.tscript" materialDefinitionName="base_Soldier_Main" imageMap0="@asset=FPSGameplay:Soldier_Soldier_Dif_image" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier"/>
+<MaterialAsset
+    AssetName="base_Soldier_Main"
+    materialDefinitionName="base_Soldier_Main"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier/materials.tscript">
+    <Material
+        Name="base_Soldier_Main"
+        mapTo="base_Soldier_Main"/>
+</MaterialAsset>

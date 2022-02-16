@@ -1,1 +1,13 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="base_Soldier_Dazzle" scriptFile="@assetFile=base_Soldier_Dazzle.tscript" materialDefinitionName="base_Soldier_Dazzle" imageMap0="@asset=FPSGameplay:Soldier_Soldier_Dazzle_image" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier"/>
+<MaterialAsset
+    AssetName="base_Soldier_Dazzle"
+    materialDefinitionName="base_Soldier_Dazzle"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier/materials.tscript">
+    <Material
+        Name="base_Soldier_Dazzle"
+        mapTo="base_Soldier_Dazzle">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="White"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

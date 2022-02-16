@@ -486,7 +486,7 @@ datablock PlayerData(DefaultPlayerData)
    computeCRC = false;
 
    // Third person shape
-   shapeAsset = "FPSGameplay:soldier_rigged";
+   shapeAsset = "FPSGameplay:soldier";
    cameraMaxDist = 3;
    allowImageStateAnimation = true;
 

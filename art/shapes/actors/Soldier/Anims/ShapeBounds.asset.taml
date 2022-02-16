@@ -1,0 +1,8 @@
+<MaterialAsset
+    AssetName="ShapeBounds"
+    materialDefinitionName="ShapeBounds"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier/materials.tscript">
+    <Material
+        Name="ShapeBounds"
+        mapTo="ShapeBounds"/>
+</MaterialAsset>

@@ -1,1 +1,3 @@
-<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="Soldier_Spec_image" imageFile="@assetFile=Soldier_Spec.dds" UseMips="true" isHDRImage="false" imageType="Albedo"/>
+<ImageAsset
+    AssetName="Soldier_Spec_image"
+    imageFile="@assetFile=Soldier_Spec.dds"/>

@@ -1,0 +1,7 @@
+<ShapeAsset
+    AssetName="Soldier"
+    fileName="@assetFile=soldier.DAE"
+    constuctorFileName="@assetFile=soldier.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"
+    materialSlot1="@asset=FPSGameplay:base_Soldier_Dazzle"
+    materialSlot2="@asset=FPSGameplay:base_Soldier_Main"/>

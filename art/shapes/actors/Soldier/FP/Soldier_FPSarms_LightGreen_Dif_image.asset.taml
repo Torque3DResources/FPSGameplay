@@ -1,1 +1,3 @@
-<ImageAsset canSave="true" canSaveDynamicFields="true" AssetName="Soldier_FPSarms_LightGreen_Dif_image" imageFile="@assetFile=Soldier_FPSarms_LightGreen_Dif.dds" UseMips="true" isHDRImage="false" imageType="Albedo"/>
+<ImageAsset
+    AssetName="Soldier_FPSarms_LightGreen_Dif_image"
+    imageFile="@assetFile=Soldier_FPSarms_LightGreen_Dif.dds"/>

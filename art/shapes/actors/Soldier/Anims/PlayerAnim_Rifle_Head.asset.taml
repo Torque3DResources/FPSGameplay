@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Rifle_Head"
+    fileName="@assetFile=PlayerAnim_Rifle_Head.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Rifle_Head.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

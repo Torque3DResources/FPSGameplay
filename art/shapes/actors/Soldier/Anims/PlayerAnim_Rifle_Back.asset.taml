@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Rifle_Back"
+    fileName="@assetFile=PlayerAnim_Rifle_Back.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Rifle_Back.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

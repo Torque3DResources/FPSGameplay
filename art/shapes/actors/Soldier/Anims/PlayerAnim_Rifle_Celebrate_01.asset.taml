@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Rifle_Celebrate_01"
+    fileName="@assetFile=PlayerAnim_Rifle_Celebrate_01.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Rifle_Celebrate_01.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Rifle_Run"
+    fileName="@assetFile=PlayerAnim_Rifle_Run.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Rifle_Run.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

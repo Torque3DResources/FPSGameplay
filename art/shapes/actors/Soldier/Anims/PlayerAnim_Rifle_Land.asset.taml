@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Rifle_Land"
+    fileName="@assetFile=PlayerAnim_Rifle_Land.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Rifle_Land.tscript"
+    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>
