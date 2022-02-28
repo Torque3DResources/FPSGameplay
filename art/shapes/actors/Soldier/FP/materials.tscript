@@ -20,65 +20,15 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-singleton Material(Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "base_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:FP_SoldierArms_D_image";
-   specular[0] = "0.9 0.9 0.9 1";
-   specularPower[0] = "10";
-   translucentBlendOp = "None";
-   normalMapAsset[0] = "FPSGameplay:FP_SoldierArms_N_image";
-   specularMap[0] = "data/FPSGameplay/art/shapes/actors/Soldier/FP/FP_SoldierArms_S.dds";
-};
 
 //-----------------------------------------------------------------------------
 // Soldier Skins
 // Add names to PlayerData.availableSkins list in art/datablock/player.cs
 
-singleton Material(Mat_DarkBlue_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "DarkBlue_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_DarkBlue_Dif_image";
-};
 
-singleton Material(Mat_DarkGreen_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "DarkGreen_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_DarkGreen_Dif_image";
-};
 
-singleton Material(Mat_LightGreen_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "LightGreen_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_LightGreen_Dif_image";
-};
 
-singleton Material(Mat_Orange_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "Orange_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_Orange_Dif_image";
-};
 
-singleton Material(Mat_Red_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "Red_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_Red_Dif_image";
-};
 
-singleton Material(Mat_Teal_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "Teal_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_Teal_Dif_image";
-};
 
-singleton Material(Mat_Violet_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "Violet_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_Violet_Dif_image";
-};
 
-singleton Material(Mat_Yellow_FP_Soldier_Arms_Main : Mat_FP_Soldier_Arms_Main)
-{
-   mapTo = "Yellow_FP_Soldier_Arms_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Soldier_FPSarms_Yellow_Dif_image";
-};

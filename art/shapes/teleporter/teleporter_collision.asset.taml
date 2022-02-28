@@ -1,1 +1,16 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="teleporter_collision" scriptFile="@assetFile=materials" materialDefinitionName="teleporter_collision" VersionId="1"/>
+<MaterialAsset
+    AssetName="teleporter_collision"
+    materialDefinitionName="teleporter_collision"
+    VersionId="1">
+    <Material
+        Name="teleporter_collision"
+        mapTo="collision"
+        translucentBlendOp="None"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="0.588235 0.588235 0.588235 1"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

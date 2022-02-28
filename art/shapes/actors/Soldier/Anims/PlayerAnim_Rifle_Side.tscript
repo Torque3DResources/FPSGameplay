@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Sidedae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_SideDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Side", "200", "219");
+}

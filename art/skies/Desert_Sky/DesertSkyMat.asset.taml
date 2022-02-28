@@ -1,1 +1,14 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="DesertSkyMat" scriptFile="@assetFile=materials" materialDefinitionName="DesertSkyMat" VersionId="1"/>
+<MaterialAsset
+    AssetName="DesertSkyMat"
+    materialDefinitionName="DesertSkyMat"
+    VersionId="1">
+    <Material
+        Name="DesertSkyMat"
+        cubemap="DesertSkyCubemap"
+        materialTag0="Skies">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="1 1 1 1"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

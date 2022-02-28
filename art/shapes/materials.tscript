@@ -20,48 +20,8 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-singleton Material(OctahedronMat)
-{
-   mapTo = "green";
 
-   diffuseMapAsset[0] = "FPSGameplay:camera_image";
-
-   translucent = "1";
-   translucentBlendOp = "LerpAlpha";
-   emissive = "0";
-   castShadows = "0";
-
-   colorMultiply[0] = "0 1 0 1";
-};
-
-singleton Material(SimpleConeMat)
-{
-   mapTo = "blue";
-
-   diffuseMapAsset[0] = "FPSGameplay:blue_image";
-   translucent = "0";
-   emissive = "1";
-   castShadows = "0";
-};
 
 //--- camera.dts MATERIALS BEGIN ---
-singleton Material(CameraMat)
-{
-   mapTo = "pasted__phongE1";
-
-	diffuseMapAsset[0] = "FPSGameplay:camera_image";
-
-	diffuseColor[0] = "0 0.627451 1 1";
-	specular[0] = "1 1 1 1";
-	specularPower[0] = 211;
-	pixelSpecular[0] = 1;
-	emissive[0] = 1;
-
-	doubleSided = 1;
-	translucent = true;
-	translucentBlendOp = "LerpAlpha";
-   castShadows = false;
-   materialTag0 = "Miscellaneous";
-};
 
 //--- camera.dts MATERIALS END ---

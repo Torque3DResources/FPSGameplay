@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Headdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_HeadDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Head", "900", "910");
+}

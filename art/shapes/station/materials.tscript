@@ -20,26 +20,8 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-new Material(Structure_wall)
-{
-   mapTo = "building01walls";
-   diffuseMapAsset[0] = "FPSGameplay:building01walls_image";
-   //emissive[0] = true;
-};
 
 
-new Material(Structure_grid)
-{
-   mapTo = "grid";
-   diffuseMapAsset[0] = "FPSGameplay:station_grid_image";
-   //emissive[0] = true;
-};
 
 
-new Material(Structure_plate)
-{
-   mapTo = "plate";
-   diffuseMapAsset[0] = "FPSGameplay:plate_image";
-   //emissive[0] = true;
-};
 

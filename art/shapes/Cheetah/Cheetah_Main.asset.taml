@@ -1,1 +1,19 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_Main" scriptFile="@assetFile=materials" materialDefinitionName="Cheetah_Main" VersionId="1"/>
+<MaterialAsset
+    AssetName="Cheetah_Main"
+    materialDefinitionName="Cheetah_Main"
+    VersionId="1">
+    <Material
+        Name="Cheetah_Main"
+        mapTo="Cheetah_Main"
+        translucentBlendOp="None"
+        castDynamicShadows="1"
+        specular0="0.9 0.9 0.9 1"
+        specularMap0="data/FPSGameplay/art/shapes/Cheetah/Cheetah_S"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:Cheetah_D_image"
+                NormalMapAsset="FPSGameplay:Cheetah_N_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

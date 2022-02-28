@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Swim_Rootdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Swim_RootDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Swim_Root", "1400", "1459");
+}

@@ -1,1 +1,15 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="grass1" scriptFile="@assetFile=materials" materialDefinitionName="grass1" VersionId="1"/>
+<MaterialAsset
+    AssetName="grass1"
+    materialDefinitionName="grass1"
+    VersionId="1">
+    <TerrainMaterial
+        Name="grass1"
+        DiffuseMapAsset="FPSGameplay:Example_grass1_image"
+        diffuseSize="200"
+        DetailMapAsset="FPSGameplay:grass1_d_image"
+        detailSize="10"
+        internalName="grass1"
+        detailBrightness="1"
+        Enabled="1"
+        isManaged="1"/>
+</MaterialAsset>

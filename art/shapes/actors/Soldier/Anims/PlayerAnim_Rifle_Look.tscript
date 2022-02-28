@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Lookdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_LookDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Look", "950", "960");
+}

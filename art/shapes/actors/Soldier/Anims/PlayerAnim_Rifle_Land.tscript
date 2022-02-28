@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Landdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_LandDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Land", "1100", "1110");
+}

@@ -1,1 +1,8 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="portal_top" scriptFile="@assetFile=portal_top.tscript" materialDefinitionName="portal_top" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/portal/portal_top"/>
+<MaterialAsset
+    AssetName="portal_top"
+    materialDefinitionName="portal_top"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/portal/portal_top">
+    <Material
+        Name="portal_top"
+        mapTo="portal_top"/>
+</MaterialAsset>

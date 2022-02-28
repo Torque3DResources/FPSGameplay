@@ -1,5 +1,2 @@
 //--- OBJECT WRITE BEGIN ---
-singleton Material(NoMat) {
-   mapTo="NoMat";
-};
 //--- OBJECT WRITE END ---

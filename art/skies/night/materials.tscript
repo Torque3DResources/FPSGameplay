@@ -30,24 +30,5 @@ singleton CubemapData( NightCubemap )
    cubeMapFaceAsset[5] = "FPSGameplay:night_skybox_6_image";
 };
 
-singleton Material( NightSkyMat )
-{
-   cubemap = NightCubemap;
-   materialTag0 = "Skies";
-};
 
-singleton Material( Moon_Glow_Mat )
-{
-   diffuseMapAsset = "FPSGameplay:moon_wglow_image";
-   emissive = true;
-   translucent = true;
-   vertColor[ 0 ] = true;
-};
 
-singleton Material( Moon_Mat )
-{
-   diffuseMapAsset = "FPSGameplay:moon_noglow_image";
-   emissive = true;
-   translucent = true;
-   vertColor[ 0 ] = true;
-};

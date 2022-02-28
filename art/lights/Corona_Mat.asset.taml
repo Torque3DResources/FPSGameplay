@@ -1,1 +1,18 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Corona_Mat" scriptFile="@assetFile=materials" materialDefinitionName="Corona_Mat" VersionId="1"/>
+<MaterialAsset
+    AssetName="Corona_Mat"
+    materialDefinitionName="Corona_Mat"
+    VersionId="1">
+    <Material
+        Name="Corona_Mat"
+        mapTo="corona.png"
+        translucent="true"
+        materialTag0="FX">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:corona_image"
+                Emissive="true"/>
+            <Stages_beginarray
+                DiffuseColor="White"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

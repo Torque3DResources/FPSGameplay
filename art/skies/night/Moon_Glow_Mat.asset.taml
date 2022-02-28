@@ -1,1 +1,16 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Moon_Glow_Mat" scriptFile="@assetFile=materials" materialDefinitionName="Moon_Glow_Mat" VersionId="1"/>
+<MaterialAsset
+    AssetName="Moon_Glow_Mat"
+    materialDefinitionName="Moon_Glow_Mat"
+    VersionId="1">
+    <Material
+        Name="Moon_Glow_Mat"
+        mapTo="moon_wglow.png"
+        translucent="true">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:moon_wglow_image"
+                VertColor="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

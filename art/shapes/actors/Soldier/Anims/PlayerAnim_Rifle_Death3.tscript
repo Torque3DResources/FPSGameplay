@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Death3dae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Death3DAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Death3", "1280", "1320");
+}

@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Backdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Backdae::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Back", "250", "269");
+}

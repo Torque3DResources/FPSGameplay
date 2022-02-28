@@ -30,8 +30,3 @@ singleton CubemapData( DesertSkyCubemap )
    cubeMapFaceAsset[5] = "FPSGameplay:cubemap_skybox_6_image";
 };
 
-singleton Material( DesertSkyMat )
-{
-   cubemap = DesertSkyCubemap;
-   materialTag0 = "Skies";
-};

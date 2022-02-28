@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Celebrate_01dae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Celebrate_01DAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Celebrate_01", "2020", "2090");
+}

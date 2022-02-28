@@ -13,7 +13,3 @@ singleton CubemapData( BlankSkyCubemap )
    cubeMapFaceAsset[5] = "FPSGameplay:skybox_6_image";
 };
 
-singleton Material( BlankSkyMat )
-{
-   cubemap = BlankSkyCubemap;
-};

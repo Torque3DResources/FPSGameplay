@@ -1,1 +1,8 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="vialbase" scriptFile="@assetFile=vialBase.tscript" materialDefinitionName="vialbase" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/vialBase"/>
+<MaterialAsset
+    AssetName="vialbase"
+    materialDefinitionName="vialbase"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/vialBase">
+    <Material
+        Name="vialbase"
+        mapTo="vialbase"/>
+</MaterialAsset>

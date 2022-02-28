@@ -1,0 +1,16 @@
+<MaterialAsset
+    AssetName="soldier_rigged_BoundsMaterial"
+    materialDefinitionName="soldier_rigged_BoundsMaterial"
+    VersionId="1">
+    <Material
+        Name="soldier_rigged_BoundsMaterial"
+        mapTo="BoundsMaterial"
+        translucent="true"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="0.0705882 1 0 0.27"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

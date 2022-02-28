@@ -1,1 +1,17 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="ucityHealthKit" scriptFile="@assetFile=materials" materialDefinitionName="ucityHealthKit" VersionId="1"/>
+<MaterialAsset
+    AssetName="ucityHealthKit"
+    materialDefinitionName="ucityHealthKit"
+    VersionId="1">
+    <Material
+        Name="ucityHealthKit"
+        mapTo="healthkit"
+        pixelSpecular0="1"
+        specular0="0.5 0.5 0.5 0.5"
+        specularPower0="32">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:healthkit_d_image"
+                NormalMapAsset="FPSGameplay:healthkit_n_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

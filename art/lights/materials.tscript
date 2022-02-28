@@ -20,11 +20,3 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-singleton Material( Corona_Mat )
-{
-   emissive = true;
-   translucent = true;
-   mapTo = "corona.png";
-   diffuseMapAsset[0] = "FPSGameplay:corona_image";
-   materialTag0 = "FX";
-};

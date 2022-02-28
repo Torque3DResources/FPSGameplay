@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Crouch_Sidedae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Crouch_SideDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Crouch_Side", "520", "549");
+}

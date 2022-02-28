@@ -1,0 +1,19 @@
+<MaterialAsset
+    AssetName="Mat_LightGreen_FP_Soldier_Arms_Main"
+    materialDefinitionName="Mat_LightGreen_FP_Soldier_Arms_Main"
+    VersionId="1">
+    <Material
+        Name="Mat_LightGreen_FP_Soldier_Arms_Main"
+        mapTo="LightGreen_FP_Soldier_Arms_Main"
+        translucentBlendOp="None"
+        inheritFrom=" Mat_FP_Soldier_Arms_Main"
+        specular0="0.9 0.9 0.9 1"
+        specularMap0="data/FPSGameplay/art/shapes/actors/Soldier/FP/FP_SoldierArms_S.dds"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:Soldier_FPSarms_LightGreen_Dif_image"
+                NormalMapAsset="FPSGameplay:FP_SoldierArms_N_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

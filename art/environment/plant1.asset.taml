@@ -1,1 +1,16 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="plant1" scriptFile="@assetFile=materials" materialDefinitionName="plant1" VersionId="1"/>
+<MaterialAsset
+    AssetName="plant1"
+    materialDefinitionName="plant1"
+    VersionId="1">
+    <Material
+        Name="plant1"
+        mapTo="plant1.png"
+        alphaTest="true"
+        alphaRef="80"
+        materialTag0="Foliage">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:plant1_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

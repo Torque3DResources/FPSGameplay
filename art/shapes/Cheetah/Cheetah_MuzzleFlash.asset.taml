@@ -1,1 +1,20 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Cheetah_MuzzleFlash" scriptFile="@assetFile=materials" materialDefinitionName="Cheetah_MuzzleFlash" VersionId="1"/>
+<MaterialAsset
+    AssetName="Cheetah_MuzzleFlash"
+    materialDefinitionName="Cheetah_MuzzleFlash"
+    VersionId="1">
+    <Material
+        Name="Cheetah_MuzzleFlash"
+        mapTo="Cheetah_MuzzleFlash"
+        castShadows="false"
+        translucent="true"
+        translucentBlendOp="AddAlpha"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:Cheetah_MuzzleFlash_D_image"
+                Glow="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

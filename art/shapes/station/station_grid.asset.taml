@@ -1,1 +1,8 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="station_grid" scriptFile="@assetFile=station_grid.tscript" materialDefinitionName="station_grid" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/grid"/>
+<MaterialAsset
+    AssetName="station_grid"
+    materialDefinitionName="station_grid"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/grid">
+    <Material
+        Name="station_grid"
+        mapTo="station_grid"/>
+</MaterialAsset>

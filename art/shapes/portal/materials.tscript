@@ -1,25 +1,3 @@
 
-singleton Material(portal_base_mat)
-{
-   mapTo = "portal_base";
-   diffuseMapAsset[0] = "FPSGameplay:base_image";
-   normalMapAsset[0] = "FPSGameplay:basenormal_image";
-};
 
-singleton Material(portal_top_mat)
-{
-   mapTo = "portal_top";
-   diffuseMapAsset[0] = "FPSGameplay:top_image";
-   normalMapAsset[0] = "FPSGameplay:topnormal_image";
-   emissive[0] = "1";
-};
 
-singleton Material(portal_lightray_mat)
-{
-   mapTo = "portal_lightray";
-   diffuseMapAsset[0] = "FPSGameplay:lightray_image";
-   translucent = "1";
-   translucentBlendOp = "AddAlpha";
-   doubleSided = "1";
-   emissive[0] = "1";
-};

@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Crouch_Forwarddae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Crouch_ForwardDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Crouch_Forward", "400", "429");
+}

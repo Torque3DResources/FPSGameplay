@@ -1,1 +1,16 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Teleporter" scriptFile="@assetFile=materials" materialDefinitionName="Teleporter" VersionId="1"/>
+<MaterialAsset
+    AssetName="Teleporter"
+    materialDefinitionName="Teleporter"
+    VersionId="1">
+    <Material
+        Name="Teleporter"
+        mapTo="teleporter"
+        translucentBlendOp="None"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:Teleporter_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

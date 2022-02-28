@@ -1,1 +1,17 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="portal_lightray_mat" scriptFile="@assetFile=materials" materialDefinitionName="portal_lightray_mat" VersionId="1"/>
+<MaterialAsset
+    AssetName="portal_lightray_mat"
+    materialDefinitionName="portal_lightray_mat"
+    VersionId="1">
+    <Material
+        Name="portal_lightray_mat"
+        mapTo="portal_lightray"
+        translucent="true"
+        translucentBlendOp="AddAlpha">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:lightray_image"
+                Emissive="true"
+                doubleSided="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

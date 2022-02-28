@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Jumpdae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_JumpDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "false");
+   %this.addSequence("ambient", "Jump", "1000", "1010");
+}

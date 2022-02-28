@@ -24,14 +24,3 @@
 // Undercity Materials
 //--------------------------------------------
 
-singleton Material(ucityHealthKit)
-{
-   mapTo = "healthkit";
-   diffuseMapAsset[0] = "FPSGameplay:healthkit_d_image";
-   normalMapAsset[0] = "FPSGameplay:healthkit_n_image";
-   translucent=false;
-   pixelSpecular[0] = true;
-   specular[0] = "0.5 0.5 0.5 0.5";
-   specularPower[0] = 32.0;
-   //detailMap[0] = "detail";
-};

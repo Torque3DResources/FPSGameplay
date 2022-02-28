@@ -37,20 +37,6 @@ new ShaderData( BasicRibbonShader )
    pixVersion = 2.0;
 };
  
-singleton CustomMaterial( BasicRibbonMat )
-{
-   shader = BasicRibbonShader;
-   version = 2.0;
-   
-   emissive[0] = true;
-   
-   doubleSided = true;
-   translucent = true;
-   BlendOp = AddAlpha;
-   translucentBlendOp = AddAlpha;
-   
-   preload = true;
-};
 
 // This material can render a texture on top of a ribbon.
 
@@ -69,19 +55,3 @@ new ShaderData( TexturedRibbonShader )
    pixVersion = 2.0;
 };
  
-singleton CustomMaterial( TexturedRibbonMat )
-{
-   shader = TexturedRibbonShader;
-   version = 2.0;
-   
-   emissive[0] = true;
-   
-   doubleSided = true;
-   translucent = true;
-   BlendOp = AddAlpha;
-   translucentBlendOp = AddAlpha;
-
-   sampler["ribTex"] = "data/FPSGameplay/art/particles/ribbon/ribTex.png";
-   
-   preload = true;
-};

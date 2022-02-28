@@ -1,1 +1,19 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="BasicRibbonMat" scriptFile="@assetFile=materials" materialDefinitionName="BasicRibbonMat" VersionId="1"/>
+<MaterialAsset
+    AssetName="BasicRibbonMat"
+    materialDefinitionName="BasicRibbonMat"
+    VersionId="1">
+    <CustomMaterial
+        Name="BasicRibbonMat"
+        version="2"
+        shader="BasicRibbonShader"
+        translucent="true"
+        translucentBlendOp="AddAlpha"
+        blendOp="AddAlpha"
+        preload="1">
+        <CustomMaterial.Stages>
+            <Stages_beginarray
+                Emissive="true"
+                doubleSided="true"/>
+        </CustomMaterial.Stages>
+    </CustomMaterial>
+</MaterialAsset>

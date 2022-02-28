@@ -1,0 +1,23 @@
+<MaterialAsset
+    AssetName="Mat_Soldier_Dazzle"
+    materialDefinitionName="Mat_Soldier_Dazzle"
+    VersionId="1">
+    <Material
+        Name="Mat_Soldier_Dazzle"
+        mapTo="base_Soldier_Dazzle"
+        castShadows="false"
+        translucent="true"
+        translucentBlendOp="Add"
+        showFootprints="false"
+        castDynamicShadows="1"
+        materialTag0="Player"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:Soldier_Dazzle_image"
+                Glow="true"
+                Emissive="true"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

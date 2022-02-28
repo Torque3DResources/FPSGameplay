@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Swim_Forwarddae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_Swim_ForwardDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Swim_Forward", "1490", "1549");
+}

@@ -1,1 +1,13 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="healthkit" scriptFile="@assetFile=healthkit.tscript" materialDefinitionName="healthkit" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/kit/healthkit"/>
+<MaterialAsset
+    AssetName="healthkit"
+    materialDefinitionName="healthkit"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/kit/healthkit">
+    <Material
+        Name="healthkit"
+        mapTo="healthkit">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseColor="1 1 1 1"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

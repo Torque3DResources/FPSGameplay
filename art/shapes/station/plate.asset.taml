@@ -1,1 +1,8 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="plate" scriptFile="@assetFile=plate.tscript" materialDefinitionName="plate" originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/plate"/>
+<MaterialAsset
+    AssetName="plate"
+    materialDefinitionName="plate"
+    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/plate">
+    <Material
+        Name="plate"
+        mapTo="plate"/>
+</MaterialAsset>

@@ -10,3 +10,9 @@ singleton TSShapeConstructor(PlayerAnim_Rifle_Falldae)
    removeRedundantMats = "0";
    animFPS = "2";
 };
+
+function PlayerAnim_Rifle_FallDAE::onLoad(%this)
+{
+   %this.setSequenceCyclic("ambient", "true");
+   %this.addSequence("ambient", "Fall", "1040", "1069");
+}

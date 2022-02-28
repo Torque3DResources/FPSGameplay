@@ -1,5 +1,2 @@
 //--- OBJECT WRITE BEGIN ---
-singleton Material(redGlass) {
-   mapTo="redGlass";
-};
 //--- OBJECT WRITE END ---

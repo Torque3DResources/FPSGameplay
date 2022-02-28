@@ -1,5 +1,2 @@
 //--- OBJECT WRITE BEGIN ---
-singleton Material(portal_lightray) {
-   mapTo="portal_lightray";
-};
 //--- OBJECT WRITE END ---

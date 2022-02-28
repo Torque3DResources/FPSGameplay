@@ -1,1 +1,13 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Structure_plate" scriptFile="@assetFile=materials" materialDefinitionName="Structure_plate" VersionId="1"/>
+<MaterialAsset
+    AssetName="Structure_plate"
+    materialDefinitionName="Structure_plate"
+    VersionId="1">
+    <Material
+        Name="Structure_plate"
+        mapTo="plate">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:plate_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

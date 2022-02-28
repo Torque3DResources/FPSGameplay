@@ -1,5 +1,2 @@
 //--- OBJECT WRITE BEGIN ---
-singleton Material(portal_base) {
-   mapTo="portal_base";
-};
 //--- OBJECT WRITE END ---

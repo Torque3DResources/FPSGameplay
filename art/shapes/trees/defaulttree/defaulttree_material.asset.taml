@@ -1,1 +1,20 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="defaulttree_material" scriptFile="@assetFile=materials" materialDefinitionName="defaulttree_material" VersionId="1"/>
+<MaterialAsset
+    AssetName="defaulttree_material"
+    materialDefinitionName="defaulttree_material"
+    VersionId="1">
+    <Material
+        Name="defaulttree_material"
+        mapTo="defaulttree-material"
+        translucentBlendOp="None"
+        alphaTest="true"
+        alphaRef="127"
+        pixelSpecular0="1"
+        specular0="0.9 0.9 0.9 1"
+        specularPower0="10">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMapAsset="FPSGameplay:defaulttree_diffuse_transparency_image"
+                NormalMapAsset="FPSGameplay:defaulttree_normal_specular_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>

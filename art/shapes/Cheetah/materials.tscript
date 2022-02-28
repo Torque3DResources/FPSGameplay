@@ -20,47 +20,6 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-singleton Material(Cheetah_Main)
-{
-   mapTo = "Cheetah_Main";
-   diffuseMapAsset[0] = "FPSGameplay:Cheetah_D_image";
-   specular[0] = "0.9 0.9 0.9 1";
-   specularPower[0] = "10";
-   translucentBlendOp = "None";
-   normalMapAsset[0] = "FPSGameplay:Cheetah_N_image";
-   specularMap[0] = "data/FPSGameplay/art/shapes/Cheetah/Cheetah_S";
-   castDynamicShadows = true;
-};
 
-singleton Material(Cheetah_TailLights)
-{
-   mapTo = "Cheetah_TailLights";
-   diffuseColor[0] = "0.588235 0 0 1";
-   specular[0] = "0.9 0.9 0.9 1";
-   specularPower[0] = "10";
-   translucentBlendOp = "None";
-   glow[0] = "1";
-   emissive[0] = "1";
-};
 
-singleton Material(Cheetah_MuzzleFlash)
-{
-   mapTo = "Cheetah_MuzzleFlash";
-   diffuseMapAsset[0] = "FPSGameplay:Cheetah_MuzzleFlash_D_image";
-   specular[0] = "0.9 0.9 0.9 1";
-   specularPower[0] = "10";
-   translucentBlendOp = "AddAlpha";
-   glow[0] = "1";
-   emissive[0] = "1";
-   castShadows = "0";
-   translucent = "1";
-};
 
-singleton Material(Cheetah_Collider)
-{
-   mapTo = "Collider";
-   diffuseColor[0] = "1 0 0 0.75";
-   specular[0] = "0.9 0.9 0.9 1";
-   specularPower[0] = "10";
-   translucent = "1";
-};

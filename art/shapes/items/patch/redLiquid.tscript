@@ -1,5 +1,2 @@
 //--- OBJECT WRITE BEGIN ---
-singleton Material(redLiquid) {
-   mapTo="redLiquid";
-};
 //--- OBJECT WRITE END ---

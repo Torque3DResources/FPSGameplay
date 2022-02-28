@@ -1,1 +1,14 @@
-<MaterialAsset canSave="true" canSaveDynamicFields="true" AssetName="Grid_512_Gray" scriptFile="@assetFile=materials" materialDefinitionName="Grid_512_Gray" VersionId="1"/>
+<MaterialAsset
+    AssetName="Grid_512_Gray"
+    materialDefinitionName="Grid_512_Gray"
+    VersionId="1">
+    <Material
+        Name="Grid_512_Gray"
+        mapTo="unmapped_mat">
+        <Material.Stages>
+            <Stages_beginarray
+                DiffuseMap="data/FPSGameplay/art/misc/512_grey.png"
+                DiffuseMapAsset="Core_Rendering:missingTexture_image"/>
+        </Material.Stages>
+    </Material>
+</MaterialAsset>
