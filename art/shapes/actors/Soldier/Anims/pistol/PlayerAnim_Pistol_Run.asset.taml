@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Pistol_Run"
+    fileName="@assetFile=PlayerAnim_Pistol_Run.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Pistol_Run.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

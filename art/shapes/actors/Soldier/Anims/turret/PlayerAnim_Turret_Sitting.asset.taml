@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Turret_Sitting"
+    fileName="@assetFile=PlayerAnim_Turret_Sitting.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Turret_Sitting.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

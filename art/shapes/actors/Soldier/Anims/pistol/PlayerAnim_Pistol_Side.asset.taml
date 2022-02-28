@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Pistol_Side"
+    fileName="@assetFile=PlayerAnim_Pistol_Side.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Pistol_Side.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

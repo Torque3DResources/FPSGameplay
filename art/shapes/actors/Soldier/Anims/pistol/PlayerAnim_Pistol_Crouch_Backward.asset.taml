@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Pistol_Crouch_Backward"
+    fileName="@assetFile=PlayerAnim_Pistol_Crouch_Backward.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Pistol_Crouch_Backward.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

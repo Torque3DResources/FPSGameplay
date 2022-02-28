@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_ProxMine_Side"
+    fileName="@assetFile=PlayerAnim_ProxMine_Side.dae"
+    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Side.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

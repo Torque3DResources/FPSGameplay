@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_Turret_Crouch_Forward"
+    fileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.dae"
+    constuctorFileName="@assetFile=PlayerAnim_Turret_Crouch_Forward.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

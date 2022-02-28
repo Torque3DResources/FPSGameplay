@@ -1,0 +1,5 @@
+<ShapeAsset
+    AssetName="PlayerAnim_ProxMine_Swim_Right"
+    fileName="@assetFile=PlayerAnim_ProxMine_Swim_Right.dae"
+    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Swim_Right.tscript"
+    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>
