@@ -29,9 +29,6 @@ function FPSGameplay::initServer(%this)
    %this.queueExec("./scripts/server/commands");
    %this.queueExec("./scripts/server/centerPrint");
    %this.queueExec("./scripts/server/deathMatchGame");
-   %this.queueExec("./scripts/server/health");
-   %this.queueExec("./scripts/server/player");
-   %this.queueExec("./scripts/server/aiPlayer");
    %this.queueExec("./scripts/server/projectile");
    %this.queueExec("./scripts/server/proximityMine");
    %this.queueExec("./scripts/server/radiusDamage");
@@ -48,12 +45,9 @@ function FPSGameplay::initServer(%this)
 
 function FPSGameplay::onCreateGameServer(%this)
 {
-   %this.registerDatablock("./datablocks/audioProfiles");
-   %this.registerDatablock("./datablocks/audioData");
    %this.registerDatablock("./datablocks/sounds");
    %this.registerDatablock("./datablocks/brushes");
    %this.registerDatablock("./datablocks/environment");
-   %this.registerDatablock("./datablocks/health");   
    %this.registerDatablock("./datablocks/lights");
    
    %this.registerDatablock("./datablocks/managedDatablocks");
@@ -65,8 +59,6 @@ function FPSGameplay::onCreateGameServer(%this)
    
    %this.registerDatablock("./datablocks/markers");
    %this.registerDatablock("./datablocks/particles");
-   %this.registerDatablock("./datablocks/player");
-   %this.registerDatablock("./datablocks/aiPlayer");
    %this.registerDatablock("./datablocks/ribbons");
    %this.registerDatablock("./datablocks/rigidShape");
    %this.registerDatablock("./datablocks/teleporter");

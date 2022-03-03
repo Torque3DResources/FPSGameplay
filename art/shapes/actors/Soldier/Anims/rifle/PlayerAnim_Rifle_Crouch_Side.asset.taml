@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Rifle_Crouch_Side"
-    fileName="@assetFile=PlayerAnim_Rifle_Crouch_Side.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Rifle_Crouch_Side.tscript"
-    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

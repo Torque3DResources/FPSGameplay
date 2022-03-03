@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="fakeSpec"
-    materialDefinitionName="fakeSpec"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/items/patch/fakeSpec">
-    <Material
-        Name="fakeSpec"
-        mapTo="fakeSpec"/>
-</MaterialAsset>

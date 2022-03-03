@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="base_Soldier_Main"
-    materialDefinitionName="base_Soldier_Main"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/actors/Soldier/materials.tscript">
-    <Material
-        Name="base_Soldier_Main"
-        mapTo="base_Soldier_Main"/>
-</MaterialAsset>

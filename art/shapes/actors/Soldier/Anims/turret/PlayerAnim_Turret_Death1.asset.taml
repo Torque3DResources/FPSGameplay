@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Turret_Death1"
-    fileName="@assetFile=PlayerAnim_Turret_Death1.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Turret_Death1.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

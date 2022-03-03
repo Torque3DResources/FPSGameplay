@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Rifle_Look"
-    fileName="@assetFile=PlayerAnim_Rifle_Look.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Rifle_Look.tscript"
-    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

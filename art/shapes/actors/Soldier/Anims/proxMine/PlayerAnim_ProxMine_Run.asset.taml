@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_ProxMine_Run"
-    fileName="@assetFile=PlayerAnim_ProxMine_Run.dae"
-    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Run.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

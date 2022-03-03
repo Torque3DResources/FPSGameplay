@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_ProxMine_Crouch_Backward"
-    fileName="@assetFile=PlayerAnim_ProxMine_Crouch_Backward.dae"
-    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Crouch_Backward.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

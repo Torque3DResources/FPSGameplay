@@ -34,46 +34,6 @@ moveMap.bind(keyboard, "alt p", doScreenShotHudless);
 
 moveMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
 
-//------------------------------------------------------------------------------
-// Movement Keys
-//------------------------------------------------------------------------------
-moveMap.bind( keyboard, a, moveleft );
-moveMap.bind( keyboard, d, moveright );
-moveMap.bind( keyboard, left, moveleft );
-moveMap.bind( keyboard, right, moveright );
-
-moveMap.bind( keyboard, w, moveforward );
-moveMap.bind( keyboard, s, movebackward );
-moveMap.bind( keyboard, up, moveforward );
-moveMap.bind( keyboard, down, movebackward );
-
-moveMap.bind( keyboard, e, moveup );
-moveMap.bind( keyboard, c, movedown );
-
-moveMap.bind( keyboard, space, jump );
-moveMap.bind( mouse, xaxis, yaw );
-moveMap.bind( mouse, yaxis, pitch );
-
-moveMap.bind( gamepad, thumbrx, "D", "-0.23 0.23", gamepadYaw );
-moveMap.bind( gamepad, thumbry, "D", "-0.23 0.23", gamepadPitch );
-moveMap.bind( gamepad, thumblx, "D", "-0.23 0.23", gamePadMoveX );
-moveMap.bind( gamepad, thumbly, "D", "-0.23 0.23", gamePadMoveY );
-
-moveMap.bind( gamepad, btn_a, jump );
-moveMap.bindCmd( gamepad, btn_back, "disconnect();", "" );
-
-moveMap.bindCmd(gamepad, dpadl, "toggleLightColorViz();", "");
-moveMap.bindCmd(gamepad, dpadu, "toggleDepthViz();", "");
-moveMap.bindCmd(gamepad, dpadd, "toggleNormalsViz();", "");
-moveMap.bindCmd(gamepad, dpadr, "toggleLightSpecularViz();", "");
-
-// ----------------------------------------------------------------------------
-// Stance/pose
-// ----------------------------------------------------------------------------
-moveMap.bind(keyboard, lcontrol, doCrouch);
-moveMap.bind(gamepad, btn_b, doCrouch);
-
-moveMap.bind(keyboard, lshift, doSprint);
 
 //------------------------------------------------------------------------------
 // Mouse Trigger
@@ -114,20 +74,6 @@ moveMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
 moveMap.bind(keyboard, tab, toggleFirstPerson );
 
 moveMap.bind( gamepad, btn_x, toggleFirstPerson );
-
-// ----------------------------------------------------------------------------
-// Misc. Player stuff
-// ----------------------------------------------------------------------------
-
-// Gideon does not have these animations, so the player does not need access to
-// them.  Commenting instead of removing so as to retain an example for those
-// who will want to use a player model that has these animations and wishes to
-// use them.
-
-//moveMap.bindCmd(keyboard, "ctrl w", "commandToServer('playCel',\"wave\");", "");
-//moveMap.bindCmd(keyboard, "ctrl s", "commandToServer('playCel',\"salute\");", "");
-
-moveMap.bindCmd(keyboard, "ctrl k", "commandToServer('suicide');", "");
 
 //------------------------------------------------------------------------------
 // Message HUD functions

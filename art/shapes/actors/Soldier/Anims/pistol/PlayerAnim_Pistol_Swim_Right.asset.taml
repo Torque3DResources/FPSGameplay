@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Pistol_Swim_Right"
-    fileName="@assetFile=PlayerAnim_Pistol_Swim_Right.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Pistol_Swim_Right.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

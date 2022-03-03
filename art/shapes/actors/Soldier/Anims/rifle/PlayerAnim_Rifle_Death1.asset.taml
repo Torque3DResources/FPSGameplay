@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Rifle_Death1"
-    fileName="@assetFile=PlayerAnim_Rifle_Death1.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Rifle_Death1.tscript"
-    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

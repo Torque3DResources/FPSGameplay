@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_Rifle_Swim_Forward"
-    fileName="@assetFile=PlayerAnim_Rifle_Swim_Forward.dae"
-    constuctorFileName="@assetFile=PlayerAnim_Rifle_Swim_Forward.tscript"
-    materialSlot0="@asset=FPSGameplay:ShapeBounds"/>

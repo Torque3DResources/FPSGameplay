@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_ProxMine_Swim_Forward"
-    fileName="@assetFile=PlayerAnim_ProxMine_Swim_Forward.dae"
-    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Swim_Forward.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

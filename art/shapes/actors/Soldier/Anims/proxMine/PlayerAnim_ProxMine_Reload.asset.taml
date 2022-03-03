@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_ProxMine_Reload"
-    fileName="@assetFile=PlayerAnim_ProxMine_Reload.dae"
-    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Reload.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>

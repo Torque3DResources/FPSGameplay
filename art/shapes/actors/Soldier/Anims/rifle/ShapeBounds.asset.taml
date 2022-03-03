@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="ShapeBounds"
-    materialDefinitionName="ShapeBounds"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/">
-    <Material
-        Name="ShapeBounds"
-        mapTo="ShapeBounds"/>
-</MaterialAsset>

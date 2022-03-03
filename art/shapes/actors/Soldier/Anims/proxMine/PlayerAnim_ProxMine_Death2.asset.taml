@@ -1,5 +1,0 @@
-<ShapeAsset
-    AssetName="PlayerAnim_ProxMine_Death2"
-    fileName="@assetFile=PlayerAnim_ProxMine_Death2.dae"
-    constuctorFileName="@assetFile=PlayerAnim_ProxMine_Death2.tscript"
-    materialSlot0="@asset=FPSEquipment:ShapeBounds"/>
