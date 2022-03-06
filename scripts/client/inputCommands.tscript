@@ -24,12 +24,6 @@ function escapeFromGame()
    disconnect();
 }
 
-function showPlayerList(%val)
-{
-   if (%val)
-      PlayerListGui.toggle();
-}
-
 function hideHUDs(%val)
 {
    if (%val)

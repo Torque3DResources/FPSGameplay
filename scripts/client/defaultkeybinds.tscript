@@ -26,7 +26,7 @@ if ( !isObject( moveMap ) )
 //------------------------------------------------------------------------------
 // Non-remapable binds
 //------------------------------------------------------------------------------
-moveMap.bind( keyboard, F2, showPlayerList );
+
 
 moveMap.bind(keyboard, "ctrl h", hideHUDs);
 
@@ -74,15 +74,6 @@ moveMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
 moveMap.bind(keyboard, tab, toggleFirstPerson );
 
 moveMap.bind( gamepad, btn_x, toggleFirstPerson );
-
-//------------------------------------------------------------------------------
-// Message HUD functions
-//------------------------------------------------------------------------------
-moveMap.bind(keyboard, u, toggleMessageHud );
-//moveMap.bind(keyboard, y, teamMessageHud );
-moveMap.bind(keyboard, "pageUp", pageMessageHudUp );
-moveMap.bind(keyboard, "pageDown", pageMessageHudDown );
-moveMap.bind(keyboard, "p", resizeMessageHud );
 
 //------------------------------------------------------------------------------
 // Demo recording functions
