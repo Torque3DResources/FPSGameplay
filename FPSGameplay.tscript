@@ -35,7 +35,6 @@ function FPSGameplay::initServer(%this)
    %this.queueExec("./scripts/server/spawn");
    %this.queueExec("./scripts/server/teleporter");
    %this.queueExec("./scripts/server/triggers");
-   %this.queueExec("./scripts/server/turret");
    %this.queueExec("./scripts/server/vehicle");
    %this.queueExec("./scripts/server/vehicleWheeled");
    %this.queueExec("./scripts/server/VolumetricFog");
