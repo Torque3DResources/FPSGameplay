@@ -25,48 +25,16 @@ function FPSGameplay::initServer(%this)
    //server scripts
    %this.queueExec("./scripts/server/camera");
    %this.queueExec("./scripts/server/chat");
-   %this.queueExec("./scripts/server/cheetah");
    %this.queueExec("./scripts/server/commands");
    %this.queueExec("./scripts/server/deathMatchGame");
    %this.queueExec("./scripts/server/projectile");
-   %this.queueExec("./scripts/server/proximityMine");
    %this.queueExec("./scripts/server/radiusDamage");
    %this.queueExec("./scripts/server/shapeBase");
    %this.queueExec("./scripts/server/spawn");
-   %this.queueExec("./scripts/server/teleporter");
-   %this.queueExec("./scripts/server/triggers");
-   %this.queueExec("./scripts/server/vehicle");
-   %this.queueExec("./scripts/server/vehicleWheeled");
-   %this.queueExec("./scripts/server/VolumetricFog");
-   %this.queueExec("./scripts/server/physicsShape");
 }
 
 function FPSGameplay::onCreateGameServer(%this)
 {
-   %this.registerDatablock("./datablocks/sounds");
-   %this.registerDatablock("./datablocks/brushes");
-   %this.registerDatablock("./datablocks/environment");
-   %this.registerDatablock("./datablocks/lights");
-   
-   %this.registerDatablock("./datablocks/managedDatablocks");
-   %this.registerDatablock("./datablocks/managedDecalData");
-   %this.registerDatablock("./datablocks/managedForestItemData");
-   %this.registerDatablock("./datablocks/managedItemData");
-   %this.registerDatablock("./datablocks/managedParticleData");
-   %this.registerDatablock("./datablocks/managedParticleEmitterData");
-   
-   %this.registerDatablock("./datablocks/markers");
-   %this.registerDatablock("./datablocks/particles");
-   %this.registerDatablock("./datablocks/ribbons");
-   %this.registerDatablock("./datablocks/rigidShape");
-   %this.registerDatablock("./datablocks/teleporter");
-   %this.registerDatablock("./datablocks/triggers");
-   
-   %this.registerDatablock("./datablocks/vehicles/cheetahCar");
-   
-   
-   if(physicsPluginPresent())
-      %this.registerDatablock("./datablocks/physics");        
 }
 
 function FPSGameplay::onDestroyGameServer(%this)
@@ -80,7 +48,7 @@ function FPSGameplay::initClient(%this)
     %this.queueExec("./scripts/client/inputCommands");
    
    //guis
-   %this.queueExec("./guis/playGui.gui");
+   %this.queueExec("./guis/playGui.gui", true);
    %this.queueExec("./guis/hudlessGui.gui");
    
     %this.queueExec("./scripts/client/playGui");

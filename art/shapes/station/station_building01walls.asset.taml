@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="station_building01walls"
-    materialDefinitionName="station_building01walls"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/station/building01walls">
-    <Material
-        Name="station_building01walls"
-        mapTo="station_building01walls"/>
-</MaterialAsset>

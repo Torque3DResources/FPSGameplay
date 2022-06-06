@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="Collider"
-    materialDefinitionName="Collider"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/">
-    <Material
-        Name="Collider"
-        mapTo="Collider"/>
-</MaterialAsset>

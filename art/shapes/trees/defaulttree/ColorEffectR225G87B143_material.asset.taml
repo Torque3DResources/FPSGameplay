@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="ColorEffectR225G87B143_material"
-    materialDefinitionName="ColorEffectR225G87B143_material"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/">
-    <Material
-        Name="ColorEffectR225G87B143_material"
-        mapTo="ColorEffectR225G87B143_material"/>
-</MaterialAsset>

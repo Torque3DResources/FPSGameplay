@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="NoMat"
-    materialDefinitionName="NoMat"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/">
-    <Material
-        Name="NoMat"
-        mapTo="NoMat"/>
-</MaterialAsset>

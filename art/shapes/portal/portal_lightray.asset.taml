@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="portal_lightray"
-    materialDefinitionName="portal_lightray"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/portal/portal_lightray">
-    <Material
-        Name="portal_lightray"
-        mapTo="portal_lightray"/>
-</MaterialAsset>

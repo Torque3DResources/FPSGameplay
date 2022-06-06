@@ -1,8 +1,0 @@
-
-singleton TSShapeConstructor(Fog_CubeDAE)
-{
-   baseShapeAsset = "FPSGameplay:Fog_Cube";
-   lodType = "TrailingNumber";
-   neverImport = "env*";
-   loadLights = "0";
-};

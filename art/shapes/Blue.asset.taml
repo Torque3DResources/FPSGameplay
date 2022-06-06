@@ -1,8 +1,0 @@
-<MaterialAsset
-    AssetName="Blue"
-    materialDefinitionName="Blue"
-    originalFilePath="E:/work/Torque3D-Development/My Projects/Development/game/data/FPSGameplay/art/shapes/blue">
-    <Material
-        Name="Blue"
-        mapTo="Blue"/>
-</MaterialAsset>
