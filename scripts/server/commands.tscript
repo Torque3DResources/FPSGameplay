@@ -48,33 +48,6 @@ function serverCmdPlayDeath(%client)
       %client.player.playDeathAnimation();
 }
 
-// ----------------------------------------------------------------------------
-// Throw/Toss
-// ----------------------------------------------------------------------------
-
-function serverCmdThrow(%client, %data)
-{
-   %player = %client.player;
-   if(!isObject(%player) || %player.getState() $= "Dead" || !$Game::Running)
-      return;
-   switch$ (%data)
-   {
-      case "Weapon":
-         %item = (%player.getMountedImage($WeaponSlot) == 0) ? "" : %player.getMountedImage($WeaponSlot).item;
-         if (%item !$="")
-            %player.throw(%item);
-      case "Ammo":
-         %weapon = (%player.getMountedImage($WeaponSlot) == 0) ? "" : %player.getMountedImage($WeaponSlot);
-         if (%weapon !$= "")
-         {
-            if(%weapon.ammo !$= "")
-               %player.throw(%weapon.ammo);
-         }
-      default:
-         if(%player.hasInventory(%data.getName()))
-            %player.throw(%data);
-   }
-}
 
 // ----------------------------------------------------------------------------
 // Force game end and cycle
@@ -85,56 +58,4 @@ function serverCmdThrow(%client, %data)
 function serverCmdFinishGame()
 {
    cycleGame();
-}
-
-// ----------------------------------------------------------------------------
-// Cycle weapons
-// ----------------------------------------------------------------------------
-
-function serverCmdCycleWeapon(%client, %direction)
-{
-   %client.getControlObject().cycleWeapon(%direction);
-}
-
-// ----------------------------------------------------------------------------
-// Unmount current weapon
-// ----------------------------------------------------------------------------
-
-function serverCmdUnmountWeapon(%client)
-{
-   %client.getControlObject().unmountImage($WeaponSlot);
-}
-
-// ----------------------------------------------------------------------------
-// Weapon reloading
-// ----------------------------------------------------------------------------
-function serverCmdReloadWeapon(%client)
-{
-   %player = %client.getControlObject();
-   %image = %player.getMountedImage($WeaponSlot);
-   
-   // Don't reload if the weapon's full.
-   if (%player.getInventory(%image.ammo) == %image.ammo.maxInventory)
-      return;
-      
-   if (%image > 0)
-      %image.clearAmmoClip(%player, $WeaponSlot);
-}
-
-
-//----------------------------------------------------------------------------
-// Server chat message handlers
-//----------------------------------------------------------------------------
-function serverCmdTeamMessageSent(%client, %text)
-{
-   if(strlen(%text) >= $Pref::Server::MaxChatLen)
-      %text = getSubStr(%text, 0, $Pref::Server::MaxChatLen);
-   chatMessageTeam(%client, %client.team, '\c3%1: %2', %client.playerName, %text);
-}
-
-function serverCmdMessageSent(%client, %text)
-{
-   if(strlen(%text) >= $Pref::Server::MaxChatLen)
-      %text = getSubStr(%text, 0, $Pref::Server::MaxChatLen);
-   chatMessageAll(%client, '\c4%1: %2', %client.playerName, %text);
 }

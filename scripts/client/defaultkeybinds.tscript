@@ -20,14 +20,13 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-if ( isObject( moveMap ) )
-   moveMap.delete();
-new ActionMap(moveMap);
+if ( !isObject( moveMap ) )
+    new ActionMap(moveMap);
 
 //------------------------------------------------------------------------------
 // Non-remapable binds
 //------------------------------------------------------------------------------
-moveMap.bind( keyboard, F2, showPlayerList );
+
 
 moveMap.bind(keyboard, "ctrl h", hideHUDs);
 
@@ -35,46 +34,6 @@ moveMap.bind(keyboard, "alt p", doScreenShotHudless);
 
 moveMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
 
-//------------------------------------------------------------------------------
-// Movement Keys
-//------------------------------------------------------------------------------
-moveMap.bind( keyboard, a, moveleft );
-moveMap.bind( keyboard, d, moveright );
-moveMap.bind( keyboard, left, moveleft );
-moveMap.bind( keyboard, right, moveright );
-
-moveMap.bind( keyboard, w, moveforward );
-moveMap.bind( keyboard, s, movebackward );
-moveMap.bind( keyboard, up, moveforward );
-moveMap.bind( keyboard, down, movebackward );
-
-moveMap.bind( keyboard, e, moveup );
-moveMap.bind( keyboard, c, movedown );
-
-moveMap.bind( keyboard, space, jump );
-moveMap.bind( mouse, xaxis, yaw );
-moveMap.bind( mouse, yaxis, pitch );
-
-moveMap.bind( gamepad, thumbrx, "D", "-0.23 0.23", gamepadYaw );
-moveMap.bind( gamepad, thumbry, "D", "-0.23 0.23", gamepadPitch );
-moveMap.bind( gamepad, thumblx, "D", "-0.23 0.23", gamePadMoveX );
-moveMap.bind( gamepad, thumbly, "D", "-0.23 0.23", gamePadMoveY );
-
-moveMap.bind( gamepad, btn_a, jump );
-moveMap.bindCmd( gamepad, btn_back, "disconnect();", "" );
-
-moveMap.bindCmd(gamepad, dpadl, "toggleLightColorViz();", "");
-moveMap.bindCmd(gamepad, dpadu, "toggleDepthViz();", "");
-moveMap.bindCmd(gamepad, dpadd, "toggleNormalsViz();", "");
-moveMap.bindCmd(gamepad, dpadr, "toggleLightSpecularViz();", "");
-
-// ----------------------------------------------------------------------------
-// Stance/pose
-// ----------------------------------------------------------------------------
-moveMap.bind(keyboard, lcontrol, doCrouch);
-moveMap.bind(gamepad, btn_b, doCrouch);
-
-moveMap.bind(keyboard, lshift, doSprint);
 
 //------------------------------------------------------------------------------
 // Mouse Trigger
@@ -115,49 +74,6 @@ moveMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
 moveMap.bind(keyboard, tab, toggleFirstPerson );
 
 moveMap.bind( gamepad, btn_x, toggleFirstPerson );
-
-// ----------------------------------------------------------------------------
-// Misc. Player stuff
-// ----------------------------------------------------------------------------
-
-// Gideon does not have these animations, so the player does not need access to
-// them.  Commenting instead of removing so as to retain an example for those
-// who will want to use a player model that has these animations and wishes to
-// use them.
-
-//moveMap.bindCmd(keyboard, "ctrl w", "commandToServer('playCel',\"wave\");", "");
-//moveMap.bindCmd(keyboard, "ctrl s", "commandToServer('playCel',\"salute\");", "");
-
-moveMap.bindCmd(keyboard, "ctrl k", "commandToServer('suicide');", "");
-
-//------------------------------------------------------------------------------
-// Item manipulation
-//------------------------------------------------------------------------------
-moveMap.bindCmd(keyboard, "1", "commandToServer('use',\"Ryder\");", "");
-moveMap.bindCmd(keyboard, "2", "commandToServer('use',\"Lurker\");", "");
-moveMap.bindCmd(keyboard, "3", "commandToServer('use',\"LurkerGrenadeLauncher\");", "");
-moveMap.bindCmd(keyboard, "4", "commandToServer('use',\"ProxMine\");", "");
-moveMap.bindCmd(keyboard, "5", "commandToServer('use',\"DeployableTurret\");", "");
-
-moveMap.bindCmd(keyboard, "r", "commandToServer('reloadWeapon');", "");
-
-moveMap.bind(keyboard, 0, unmountWeapon);
-
-moveMap.bind(keyboard, "alt w", throwWeapon);
-moveMap.bind(keyboard, "alt a", tossAmmo);
-
-moveMap.bind(keyboard, q, nextWeapon);
-moveMap.bind(keyboard, "ctrl q", prevWeapon);
-moveMap.bind(mouse, "zaxis", mouseWheelWeaponCycle);
-
-//------------------------------------------------------------------------------
-// Message HUD functions
-//------------------------------------------------------------------------------
-moveMap.bind(keyboard, u, toggleMessageHud );
-//moveMap.bind(keyboard, y, teamMessageHud );
-moveMap.bind(keyboard, "pageUp", pageMessageHudUp );
-moveMap.bind(keyboard, "pageDown", pageMessageHudDown );
-moveMap.bind(keyboard, "p", resizeMessageHud );
 
 //------------------------------------------------------------------------------
 // Demo recording functions
@@ -222,3 +138,6 @@ vehicleMap.bind( gamepad, btn_b, brake );
 vehicleMap.bind( gamepad, btn_x, movebackward );
 // bind exiting the vehicle to a button
 vehicleMap.bindCmd(gamepad, btn_y,"getout();","");
+
+
+moveMap.push();

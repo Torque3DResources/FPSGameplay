@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(station_plate) {
-   mapTo="station_plate";
-};
-//--- OBJECT WRITE END ---

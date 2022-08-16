@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(ShapeBounds) {
-   mapTo="ShapeBounds";
-};
-//--- OBJECT WRITE END ---

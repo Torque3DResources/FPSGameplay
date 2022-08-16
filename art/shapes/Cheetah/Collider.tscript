@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(Collider) {
-   mapTo="Collider";
-};
-//--- OBJECT WRITE END ---

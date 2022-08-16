@@ -1,8 +1,0 @@
-
-singleton Material(grenadeDebris_debris)
-{
-   mapTo = "debris";
-   diffuseColor[0] = "0.7 0.7 0.7 1";
-   roughness[0] = "50";
-   translucentBlendOp = "None";
-};

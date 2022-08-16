@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(healthkit) {
-   mapTo="healthkit";
-};
-//--- OBJECT WRITE END ---

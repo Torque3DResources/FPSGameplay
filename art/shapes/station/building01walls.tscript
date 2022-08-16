@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(building01walls) {
-   mapTo="building01walls";
-};
-//--- OBJECT WRITE END ---

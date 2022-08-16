@@ -1,6 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(RifleShell) {
-   mapTo="RifleShell";
-   DiffuseMapAsset = "FPSGameplay:RifleShell_diff_image";
-};
-//--- OBJECT WRITE END ---

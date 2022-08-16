@@ -1,8 +1,0 @@
-
-singleton Material(cube_GridMaterial)
-{
-   mapTo = "GridMaterial";
-   DiffuseMap[0] = "grid";
-   roughness[0] = "53.2402";
-   translucentBlendOp = "None";
-};

@@ -1,5 +1,0 @@
-//--- OBJECT WRITE BEGIN ---
-singleton Material(station_grid) {
-   mapTo="station_grid";
-};
-//--- OBJECT WRITE END ---

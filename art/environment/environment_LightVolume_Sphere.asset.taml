@@ -1,1 +1,0 @@
-<ShapeAsset canSave="true" canSaveDynamicFields="true" AssetName="environment_LightVolume_Sphere" fileName="@assetFile=LightVolume_Sphere.dts" constuctorFileName="@assetFile=LightVolume_Sphere.tscript" materialSlot0="@asset=FPSGameplay:environment_NoMat"/>
