@@ -20,20 +20,26 @@
 // IN THE SOFTWARE.
 //-----------------------------------------------------------------------------
 
-if ( !isObject( moveMap ) )
-    new ActionMap(moveMap);
+if ( !isObject( playerKeyMap ) )
+{
+    new ActionMap(playerKeyMap)
+    {
+      humanReadableName = "Player";  
+    };
+}
 
 //------------------------------------------------------------------------------
 // Non-remapable binds
 //------------------------------------------------------------------------------
+playerKeyMap.bind(keyboard, "ctrl h", hideHUDs);
+playerKeyMap.bind(keyboard, "alt p", doScreenShotHudless);
+playerKeyMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
 
-
-moveMap.bind(keyboard, "ctrl h", hideHUDs);
-
-moveMap.bind(keyboard, "alt p", doScreenShotHudless);
-
-moveMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
-
+//------------------------------------------------------------------------------
+// Set up remappable entries
+//------------------------------------------------------------------------------
+addKeyRemap("Fire Weapon", "playerKeyMap", "mouse", "mouseFire", "Fire Weapon");
+addKeyRemap("Zoom", "playerKeyMap", "keyboard", "toggleZoom", "Toggles Zoom Effect");
 
 //------------------------------------------------------------------------------
 // Mouse Trigger
@@ -43,14 +49,14 @@ moveMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
    //$mvTriggerCount1++;
 //}
 
-moveMap.bind( mouse, button0, mouseFire );
-//moveMap.bind( mouse, button1, altTrigger );
+playerKeyMap.bind( mouse, button0, mouseFire );
+//playerKeyMap.bind( mouse, button1, altTrigger );
 
 //------------------------------------------------------------------------------
 // Gamepad Trigger
 //------------------------------------------------------------------------------
-moveMap.bind(gamepad, triggerr, gamepadFire);
-moveMap.bind(gamepad, triggerl, gamepadAltTrigger);
+playerKeyMap.bind(gamepad, triggerr, gamepadFire);
+playerKeyMap.bind(gamepad, triggerl, gamepadAltTrigger);
 
 //------------------------------------------------------------------------------
 // Zoom and FOV functions
@@ -63,29 +69,29 @@ if($Player::CurrentFOV $= "")
 // toggle is hit it simply divides the CurrentFOV by 2 once again.  If the
 // FOV is reduced below a certain threshold then it resets to equal half of the
 // DefaultFOV value.  This gives us 4 zoom levels to cycle through.
-moveMap.bind(keyboard, f, setZoomFOV); // f for field of view
-moveMap.bind(keyboard, z, toggleZoom); // z for zoom
-moveMap.bind( mouse, button1, mouseButtonZoom );
+playerKeyMap.bind(keyboard, f, setZoomFOV); // f for field of view
+playerKeyMap.bind(keyboard, z, toggleZoom); // z for zoom
+playerKeyMap.bind( mouse, button1, mouseButtonZoom );
 
 //------------------------------------------------------------------------------
 // Camera & View functions
 //------------------------------------------------------------------------------
-moveMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
-moveMap.bind(keyboard, tab, toggleFirstPerson );
+playerKeyMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
+playerKeyMap.bind(keyboard, tab, toggleFirstPerson );
 
-moveMap.bind( gamepad, btn_x, toggleFirstPerson );
+playerKeyMap.bind( gamepad, btn_x, toggleFirstPerson );
 
 //------------------------------------------------------------------------------
 // Demo recording functions
 //------------------------------------------------------------------------------
-moveMap.bind( keyboard, F3, startRecordingDemo );
-moveMap.bind( keyboard, F4, stopRecordingDemo );
+playerKeyMap.bind( keyboard, F3, startRecordingDemo );
+playerKeyMap.bind( keyboard, F4, stopRecordingDemo );
 
 //------------------------------------------------------------------------------
 // Helper Functions
 //------------------------------------------------------------------------------
-moveMap.bind(keyboard, "F8", dropCameraAtPlayer);
-moveMap.bind(keyboard, "F7", dropPlayerAtCamera);
+playerKeyMap.bind(keyboard, "F8", dropCameraAtPlayer);
+playerKeyMap.bind(keyboard, "F7", dropPlayerAtCamera);
 
 GlobalActionMap.bind(keyboard, "ctrl F3", doProfile);
 
@@ -96,48 +102,61 @@ GlobalActionMap.bind(keyboard, "tilde", toggleConsole);
 GlobalActionMap.bindCmd(keyboard, "alt k", "cls();","");
 GlobalActionMap.bindCmd(keyboard, "alt enter", "", "Canvas.attemptFullscreenToggle();");
 GlobalActionMap.bindCmd(keyboard, "F1", "", "contextHelp();");
-moveMap.bindCmd(keyboard, "n", "toggleNetGraph();", "");
+playerKeyMap.bindCmd(keyboard, "n", "toggleNetGraph();", "");
 
 // ----------------------------------------------------------------------------
 // Useful vehicle stuff
 // ----------------------------------------------------------------------------
 // Bind the keys to the carjack command
-moveMap.bindCmd(keyboard, "ctrl z", "carjack();", "");
+playerKeyMap.bindCmd(keyboard, "ctrl z", "carjack();", "");
 
 // Starting vehicle action map code
-if ( isObject( vehicleMap ) )
-   vehicleMap.delete();
-new ActionMap(vehicleMap);
+if ( !isObject( vehicleKeyMap ) )
+{
+    new ActionMap(vehicleKeyMap)
+    {
+      humanReadableName = "Vehicle";  
+    };
+}
 
 //------------------------------------------------------------------------------
 // Non-remapable binds
 //------------------------------------------------------------------------------
-vehicleMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
+vehicleKeyMap.bindCmd(keyboard, "escape", "", "Canvas.pushDialog(PauseMenu);");
+
+//------------------------------------------------------------------------------
+// Set up remappable entries
+//------------------------------------------------------------------------------
+addKeyRemap("Forward", "vehicleKeyMap", "keyboard", "moveForward", "Forward Movement");
+addKeyRemap("Backward", "vehicleKeyMap", "keyboard", "movebackward", "Backward Movement");
+addKeyRemap("Fire Weapon", "vehicleKeyMap", "mouse", "mouseFire", "Fire Weapon");
+addKeyRemap("Alt Fire Weapon", "vehicleKeyMap", "keyboard", "altTrigger", "Alt Fire Weapon");
+addKeyRemap("Brakes", "vehicleKeyMap", "mouse", "brake", "Brakes");
 
 // The key command for flipping the car
-vehicleMap.bindCmd(keyboard, "ctrl x", "commandToServer(\'flipCar\');", "");
+vehicleKeyMap.bindCmd(keyboard, "ctrl x", "commandToServer(\'flipCar\');", "");
 
-vehicleMap.bind( keyboard, w, moveforward );
-vehicleMap.bind( keyboard, s, movebackward );
-vehicleMap.bind( keyboard, up, moveforward );
-vehicleMap.bind( keyboard, down, movebackward );
-vehicleMap.bind( mouse, xaxis, yaw );
-vehicleMap.bind( mouse, yaxis, pitch );
-vehicleMap.bind( mouse, button0, mouseFire );
-vehicleMap.bind( mouse, button1, altTrigger );
-vehicleMap.bindCmd(keyboard, "f","getout();","");
-vehicleMap.bind(keyboard, space, brake);
-vehicleMap.bindCmd(keyboard, "l", "brakeLights();", "");
-vehicleMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
-//vehicleMap.bind(keyboard, tab, toggleFirstPerson );
+vehicleKeyMap.bind( keyboard, w, moveforward );
+vehicleKeyMap.bind( keyboard, s, movebackward );
+vehicleKeyMap.bind( keyboard, up, moveforward );
+vehicleKeyMap.bind( keyboard, down, movebackward );
+vehicleKeyMap.bind( mouse, xaxis, yaw );
+vehicleKeyMap.bind( mouse, yaxis, pitch );
+vehicleKeyMap.bind( mouse, button0, mouseFire );
+vehicleKeyMap.bind( mouse, button1, altTrigger );
+vehicleKeyMap.bindCmd(keyboard, "f","getout();","");
+vehicleKeyMap.bind(keyboard, space, brake);
+vehicleKeyMap.bindCmd(keyboard, "l", "brakeLights();", "");
+vehicleKeyMap.bind( keyboard, v, toggleFreeLook ); // v for vanity
+//vehicleKeyMap.bind(keyboard, tab, toggleFirstPerson );
 // bind the left thumbstick for steering
-vehicleMap.bind( gamepad, thumblx, "D", "-0.23 0.23", gamepadYaw );
+vehicleKeyMap.bind( gamepad, thumblx, "D", "-0.23 0.23", gamepadYaw );
 // bind the gas, break, and reverse buttons
-vehicleMap.bind( gamepad, btn_a, moveforward );
-vehicleMap.bind( gamepad, btn_b, brake );
-vehicleMap.bind( gamepad, btn_x, movebackward );
+vehicleKeyMap.bind( gamepad, btn_a, moveforward );
+vehicleKeyMap.bind( gamepad, btn_b, brake );
+vehicleKeyMap.bind( gamepad, btn_x, movebackward );
 // bind exiting the vehicle to a button
-vehicleMap.bindCmd(gamepad, btn_y,"getout();","");
+vehicleKeyMap.bindCmd(gamepad, btn_y,"getout();","");
 
 
-moveMap.push();
+playerKeyMap.push();
