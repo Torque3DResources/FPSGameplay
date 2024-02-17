@@ -1,0 +1,16 @@
+function clientCmdtoggleVehicleMap(%toggle)
+{
+   if(%toggle)
+   {
+      playerKeyMap.pop();
+	  // clear movement
+	  $mvForwardAction = 0;
+	  $mvBackwardAction = 0;
+      vehicleKeyMap.push();
+   }
+   else
+   {
+      vehicleKeyMap.pop();
+      playerKeyMap.push();
+   }
+}
