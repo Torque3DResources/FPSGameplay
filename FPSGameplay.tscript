@@ -62,6 +62,7 @@ function FPSGameplay::initClient(%this)
    %prefPath = getPrefpath();
    if(isScriptFile(%prefPath @ "/keybinds"))
       exec(%prefPath @ "/keybinds");
+    %this.queueExec("./scripts/client/client");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)

@@ -158,5 +158,8 @@ vehicleKeyMap.bind( gamepad, btn_x, movebackward );
 // bind exiting the vehicle to a button
 vehicleKeyMap.bindCmd(gamepad, btn_y,"getout();","");
 
+vehicleKeyMap.bind( keyboard, a, turnLeft );
+vehicleKeyMap.bind( keyboard, d, turnRight );
 
 playerKeyMap.push();
+vehicleKeyMap.push();
