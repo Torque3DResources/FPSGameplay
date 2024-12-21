@@ -30,14 +30,8 @@
 //   - gameType = "Deathmatch";
 // If this information is missing then the GameCore will default to Deathmatch.
 // ----------------------------------------------------------------------------
-function DeathMatchGame::onCreateGame()
-{
-   // Note: The Game object will be cleaned up by MissionCleanup.  Therefore its lifetime is
-   // limited to that of the mission.
-   new ScriptObject(DeathMatchGame){};
-
-   return DeathMatchGame;
-}
+if(!isObject(DeathMatchGame))
+   new GameMode(DeathMatchGame){};
 
 //-----------------------------------------------------------------------------
 // The server has started up so do some game start up
@@ -169,15 +163,6 @@ function DeathMatchGame::onClientEnterGame(%this, %client)
    //Set the player name based on the client's connection data
    %client.setPlayerName(%client.connectData);
 
-   // Find a spawn point for the camera
-   // This function currently relies on some helper functions defined in
-   // core/scripts/server/spawn.cs. For custom spawn behaviors one can either
-   // override the properties on the SpawnSphere's or directly override the
-   // functions themselves.
-   %cameraSpawnPoint = pickCameraSpawnPoint(%this.DefaultCameraSpawnGroups);
-   // Spawn a camera for this client using the found %spawnPoint
-   %client.spawnCamera(%cameraSpawnPoint);
-
    // Setup game parameters, the onConnect method currently starts
    // everyone with a 0 score.
    %client.score = 0;
@@ -186,9 +171,6 @@ function DeathMatchGame::onClientEnterGame(%this, %client)
 
    // weaponHUD
    %client.RefreshWeaponHud(0, "", "");
-
-   // Prepare the player object.
-   %this.preparePlayer(%client);
 
    // Inform the client of all the other clients
    %count = ClientGroup.getCount();
@@ -260,27 +242,51 @@ function DeathMatchGame::onInitialControlSet(%this)
 // These are here for backwards compatibilty only, games and/or mods should
 // really be overloading the server and mission functions listed ubove.
 //-----------------------------------------------------------------------------
-
-// Added this stage to creating a player so game types can override it easily.
-// This is a good place to initiate team selection.
-function DeathMatchGame::preparePlayer(%this, %client)
+function DeathMatchGame::setSpawnPoint(%this, %client)
 {
-   //echo (%game @"\c4 -> "@ %game.class @" -> GameCore::preparePlayer");
-
    // Find a spawn point for the player
    // This function currently relies on some helper functions defined in
    // core/scripts/spawn.cs. For custom spawn behaviors one can either
    // override the properties on the SpawnSphere's or directly override the
    // functions themselves.
-   %playerSpawnPoint = pickPlayerSpawnPoint(%this.DefaultPlayerSpawnGroups);
-   // Spawn a camera for this client using the found %spawnPoint
-   //%client.spawnPlayer(%playerSpawnPoint);
-   %this.spawnPlayer(%client, %playerSpawnPoint);
-
-   // Starting equipment
-   callOnModules("loadOut", "Game", %client.player);
+   %spawnPoint = pickPlayerSpawnPoint(%client.playerSpawnGroups);
+   %client.SpawnLocation = %this.pickPointInSpawnSphere(%client.player, %spawnPoint);
+   %client.onSetSpawnPointComplete();
 }
 
+
+function DeathMatchGame::onPostSpawn(%this, %client)
+{
+   // Starting equipment
+   callOnModules("loadOut", "Game", %client.player);   
+   
+   // Update the default camera to start with the player
+   if (isObject(%client.camera) && !isDefined("%noControl"))
+   {
+      if (%client.player.getClassname() $= "Player")
+         %client.camera.setTransform(%client.player.getEyeTransform());
+      else
+         %client.camera.setTransform(%client.player.getTransform());
+   }
+   
+   // Player setup...
+   if (%client.player.isMethod("setShapeName"))
+      %client.player.setShapeName(%client.playerName);
+
+   if (%client.player.isMethod("setEnergyLevel"))
+      %client.player.setEnergyLevel(%client.player.getDataBlock().maxEnergy);      
+
+   // If the player's client has some owned turrets, make sure we let them
+   // know that we're a friend too.
+   if (%client.ownedTurrets)
+   {
+      for (%i=0; %i<%client.ownedTurrets.getCount(); %i++)
+      {
+         %turret = %client.ownedTurrets.getObject(%i);
+         %turret.addToIgnoreList(%client.player);
+      }
+   }
+}
 
 function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %damageType, %damLoc)
 {
@@ -327,173 +333,6 @@ function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %
 // ----------------------------------------------------------------------------
 // Spawning
 // ----------------------------------------------------------------------------
-
-function DeathMatchGame::spawnPlayer(%this, %client, %spawnPoint, %noControl)
-{
-   //echo (%game @"\c4 -> "@ %game.class @" -> GameCore::spawnPlayer");
-
-   if (isObject(%client.player))
-   {
-      // The client should not already have a player. Assigning
-      // a new one could result in an uncontrolled player object.
-      error("Attempting to create a player for a client that already has one!");
-   }
-
-   // Attempt to treat %spawnPoint as an object
-   if (getWordCount(%spawnPoint) == 1 && isObject(%spawnPoint))
-   {
-      // Defaults
-      %spawnClass      = %this.DefaultPlayerClass;
-      %spawnDataBlock  = %this.DefaultPlayerDataBlock;
-
-      // Overrides by the %spawnPoint
-      if (isDefined("%spawnPoint.spawnClass"))
-      {
-         %spawnClass = %spawnPoint.spawnClass;
-         %spawnDataBlock = %spawnPoint.spawnDatablock;
-      }
-      else if (isDefined("%spawnPoint.spawnDatablock"))
-      {
-         // This may seem redundant given the above but it allows
-         // the SpawnSphere to override the datablock without
-         // overriding the default player class
-         %spawnDataBlock = %spawnPoint.spawnDatablock;
-      }
-
-      %spawnProperties = %spawnPoint.spawnProperties;
-      %spawnScript     = %spawnPoint.spawnScript;
-
-      // Spawn with the engine's Sim::spawnObject() function
-      %player = spawnObject(%spawnClass, %spawnDatablock, "",
-                            %spawnProperties, %spawnScript);
-
-      // If we have an object do some initial setup
-      if (isObject(%player))
-      {
-         // Pick a location within the spawn sphere.
-         %spawnLocation = %this.pickPointInSpawnSphere(%player, %spawnPoint);
-         %player.setTransform(%spawnLocation);
-      }
-      else
-      {
-         // If we weren't able to create the player object then warn the user
-         // When the player clicks OK in one of these message boxes, we will fall through
-         // to the "if (!isObject(%player))" check below.
-         if (isDefined("%spawnDatablock"))
-         {
-               MessageBoxOK("Spawn Player Failed",
-                             "Unable to create a player with class " @ %spawnClass @
-                             " and datablock " @ %spawnDatablock @ ".\n\nStarting as an Observer instead.",
-                             "");
-         }
-         else
-         {
-               MessageBoxOK("Spawn Player Failed",
-                              "Unable to create a player with class " @ %spawnClass @
-                              ".\n\nStarting as an Observer instead.",
-                              "");
-         }
-      }
-   }
-   else
-   {
-      
-      // Create a default player
-      %player = spawnObject(%this.DefaultPlayerClass, %this.DefaultPlayerDataBlock);
-      
-      if (!%player.isMemberOfClass("Player"))
-         warn("Trying to spawn a class that does not derive from Player.");
-
-      // Treat %spawnPoint as a transform
-      %player.setTransform(%spawnPoint);
-   }
-
-   // If we didn't actually create a player object then bail
-   if (!isObject(%player))
-   {
-      // Make sure we at least have a camera
-      %client.spawnCamera(%spawnPoint);
-
-      return;
-   }
-
-   // Update the default camera to start with the player
-   if (isObject(%client.camera) && !isDefined("%noControl"))
-   {
-      if (%player.getClassname() $= "Player")
-         %client.camera.setTransform(%player.getEyeTransform());
-      else
-         %client.camera.setTransform(%player.getTransform());
-   }
-
-   // Add the player object to MissionCleanup so that it
-   // won't get saved into the level files and will get
-   // cleaned up properly
-   MissionCleanup.add(%player);
-
-   // Store the client object on the player object for
-   // future reference
-   %player.client = %client;
-   
-   // If the player's client has some owned turrets, make sure we let them
-   // know that we're a friend too.
-   if (%client.ownedTurrets)
-   {
-      for (%i=0; %i<%client.ownedTurrets.getCount(); %i++)
-      {
-         %turret = %client.ownedTurrets.getObject(%i);
-         %turret.addToIgnoreList(%player);
-      }
-   }
-
-   // Player setup...
-   if (%player.isMethod("setShapeName"))
-      %player.setShapeName(%client.playerName);
-
-   if (%player.isMethod("setEnergyLevel"))
-      %player.setEnergyLevel(%player.getDataBlock().maxEnergy);
-
-   if (!isDefined("%client.skin"))
-   {
-      // Determine which character skins are not already in use
-      %availableSkins = %player.getDatablock().availableSkins;             // TAB delimited list of skin names
-      %count = ClientGroup.getCount();
-      for (%cl = 0; %cl < %count; %cl++)
-      {
-         %other = ClientGroup.getObject(%cl);
-         if (%other != %client)
-         {
-            %availableSkins = strreplace(%availableSkins, %other.skin, "");
-            %availableSkins = strreplace(%availableSkins, "\t\t", "");     // remove empty fields
-         }
-      }
-
-      // Choose a random, unique skin for this client
-      %count = getFieldCount(%availableSkins);
-      %client.skin = addTaggedString( getField(%availableSkins, getRandom(%count)) );
-   }
-
-   %player.setSkinName(%client.skin);
-
-   // Give the client control of the player
-   %client.player = %player;
-
-   // Give the client control of the camera if in the editor
-   if( $startWorldEditor )
-   {
-      %control = %client.camera;
-      %control.mode = "Fly";
-      EditorGui.syncCameraGui();
-   }
-   else
-      %control = %player;
-
-   // Allow the player/camera to receive move data from the GameConnection.  Without this
-   // the user is unable to control the player/camera.
-   if (!isDefined("%noControl"))
-      %client.setControlObject(%control);
-}
-
 function DeathMatchGame::pickPointInSpawnSphere(%this, %objectToSpawn, %spawnSphere)
 {
    %SpawnLocationFound = false;
