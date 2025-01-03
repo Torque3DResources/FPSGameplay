@@ -26,11 +26,12 @@ function FPSGameplay::initServer(%this)
    %this.queueExec("./scripts/server/camera");
    %this.queueExec("./scripts/server/chat");
    %this.queueExec("./scripts/server/commands");
-   %this.queueExec("./scripts/server/deathMatchGame");
    %this.queueExec("./scripts/server/projectile");
    %this.queueExec("./scripts/server/radiusDamage");
    %this.queueExec("./scripts/server/shapeBase");
    %this.queueExec("./scripts/server/spawn");
+   
+   %this.queueExec("./scripts/shared/deathMatchGame");
 }
 
 function FPSGameplay::onCreateGameServer(%this)
@@ -63,6 +64,8 @@ function FPSGameplay::initClient(%this)
    if(isScriptFile(%prefPath @ "/keybinds"))
       exec(%prefPath @ "/keybinds");
     %this.queueExec("./scripts/client/client");
+    
+   %this.queueExec("./scripts/shared/deathMatchGame");
 }
 
 function FPSGameplay::onCreateClientConnection(%this)
