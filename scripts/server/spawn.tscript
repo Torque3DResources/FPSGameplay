@@ -112,6 +112,7 @@ function pickPlayerSpawnPoint(%spawnGroups)
          dataBlock      = "SpawnSphereMarker";
          spawnClass     = $Game::DefaultPlayerClass;
          spawnDatablock = $Game::DefaultPlayerDataBlock;
+         radius = 1;
       };
 
       // Add it to the MissionCleanup group so that it
