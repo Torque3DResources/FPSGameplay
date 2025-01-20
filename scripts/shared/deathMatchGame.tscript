@@ -136,6 +136,7 @@ function DeathMatchGame::initGameVars(%this)
    %this.EndGameScore = 20;
    %this.EndGamePause = 10;
    %this.AllowCycling = false;  // Is mission cycling allowed?
+   %this.DeathDuration = 10000;
 }
 
 function DeathMatchGame::onGameDurationEnd(%this)
@@ -344,10 +345,12 @@ function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %
       %this.incScore( %sourceClient, 1, true );
       %this.incKills( %sourceClient, 1, false );
 
-      // If the game may be ended by a client getting a particular score, check that now.
-      if ( %this.EndGameScore > 0 && %sourceClient.kills >= %this.EndGameScore )
-         %this.cycleGame();
    }
+   // If the game may be ended by a client getting a particular score, check that now.
+   if ( %this.EndGameScore > 0 && %sourceClient.kills >= %this.EndGameScore )
+      %this.cycleGame();
+    else
+      %client.schedule(%this.DeathDuration, "spawnControlObject");
 }
 
 // ----------------------------------------------------------------------------
