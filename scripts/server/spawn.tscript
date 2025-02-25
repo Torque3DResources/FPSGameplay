@@ -88,7 +88,7 @@ function pickCameraSpawnPoint(%spawnGroups)
 // pickPlayerSpawnPoint() is responsible for finding a valid spawn point for a
 // player.
 //-----------------------------------------------------------------------------
-function pickPlayerSpawnPoint(%spawnGroups)
+function DeathMatchGame::pickPlayerSpawnPoint(%this, %spawnGroups)
 {
    // Walk through the groups until we find a valid object
    for (%i = 0; %i < getWordCount(%spawnGroups); %i++)
@@ -101,7 +101,16 @@ function pickPlayerSpawnPoint(%spawnGroups)
       if (isObject(%spawnPoint))
          return %spawnPoint;
    }
+   
+   //Didn't find a sent group, so fall back to a fixed name
+   if (isObject(PlayerSpawnPoints))
+   {
+      %spawnPoint = PlayerSpawnPoints.getRandom();
 
+      if (isObject(%spawnPoint))
+         return %spawnPoint;
+   }
+   
    // Didn't find a spawn point by looking for the groups
    // so let's return the "default" SpawnSphere
    // First create it if it doesn't already exist

@@ -250,7 +250,7 @@ function DeathMatchGame::setSpawnPoint(%this, %client)
    // core/scripts/spawn.cs. For custom spawn behaviors one can either
    // override the properties on the SpawnSphere's or directly override the
    // functions themselves.
-   %spawnPoint = pickPlayerSpawnPoint(%client.playerSpawnGroups);
+   %spawnPoint = %this.pickPlayerSpawnPoint(%client.playerSpawnGroups);
    if(isObject(%spawnPoint))
    {
       %client.SpawnLocation = %this.pickPointInSpawnSphere(%client.player, %spawnPoint);
