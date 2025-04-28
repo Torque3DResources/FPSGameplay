@@ -47,17 +47,7 @@ function FPSGameplay::initClient(%this)
     %this.queueExec("./scripts/client/gameProfiles");
       
     %this.queueExec("./scripts/client/inputCommands");
-   
-   //guis
-   %this.queueExec("./guis/playGui.gui", true);
-   %this.queueExec("./guis/hudlessGui.gui");
-   
-    %this.queueExec("./scripts/client/playGui");
-    %this.queueExec("./scripts/client/hudlessGui");
-    
-    %this.queueExec("./scripts/client/recordings");   
-    %this.queueExec("./scripts/client/screenshot");
-    
+       
    //keybind scripts   
    %this.queueExec("./scripts/client/defaultkeybinds");   
    %prefPath = getPrefpath();
