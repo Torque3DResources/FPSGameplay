@@ -280,13 +280,24 @@ function DeathMatchGame::onPostSpawn(%this, %client)
    callOnModules("loadOut", "Game", %client.player);   
    
    // Update the default camera to start with the player
-   if (isObject(%client.camera) && !isDefined("%noControl"))
+   if (isObject(%client.camera))
    {
-      if (%client.player.getClassname() $= "Player")
-         %client.camera.setTransform(%client.player.getEyeTransform());
-      else
-         %client.camera.setTransform(%client.player.getTransform());
+      if (!isDefined("%noControl"))
+      {
+         if (%client.player.getClassname() $= "Player")
+            %client.camera.setTransform(%client.player.getEyeTransform());
+         else
+            %client.camera.setTransform(%client.player.getTransform());
+      }
    }
+   else
+   {
+      %client.camera = new camera(){ datablock = "observer"; };
+   }
+   %transform = %client.player.getTransform();
+   %client.camera.setTransform(%transform);
+   %client.camera.setOrbitMode(%client.player, %transform, 0.5, 4.5, 4.5);
+   %client.camera.scopeToClient(%client);
    
    // Player setup...
    if (%client.player.isMethod("setShapeName"))
@@ -350,7 +361,10 @@ function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %
    if ( %this.EndGameScore > 0 && %sourceClient.kills >= %this.EndGameScore )
       %this.cycleGame();
     else
-      %client.schedule(%this.DeathDuration, "spawnControlObject");
+    {
+      cancel(%client.respawning);
+      %client.respawning = %client.schedule(%this.DeathDuration, "spawnControlObject");
+    }
 }
 
 // ----------------------------------------------------------------------------
