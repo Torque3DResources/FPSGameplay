@@ -317,7 +317,7 @@ function DeathMatchGame::onPostSpawn(%this, %client)
       }
    }
    
-   %client.getEventManager().postEvent("postSpawnComplete");
+   %client.getEventManager().postEvent("postSpawnComplete",%client);
 }
 
 function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %damageType, %damLoc)
