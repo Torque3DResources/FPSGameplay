@@ -253,7 +253,7 @@ function DeathMatchGame::setSpawnPoint(%this, %client)
    %spawnPoint = %this.pickPlayerSpawnPoint(%client.playerSpawnGroups);
    if(isObject(%spawnPoint))
    {
-      %client.SpawnLocation = %this.pickPointInSpawnSphere(%client.player, %spawnPoint);
+      %client.SpawnLocation = %this.pickPointInSpawnSphere(%client.spawnDBType, %spawnPoint);
       %this.setSpawnPointComplete(%client);
    }
    else
@@ -370,7 +370,7 @@ function DeathMatchGame::onDeath(%this, %client, %sourceObject, %sourceClient, %
 // ----------------------------------------------------------------------------
 // Spawning
 // ----------------------------------------------------------------------------
-function DeathMatchGame::pickPointInSpawnSphere(%this, %objectToSpawn, %spawnSphere)
+function DeathMatchGame::pickPointInSpawnSphere(%this, %objecTypeToSpawn, %spawnSphere)
 {
    %SpawnLocationFound = false;
    %attemptsToSpawn = 0;
@@ -390,7 +390,7 @@ function DeathMatchGame::pickPointInSpawnSphere(%this, %objectToSpawn, %spawnSph
       // Now have to check that another object doesn't already exist at this spot.
       // Use the bounding box of the object to check if where we are about to spawn in is
       // clear.
-      %boundingBoxSize = %objectToSpawn.getDatablock().boundingBox;
+      %boundingBoxSize = %objecTypeToSpawn.boundingBox;
       %searchRadius = getWord(%boundingBoxSize, 0);
       %boxSizeY = getWord(%boundingBoxSize, 1);
       
