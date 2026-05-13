@@ -67,7 +67,7 @@ function DeathMatchGame::onMissionStart(%this)
 
    // Start the game timer
    if (%this.Duration)
-      %this.Schedule = schedule(%this.Duration * 1000, "onGameDurationEnd");
+      %this.durationSchedule = %this.schedule(%this.Duration * 1000, "onGameDurationEnd");
       
    %this.Running = true;
 }
@@ -81,7 +81,7 @@ function DeathMatchGame::onMissionEnded(%this)
    }
 
    // Stop any game timers
-   cancel(%this.Schedule);
+   cancel(%this.durationSchedule);
 
    for (%clientIndex = 0; %clientIndex < ClientGroup.getCount(); %clientIndex++)
    {
